@@ -420,6 +420,12 @@ sap.ui.define([
                 }
                 this.getView().getModel("Users").setData(users);
                 this.getView().byId("IdUserCancel").firePress();
+            },
+
+            OnRunAnalysis:function(){
+                this.getView().byId("TitleCATSummary").setVisible(true);
+                this.getView().byId("CATSummaryObjectDetails").setVisible(true);
+                this.getView().byId("ButtonDetailView").setVisible(true);
             }
 
 

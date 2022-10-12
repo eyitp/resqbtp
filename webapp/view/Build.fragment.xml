@@ -48,7 +48,7 @@
             </SegmentedButton>
             <Wizard id="CreateProductWizard" showNextButton="false" renderMode="Page" class="sapUiTinyMargin sapUiResponsivePadding--header sapUiResponsivePadding--content" complete="wizardCompletedHandler">
                 <WizardStep id="AnalyseCATResult" title="Analyse CAT Result" validated="true" />
-                <WizardStep id="ALVAdaptor" title="ALV Adaptor" validated="true">
+                <WizardStep id="ALVAdaptor" title="Create Wrapper API" validated="true">
                     <HBox alignItems="Center">
                         <VBox>
                             <Label text="Program Name:" />

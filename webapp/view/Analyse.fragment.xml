@@ -22,19 +22,19 @@
             </f:Card>
         </HBox>
 
-        <f:Card class="sapUiMediumMarginTop sapUiTinyMargin" width="auto">
+        <f:Card class="sapUiMediumMarginTop sapUiTinyMargin" width="auto" id="TitleCATSummary" visible="false">
             <f:content>
                 <Title class="sapUiTinyMargin" text="CAT Summary" />
             </f:content>
         </f:Card>
-        <HBox>
+        <HBox id="CATSummaryObjectDetails" visible="false">
             <w:Card id="AnalyseIntCard" class="sapUiTinyMargin" width="25em" manifest="{ColumnChart>/stackedColumn}">
                 <w:layoutData>
                     <f:GridContainerItemLayoutData rows="8" columns="8" />
                 </w:layoutData>
             </w:Card>
             <VBox class="sapUiTinyMarginBegin">
-                <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop " header="Total ABAP Objects" frameType="OneByHalf" press="onPress">
+                <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop " header="Total Custom Objects" frameType="OneByHalf" press="onPress">
                     <TileContent>
                         <NumericContent value="2144" valueColor="None" indicator="None" withMargin="false" />
                     </TileContent>
@@ -51,24 +51,24 @@
                 </GenericTile>
             </VBox>
             <VBox class="sapUiTinyMarginBegin">
-                <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop " width="12em" header="Loosely Couple Objects" frameType="OneByHalf" press="onPress">
+                <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop " width="13em" header="Loosely Coupled Objects" frameType="OneByHalf" press="onPress">
                     <TileContent>
                         <NumericContent value="68" valueColor="None" indicator="None" withMargin="false" />
                     </TileContent>
                 </GenericTile>
-                <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop " width="12em" header="Report Programs" frameType="OneByHalf" press="onPress">
+                <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop " width="13em" header="Tightly Couple Objects" frameType="OneByHalf" press="onPress">
                     <TileContent>
                         <NumericContent value="244" valueColor="None" indicator="None" withMargin="false" />
                     </TileContent>
                 </GenericTile>
-                <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop " width="12em" header="Adapted To RAP" frameType="OneByHalf" press="onPress">
+                <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop " width="13em" header="Semi Automatic Fix" frameType="OneByHalf" press="onPress">
                     <TileContent>
                         <NumericContent value="148" valueColor="None" indicator="None" withMargin="false" />
                     </TileContent>
                 </GenericTile>
             </VBox>
         </HBox>
-        <HBox justifyContent="End">
+        <HBox justifyContent="End" id="ButtonDetailView" visible="false">
             <Button class="sapUiTinyMargin sapUiLargeMarginEnd" text="Detail View" type="Emphasized" press="OnDetailViewPress" />
         </HBox>
     </Page>
