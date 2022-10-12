@@ -1,0 +1,6 @@
+{
+    "Title": "Cloud Assessment Service (CAT)",
+    "Description": "ReSQ — CAT offers the opportunity to analyse ABAP custom code in an on-premise ECC or S/4HANA system for cloud readiness and help in reinforcing Clean Core principles. This tool can run on all SAP ECC and S/4HANA versions.",
+    "Features":"<li>Assess legacy custom code for cloud readiness w.r.t S/4HANA (Embedded Steampunk) or SAP BTP (SteamPunk) and identify obsolete objects </li><li> Recommendation to use whitelisted APIs, Events and in-app extensions for classical developments (i.e. enhancements)</li><li>Automated identification and removal of unused code</li><li>Get to know the complex code and help in redesign</li><li>Estimation of the issues in advance will help in planning the adaption efforts</li><li>Evaluation of custom code for automatic adaptation (Automatic Fix)</li><li>Save cost and time for extra system setup or purchase of BTP services</li>",
+    "PreRequisite": "No Pre-Requisite"
+}

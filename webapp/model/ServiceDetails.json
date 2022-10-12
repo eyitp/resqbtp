@@ -1,19 +1,20 @@
-
+[
     {
         "Title": "Cloud Assessment Service (CAT)",
         "Description": "ReSQ — CAT offers the opportunity to analyse ABAP custom code in an on-premise ECC or S/4HANA system for cloud readiness and help in reinforcing Clean Core principles. This tool can run on all SAP ECC and S/4HANA versions.",
-        "Features":"<li>Assess legacy custom code for cloud readiness w.r.t S/4HANA (Embedded Steampunk) or SAP BTP (SteamPunk) and identify obsolete objects </li><li> Recommendation to use whitelisted APIs, Events and in-app extensions for classical developments (i.e. enhancements)</li><li>Automated identification and removal of unused code</li><li>Get to know the complex code and help in redesign</li><li>Estimation of the issues in advance will help in planning the adaption efforts</li><li>Evaluation of custom code for automatic adaptation (Automatic Fix)</li><li>Save cost and time for extra system setup or purchase of BTP services</li>",
+        "Features": "<li>Assess legacy custom code for cloud readiness w.r.t S/4HANA (Embedded Steampunk) or SAP BTP (SteamPunk) and identify obsolete objects </li><li> Recommendation to use whitelisted APIs, Events and in-app extensions for classical developments (i.e. enhancements)</li><li>Automated identification and removal of unused code</li><li>Get to know the complex code and help in redesign</li><li>Estimation of the issues in advance will help in planning the adaption efforts</li><li>Evaluation of custom code for automatic adaptation (Automatic Fix)</li><li>Save cost and time for extra system setup or purchase of BTP services</li>",
         "PreRequisite": "No Pre-Requisite"
     },
     {
         "Title": "LCNC Tool - RAP Builder",
         "Description": "This Service is used to build RAP enabled services for BTP Cloud Reports",
-        "Features":"<li>RESTful ABAP(RAP) Builder automates the process of migrating legacy developments into BTP environment</li><li>It is well suited to transform tightly coupled developments and strategize in achieving clean the digital core journey</li><li>It performs partial lift and shift of code & custom objects along with redesign of custom developments on BTP</li>",
+        "Features": "<li>RESTful ABAP(RAP) Builder automates the process of migrating legacy developments into BTP environment</li><li>It is well suited to transform tightly coupled developments and strategize in achieving clean the digital core journey</li><li>It performs partial lift and shift of code & custom objects along with redesign of custom developments on BTP</li>",
         "PreRequisite": "<li>ABAP environment Service</li><li>SAP Launchpad Service</li>"
     },
     {
         "Title": "LCNC Tool - API Consumption Tool for BTP",
         "Description": "This Service is used to build RAP enabled services for  whitelisted and 3rd Party APIs and build FIORI Apps for the services",
-        "Features":"<li>RAP Builder along with Service adaptor helps in automating the development steps on BTP environment by using whitelisted API(S4 systems) or 3rd Party APIs</li><li>It supports the enterprise API approach and works well with extension suite</li><li>It automates the API development and directly consumed in LCNC tools</li>",
-        "PreRequisite":"<li>ABAP environment Service</li><li>SAP Launchpad Service</li>"
+        "Features": "<li>RAP Builder along with Service adaptor helps in automating the development steps on BTP environment by using whitelisted API(S4 systems) or 3rd Party APIs</li><li>It supports the enterprise API approach and works well with extension suite</li><li>It automates the API development and directly consumed in LCNC tools</li>",
+        "PreRequisite": "<li>ABAP environment Service</li><li>SAP Launchpad Service</li>"
     }
+]

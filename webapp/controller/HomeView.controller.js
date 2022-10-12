@@ -27,6 +27,18 @@ sap.ui.define([
                 var oModel = new JSONModel(sPath);
                 this.getView().setModel(oModel, "ServiceDetails");
 
+                var sPath = jQuery.sap.getModulePath("resq", "/model/CASModel.json");
+                var oModel = new JSONModel(sPath);
+                this.getView().setModel(oModel, "CASModel");
+
+                var sPath = jQuery.sap.getModulePath("resq", "/model/LCNCModel.json");
+                var oModel = new JSONModel(sPath);
+                this.getView().setModel(oModel, "LCNCModel");
+
+                var sPath = jQuery.sap.getModulePath("resq", "/model/LCNCAPIModel.json");
+                var oModel = new JSONModel(sPath);
+                this.getView().setModel(oModel, "LCNCAPIModel");
+
                 var sPath = jQuery.sap.getModulePath("resq", "/model/navigations.json");
                 var oModel = new JSONModel(sPath);
                 this.getView().setModel(oModel, "NavigationModel");

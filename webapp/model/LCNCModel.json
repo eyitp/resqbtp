@@ -1,0 +1,6 @@
+{
+    "Title": "LCNC Tool - RAP Builder",
+    "Description": "This Service is used to build RAP enabled services for BTP Cloud Reports",
+    "Features":"<li>RESTful ABAP(RAP) Builder automates the process of migrating legacy developments into BTP environment</li><li>It is well suited to transform tightly coupled developments and strategize in achieving clean the digital core journey</li><li>It performs partial lift and shift of code & custom objects along with redesign of custom developments on BTP</li>",
+    "PreRequisite": "<li>ABAP environment Service</li><li>SAP Launchpad Service</li>"
+}
