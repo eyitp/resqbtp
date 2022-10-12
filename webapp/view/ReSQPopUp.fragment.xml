@@ -11,7 +11,7 @@
         <Title class="sapUiSmallMargin" text="Pre-Requisite" />
         <FormattedText class="sapUiSmallMarginBegin sapUiTinyMarginTop" htmlText="{ServiceDetails>/PreRequisite}" />
         <buttons>
-            <Button id="IdBookSlotProceed" text="proceed" type="Emphasized" press="OnBookSlotProceed" />
+            <Button id="IdBookSlotProceed" text="Proceed" type="Emphasized" press="OnBookSlotProceed" />
             <Button id="IdBookSlotCancel" text="Cancel" press="OnBookSlotCancel" />
         </buttons>
     </Dialog>

@@ -9,7 +9,7 @@ sap.ui.define([
      */
     function (Controller, JSONModel, MessageBox, ChartFormatter) {
         "use strict";
-//Hello
+        //Hello
         return Controller.extend("resq.controller.HomeView", {
             onInit: function () {
                 this.editsystem = false;
@@ -137,7 +137,7 @@ sap.ui.define([
                 };
                 this.MyInterval = setInterval(a, 30);
             },
-            OnNextStepForFioriBuild:function(){
+            OnNextStepForFioriBuild: function () {
                 this.getView().getModel("SelectedRow").setProperty("/Status", "IP");
                 this.getView().byId("CreateProductWizard").nextStep();
                 this.setIntervalFunction(1, "idFioriListReportCreationChart", ["idFioriTileConfigurationChart", "idFioriListReportCreationChart"], this);
@@ -294,7 +294,8 @@ sap.ui.define([
             },
 
             //******************************************************************************************* */
-            OnBookSlot1: function () {
+            OnBookSlot: function (oEvent) {
+                var buttonId = oEvent.getSource().getId();
                 var that = this;
                 if (!this.ReSQPopUp) {
                     this.ReSQPopUp = this.loadFragment({
@@ -304,8 +305,15 @@ sap.ui.define([
                 this.ReSQPopUp.then(function (oDialog) {
                     that.getView().setBusy(true);
                     oDialog.open();
-                    that.getView().getModel("ServiceDetails").setData(that.getView().getModel("CASModel").getData());
-                    
+                    if (buttonId === "container-resq---HomeView--CASBookSlot") {
+                        that.getView().getModel("ServiceDetails").setData(that.getView().getModel("CASModel").getData());
+                    }
+                    else if (buttonId === "container-resq---HomeView--LCNCBookSlot") { 
+                        that.getView().getModel("ServiceDetails").setData(that.getView().getModel("LCNCModel").getData()); 
+                    }
+                    else { 
+                        that.getView().getModel("ServiceDetails").setData(that.getView().getModel("LCNCAPIModel").getData()); 
+                    }
                 });
             },
 
@@ -357,7 +365,7 @@ sap.ui.define([
                     textDirection: sap.ui.core.TextDirection.Inherit     // default
                 });
             },
-            OnBookSlotCancel:function (oEvent){
+            OnBookSlotCancel: function (oEvent) {
                 this.getView().setBusy(false);
                 oEvent.getSource().getParent().close();
             },
