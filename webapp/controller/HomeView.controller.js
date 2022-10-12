@@ -23,6 +23,10 @@ sap.ui.define([
                 var oModel = new JSONModel();
                 this.getView().setModel(oModel, "SelectedRow");
 
+                var sPath = jQuery.sap.getModulePath("resq", "/model/ServiceDetails.json");
+                var oModel = new JSONModel(sPath);
+                this.getView().setModel(oModel, "ServiceDetails");
+
                 var sPath = jQuery.sap.getModulePath("resq", "/model/navigations.json");
                 var oModel = new JSONModel(sPath);
                 this.getView().setModel(oModel, "NavigationModel");
