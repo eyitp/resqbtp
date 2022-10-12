@@ -1,0 +1,37 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:f="sap.ui.layout.form" >
+    <Dialog id="SystemDialog" title="System" >
+        <f:SimpleForm
+            id="SimpleFormChange354"
+            editable="true"
+            layout="ResponsiveGridLayout"
+            singleContainerFullSize="false"
+        >
+            <f:content>
+                <Label text="System Name" />
+                <Input id="SystemName" value="{SystemEdit>/System}" />
+                <Label text="Version" />
+                <Input value="{SystemEdit>/Version}" />
+                <Label text="Source/Destination"/>
+                <Select id="idSDdropdown" selectedKey="{SystemEdit>/ST}">
+                    <items>
+                         <core:Item text="Source" key="Source" />
+                        <core:Item text="Target" key="Target" />
+                    </items>
+                </Select>
+                <Label text="RFC Destination" />
+                <Input value="{SystemEdit>/RFC}"/>
+                <Label text="Status" />
+                <Select id="idStatusdropdown" selectedKey="{SystemEdit>/Status}">
+                    <items>
+                        <core:Item text="Connected" key="Connected" />
+                        <core:Item text="Inactive" key="Inactive" />
+                    </items>
+                </Select>
+            </f:content>
+        </f:SimpleForm>
+        <buttons>
+        <Button text="Save" type="Emphasized" press="OnSystemSave"/>
+        <Button id="IdSystemCancel" text="Cancel"  press="OnSystemCancel"/>
+        </buttons>
+    </Dialog>
+</core:FragmentDefinition>

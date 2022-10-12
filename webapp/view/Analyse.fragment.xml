@@ -1,0 +1,230 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:f="sap.f" xmlns:mchart="sap.suite.ui.microchart" xmlns:w="sap.ui.integration.widgets">
+    <Page id="Analyse" showHeader="false" backgroundDesign="Transparent">
+        <f:Card class="sapUiTinyMargin" width="auto">
+            <f:content>
+                <Title class="sapUiTinyMargin" text="Analyse" />
+            </f:content>
+        </f:Card>
+        <HBox>
+            <f:Card class="sapUiTinyMarginBegin  sapUiTinyMarginTop sapUiTinyMarginEnd" width="auto">
+                <f:content>
+                    <HBox alignItems="Center">
+                        <Label class="sapUiTinyMargin" labelFor="idSourceSystemdropdown" text="Choose source system:" />
+
+                        <Select class="sapUiTinyMargin" id="idSourceSystemdropdown" selectedKey="" items="{Systems>/}">
+                            <items>
+                                <core:Item text="{Systems>System}" key="{Systems>System}" />
+                            </items>
+                        </Select>
+                        <Button class="sapUiTinyMargin" text="Run Analysis" type="Emphasized" press="OnRunAnalysis" />
+                    </HBox>
+                </f:content>
+            </f:Card>
+        </HBox>
+
+        <f:Card class="sapUiMediumMarginTop sapUiTinyMargin" width="auto">
+            <f:content>
+                <Title class="sapUiTinyMargin" text="CAT Summary" />
+            </f:content>
+        </f:Card>
+        <HBox>
+            <w:Card id="AnalyseIntCard" class="sapUiTinyMargin" width="25em" manifest="{ColumnChart>/stackedColumn}">
+                <w:layoutData>
+                    <f:GridContainerItemLayoutData rows="8" columns="8" />
+                </w:layoutData>
+            </w:Card>
+            <VBox class="sapUiTinyMarginBegin">
+                <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop " header="Total ABAP Objects" frameType="OneByHalf" press="onPress">
+                    <TileContent>
+                        <NumericContent value="2144" valueColor="None" indicator="None" withMargin="false" />
+                    </TileContent>
+                </GenericTile>
+                <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop " header="Compatible for BTP" frameType="OneByHalf" press="onPress">
+                    <TileContent>
+                        <NumericContent value="532" valueColor="None" indicator="None" withMargin="false" />
+                    </TileContent>
+                </GenericTile>
+                <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop " header="Cloud Ready Objects" frameType="OneByHalf" press="onPress">
+                    <TileContent>
+                        <NumericContent value="148" valueColor="None" indicator="None" withMargin="false" />
+                    </TileContent>
+                </GenericTile>
+            </VBox>
+            <VBox class="sapUiTinyMarginBegin">
+                <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop " width="12em" header="Loosely Couple Objects" frameType="OneByHalf" press="onPress">
+                    <TileContent>
+                        <NumericContent value="68" valueColor="None" indicator="None" withMargin="false" />
+                    </TileContent>
+                </GenericTile>
+                <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop " width="12em" header="Report Programs" frameType="OneByHalf" press="onPress">
+                    <TileContent>
+                        <NumericContent value="244" valueColor="None" indicator="None" withMargin="false" />
+                    </TileContent>
+                </GenericTile>
+                <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop " width="12em" header="Adapted To RAP" frameType="OneByHalf" press="onPress">
+                    <TileContent>
+                        <NumericContent value="148" valueColor="None" indicator="None" withMargin="false" />
+                    </TileContent>
+                </GenericTile>
+            </VBox>
+        </HBox>
+        <HBox justifyContent="End">
+            <Button class="sapUiTinyMargin sapUiLargeMarginEnd" text="Detail View" type="Emphasized" press="OnDetailViewPress" />
+        </HBox>
+    </Page>
+    <Page id="AnalyseDetailView" showHeader="false" backgroundDesign="Transparent">
+        <VBox>
+            <f:Card class="sapUiTinyMargin" width="auto">
+                <f:content>
+                    <VBox>
+                        <HBox>
+                            <Button class="sapUiTinyMargin" icon="sap-icon://nav-back" press="OnAnalyseDetailBack" />
+                            <Title class="sapUiTinyMargin sapUiSmallMarginTop" text="Clean Core Assesment" />
+                        </HBox>
+                    </VBox>
+                </f:content>
+            </f:Card>
+            <Wizard id="AnayseDetailWizard" showNextButton="false" renderMode="Page" class="sapUiTinyMargin sapUiResponsivePadding--header sapUiResponsivePadding--content" complete="wizardCompletedHandler">
+                <WizardStep id="AD1" title="Cloud Compatibility Check" validated="true" />
+                <WizardStep id="AD2" title="Cloud Readiness Check" validated="true">
+                    <Text text="Source System: IEC-100" />
+                    <Table id="CloudRCheckTable" inset="true" class="sapUiTinyMargin" items="{CloudCompCheck>/}">
+                        <columns>
+                            <Column width="15em">
+                                <Text text="Pragram Name" />
+                            </Column>
+                            <Column>
+                                <Text text="Check Category" />
+                            </Column>
+                            <Column>
+                                <Text text="Automated Remediation" />
+                            </Column>
+                        </columns>
+                        <items>
+                            <ColumnListItem vAlign="Middle">
+                                <cells>
+                                    <Text text="{CloudCompCheck>ProgName}" />
+                                    <mchart:ComparisonMicroChart size="M" press="OnCheckCatchartPress" isResponsive="false">
+                                        <mchart:data>
+                                            <mchart:ComparisonMicroChartData title="Restricted ABAP Check" value="{CloudCompCheck>ResABAPCheck}" color="{=${CloudCompCheck>ResABAPCheck}>0?'Good':'Error'}" />
+                                            <mchart:ComparisonMicroChartData title="Whitelisted API Check" value="{CloudCompCheck>WhiteAPICheck}" color="{=${CloudCompCheck>WhiteAPICheck}>0?'Good':'Error'}" />
+                                        </mchart:data>
+                                    </mchart:ComparisonMicroChart>
+                                    <HBox>
+                                        <mchart:HarveyBallMicroChart alignContent="Center" size="S" isResponsive="false" totalScale="M" total="100" showTotal="false" showFractions="false" press="press">
+                                            <mchart:items>
+                                                <mchart:HarveyBallMicroChartItem fraction="{CloudCompCheck>SemiA}" fractionScale="M" color="Good" />
+                                            </mchart:items>
+                                        </mchart:HarveyBallMicroChart>
+                                        <VBox justifyContent="Center">
+                                            <Text text="{CloudCompCheck>SemiA} Semi-Automatic" />
+                                            <Text text="{CloudCompCheck>Mannual} Manual" />
+                                        </VBox>
+                                    </HBox>
+                                </cells>
+                            </ColumnListItem>
+                        </items>
+                    </Table>
+                    <HBox justifyContent="End">
+                        <Button text="Proceed" type="Emphasized" press="OnAnalyseProceed" />
+                    </HBox>
+                </WizardStep>
+
+                <WizardStep id="AD3" title="Legacy Dependency" validated="true">
+                    <Text text="Source System: IEC-100" />
+                    <Table id="idAnalyseProceedeTable" mode="None" inset="true" items="{Programs>/}">
+                        <columns>
+                            <Column>
+                                <Text text="Program" />
+                            </Column>
+                            <Column>
+                                <Text text="Program Type" />
+                            </Column>
+                            <Column>
+                                <Text text="DB Tables" />
+                            </Column>
+                            <Column>
+                                <Text text="FMs" />
+                            </Column>
+                            <Column>
+                                <Text text="DB Modify" />
+                            </Column>
+                            <Column>
+                                <Text text="Call TCode" />
+                            </Column>
+                            <Column>
+                                <Text text="Code Complexity" />
+                            </Column>
+                            <Column>
+                                <Text text="Tightly Coupled" />
+                            </Column>
+                        </columns>
+                        <items>
+                            <ColumnListItem vAlign="Middle">
+                                <cells>
+                                    <Text text="{Programs>Program}" />
+                                    <Text text="{Programs>Type}" />
+                                    <ObjectNumber inverted="true" number="{Programs>CountDBTable}" />
+                                    <ObjectNumber inverted="true" number="{Programs>CountFM}" />
+                                    <Text text="{Programs>DBModify}" />
+                                    <Text text="{Programs>CLLTCode}" />
+                                    <Text text="{Programs>CodeComp}" />
+                                    <Text text="{Programs>TC}" />
+                                </cells>
+                            </ColumnListItem>
+                        </items>
+                    </Table>
+                    <HBox justifyContent="End">
+                        <Button text="Download ReSQ Result" type="Emphasized" press="OnDownloadReSQResult" />
+                    </HBox>
+                </WizardStep>
+                <WizardStep id="AD4" title="Download Result" validated="true">
+                    <Text text="Source System: IEC-100" />
+                    <MessageStrip class="sapUiSmallMargin" type="Success" text="ReSQ CAT results downloaded successfully" showIcon="true" />
+                    <Table id="idAnalyseProceedeTableAD4" mode="None" inset="true" items="{Programs>/}">
+                        <columns>
+                            <Column>
+                                <Text text="Program" />
+                            </Column>
+                            <Column>
+                                <Text text="Program Type" />
+                            </Column>
+                            <Column>
+                                <Text text="DB Tables" />
+                            </Column>
+                            <Column>
+                                <Text text="FMs" />
+                            </Column>
+                            <Column>
+                                <Text text="DB Modify" />
+                            </Column>
+                            <Column>
+                                <Text text="Call TCode" />
+                            </Column>
+                            <Column>
+                                <Text text="Code Complexity" />
+                            </Column>
+                            <Column>
+                                <Text text="Tightly Coupled" />
+                            </Column>
+                        </columns>
+                        <items>
+                            <ColumnListItem vAlign="Middle">
+                                <cells>
+                                    <Text text="{Programs>Program}" />
+                                    <Text text="{Programs>Type}" />
+                                    <ObjectNumber inverted="true" number="{Programs>CountDBTable}" />
+                                    <ObjectNumber inverted="true" number="{Programs>CountFM}" />
+                                    <Text text="{Programs>DBModify}" />
+                                    <Text text="{Programs>CLLTCode}" />
+                                    <Text text="{Programs>CodeComp}" />
+                                    <Text text="{Programs>TC}" />
+                                </cells>
+                            </ColumnListItem>
+                        </items>
+                    </Table>
+                </WizardStep>
+            </Wizard>
+        </VBox>
+    </Page>
+</core:FragmentDefinition>

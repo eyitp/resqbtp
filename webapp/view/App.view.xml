@@ -1,0 +1,7 @@
+<mvc:View controllerName="resq.controller.App"
+    xmlns:html="http://www.w3.org/1999/xhtml"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <App id="app" backgroundImage="./image/wallpaper.jpg" backgroundOpacity="0.2">
+    </App>
+</mvc:View>

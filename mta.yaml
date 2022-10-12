@@ -1,0 +1,94 @@
+_schema-version: "3.2"
+ID: resq
+description: RESQ BTP Transformation Platform
+version: 0.0.1
+modules:
+- name: resq-destination-content
+  type: com.sap.application.content
+  requires:
+  - name: resq-destination-service
+    parameters:
+      content-target: true
+  - name: resq-repo-host
+    parameters:
+      service-key:
+        name: resq-repo-host-key
+  - name: resq-uaa
+    parameters:
+      service-key:
+        name: resq-uaa-key
+  parameters:
+    content:
+      instance:
+        destinations:
+        - Name: resq_html_repo_host
+          ServiceInstanceName: resq-html5-srv
+          ServiceKeyName: resq-repo-host-key
+          sap.cloud.service: resq
+        - Authentication: OAuth2UserTokenExchange
+          Name: resq_uaa
+          ServiceInstanceName: resq-xsuaa-srv
+          ServiceKeyName: resq-uaa-key
+          sap.cloud.service: resq
+        existing_destinations_policy: ignore
+  build-parameters:
+    no-source: true
+- name: resq-app-content
+  type: com.sap.application.content
+  path: .
+  requires:
+  - name: resq-repo-host
+    parameters:
+      content-target: true
+  build-parameters:
+    build-result: resources
+    requires:
+    - artifacts:
+      - resq.zip
+      name: resq
+      target-path: resources/
+- name: resq
+  type: html5
+  path: .
+  build-parameters:
+    build-result: dist
+    builder: custom
+    commands:
+    - npm install
+    - npm run build:cf
+    supported-platforms: []
+resources:
+- name: resq-destination-service
+  type: org.cloudfoundry.managed-service
+  parameters:
+    config:
+      HTML5Runtime_enabled: true
+      init_data:
+        instance:
+          destinations:
+          - Authentication: NoAuthentication
+            Name: ui5
+            ProxyType: Internet
+            Type: HTTP
+            URL: https://ui5.sap.com
+          existing_destinations_policy: update
+      version: 1.0.0
+    service: destination
+    service-name: resq-destination-service
+    service-plan: lite
+- name: resq-uaa
+  type: org.cloudfoundry.managed-service
+  parameters:
+    path: ./xs-security.json
+    service: xsuaa
+    service-name: resq-xsuaa-srv
+    service-plan: application
+- name: resq-repo-host
+  type: org.cloudfoundry.managed-service
+  parameters:
+    service: html5-apps-repo
+    service-name: resq-html5-srv
+    service-plan: app-host
+parameters:
+  deploy_mode: html5-repo
+  enable-parallel-deployments: true

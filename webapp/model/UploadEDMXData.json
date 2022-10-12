@@ -1,0 +1,55 @@
+[{
+    "Entity":"A_SalesOrder",
+    "Artifact":"ZA_SALESORDER1566289999",
+    "Create": false,
+    "Read": false,
+    "Update": false,
+    "Delete": false,
+    "Get": false
+},
+{
+    "Entity":"A_SalesOrderHeaderPartner",
+    "Artifact":"ZA_SALESORDERHEADERPART",
+    "Create": false,
+    "Read": false,
+    "Update": false,
+    "Delete": false,
+    "Get": false
+},
+{
+    "Entity":"A_SalesOrderItem",
+    "Artifact":"ZA_SALESORDERITEM",
+    "Create": false,
+    "Read": false,
+    "Update": false,
+    "Delete": false,
+    "Get": false
+},
+{
+    "Entity":"A_SalesOrderItemPartner",
+    "Artifact":"ZA_SALESORDERITEMPART",
+    "Create": false,
+    "Read": false,
+    "Update": false,
+    "Delete": false,
+    "Get": false
+},
+{
+    "Entity":"A_SalesOrderItemPrElement",
+    "Artifact":"ZA_SALESORDERITEMPELEMT",
+    "Create": false,
+    "Read": false,
+    "Update": false,
+    "Delete": false,
+    "Get": false
+},
+{
+    "Entity":"A_SalesOrderScheduleLine",
+    "Artifact":"ZA_SALESORDERSCHLINE",
+    "Create": false,
+    "Read": false,
+    "Update": false,
+    "Delete": false,
+    "Get": false
+}
+]

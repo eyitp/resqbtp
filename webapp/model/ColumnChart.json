@@ -1,0 +1,77 @@
+{ 
+    "stackedColumn":{
+        
+		"sap.app": {
+			"id": "sample.CardsLayout.model.Analytical",
+			"type": "card"
+		},
+        
+		"sap.card": {
+			"type": "Analytical",
+			"header": {
+				"type": "Numeric",
+				"title": "Cloud Compatible Objects"
+			},
+            "card_setting":{
+                "colorPalette" : ["#ffe600"]
+            },
+			"content": {
+				"chartType": "StackedColumn",
+				"legend": {
+					"visible": true,
+					"position": "Right",
+					"alignment": "Left"
+				},
+				"plotArea": {
+					"dataLabel": {
+						"visible": false,
+						"showTotal": false
+					},
+					"categoryAxisText": {
+						"visible": false
+					},
+					"valueAxisText": {
+						"visible": false
+					}
+				},
+				"title": {
+					"visible": false
+				},
+				"measureAxis": "valueAxis",
+				"dimensionAxis": "categoryAxis",
+				"data": {
+					"json": {
+						"list": [
+							{
+								"Category": "Class",
+                                "Count": 55
+							},
+							{
+								"Category": "RAP",
+                                "Count": 65
+							},
+							{
+								"Category": "FMs",
+                                "Count": 23
+							}
+						]
+					},
+					"path": "/list"
+				},
+				"dimensions": [
+					{
+						"label": "Objects",
+						"value": "{Category}"
+					}
+				],
+				"measures": [
+					{
+						"label": "Object Count",
+						"value": "{Count}"
+					}
+				]
+			}
+		}
+	
+    }
+}

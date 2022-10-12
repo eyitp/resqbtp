@@ -1,0 +1,27 @@
+[
+    {
+        "title": "ReSQ BTP Services",
+        "icon": "sap-icon://tag-cloud-chart",
+        "key": "RESQ"
+    },
+    {
+        "title": "Configure",
+        "icon": "sap-icon://settings",
+        "key": "Configure"
+    },
+    {
+        "title": "Analyse",
+        "icon": "sap-icon://sys-find",
+        "key": "Analyse"
+    },
+    {
+        "title": "Build",
+        "icon": "sap-icon://add-product",
+        "key": "Build"
+    },
+    {
+        "title": "Dashboard",
+        "icon": "sap-icon://bbyd-dashboard",
+        "key": "Dashboard"
+    }
+]

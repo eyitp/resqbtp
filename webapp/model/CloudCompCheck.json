@@ -1,0 +1,23 @@
+[
+    {
+        "ProgName": "ZOTC_Report",
+        "ResABAPCheck": 100,
+        "WhiteAPICheck": -40,
+        "SemiA":73,
+        "Mannual":27
+    },
+    {
+        "ProgName": "ZMMR_PURCH",
+        "ResABAPCheck": 100,
+        "WhiteAPICheck": -60,
+        "SemiA":61,
+        "Mannual":39
+    },
+    {
+        "ProgName": "ZMM_REQ_LIST",
+        "ResABAPCheck": 100,
+        "WhiteAPICheck":-10,
+        "SemiA":81,
+        "Mannual":29
+    }
+]

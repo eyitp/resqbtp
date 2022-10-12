@@ -1,0 +1,55 @@
+{
+    "nodes": [
+        
+    ],
+    "lanes": [
+        {
+            "id": "0",
+            "icon": "sap-icon://order-status",
+            "label": "Analyse CAT Result",
+            "position": 0,
+            "state": [
+				{
+					"state": "Positive",
+					"value": 25
+				}
+			]
+        },
+        {
+            "id": "1",
+            "icon": "sap-icon://monitor-payments",
+            "label": "ALV Adapter",
+            "position": 1,
+            "state": [
+				{
+					"state": "Critical",
+					"value": 100
+				}
+			]
+        },
+        {
+            "id": "2",
+            "icon": "sap-icon://payment-approval",
+            "label": "RAP Builder",
+            "position": 2,
+            "state": [
+				{
+					"state": "Neutral",
+					"value": 100
+				}
+			]
+        },
+        {
+            "id": "3",
+            "icon": "sap-icon://money-bills",
+            "label": "Fiori RAP Builder",
+            "position": 3,
+            "state": [
+				{
+					"state": "Neutral",
+					"value": 100
+				}
+			]
+        }
+    ]
+}

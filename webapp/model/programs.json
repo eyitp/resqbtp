@@ -1,0 +1,57 @@
+[
+    {
+        "Program": "ZMM137_MATMAST",
+        "Type": "Display ALV Report",
+        "CountDBTable": 4,
+        "CountFM": 2,
+        "DBModify": "No",
+        "CLLTCode":"No",
+        "CodeComp":"Low",
+        "Status":"NI",
+        "TC":"Yes"
+    },
+    {
+        "Program": "ZMM137_MATMAST2",
+        "Type": "Display ALV Report",
+        "CountDBTable": 4,
+        "CountFM": 2,
+        "DBModify": "No",
+        "CLLTCode":"No",
+        "CodeComp":"Low",
+        "Status":"NI",
+        "TC":"No"
+    },
+    {
+        "Program": "ZMM137_MATMAST3",
+        "Type": "Display ALV Report",
+        "CountDBTable": 4,
+        "CountFM": 2,
+        "DBModify": "No",
+        "CLLTCode":"No",
+        "CodeComp":"Low",
+        "Status":"NI",
+        "TC":"Yes"
+    },
+    {
+        "Program": "ZMM137_MATMAST4",
+        "Type": "Display ALV Report",
+        "CountDBTable": 4,
+        "CountFM": 2,
+        "DBModify": "No",
+        "CLLTCode":"No",
+        "CodeComp":"Low",
+        "Status":"NI",
+        "TC":"No"
+    } ,
+    {
+        "Program": "ZMM137_MATMAST5",
+        "Type": "Display ALV Report",
+        "CountDBTable": 4,
+        "CountFM": 2,
+        "DBModify": "No",
+        "CLLTCode":"No",
+        "CodeComp":"Low",
+        "Status":"NI",
+        "TC":"No"
+    }
+]

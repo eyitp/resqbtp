@@ -1,0 +1,98 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:f="sap.f" xmlns:mchart="sap.suite.ui.microchart" xmlns:w="sap.ui.integration.widgets">
+    <Page id="Configure" showHeader="false" backgroundDesign="Transparent">
+        <VBox backgroundDesign="Transparent">
+            <Table id="idUsersTable" inset="true" class="sapUiTinyMargin" items="{Users>/}">
+                <headerToolbar>
+                    <Toolbar>
+                        <Title text="Assign Users" />
+                        <ToolbarSpacer />
+                        <Button text="Add User" press="OnAddUser" type="Emphasized" />
+                    </Toolbar>
+                </headerToolbar>
+                <columns>
+                    <Column width="5em">
+                        <Text text="ID" />
+                    </Column>
+                    <Column>
+                        <Text text="User Name" />
+                    </Column>
+                    <Column>
+                        <Text text="Role" />
+                    </Column>
+                    <Column width="15em">
+                        <Text text="Mail Id" />
+                    </Column>
+                    <Column>
+                        <Text text="Company" />
+                    </Column>
+                    <Column>
+                        <Text text="Status" />
+                    </Column>
+                    <Column>
+                        <Text text="Actions" />
+                    </Column>
+                </columns>
+                <items>
+                    <ColumnListItem vAlign="Middle">
+                        <cells>
+                            <Text text="{Users>ID}" />
+                            <Text text="{Users>Name}" />
+                            <Text text="{Users>Role}" />
+                            <Text text="{Users>Mail}" />
+                            <Text text="{Users>Company}" />
+                            <ObjectStatus text="{Users>Status}" icon="{=${Users>Status}==='Active'?'sap-icon://sys-enter-2':'sap-icon://status-inactive'}" state="{=${Users>Status}==='Active'?'Success':'Warning'}" />
+                            <HBox>
+                                <Button icon="sap-icon://edit" press="OnUserEdit" />
+                                <Button class="sapUiTinyMarginBegin" icon="sap-icon://delete" press="OnUserDelete" />
+                            </HBox>
+                        </cells>
+                    </ColumnListItem>
+                </items>
+            </Table>
+            <Table id="idSystemTable" inset="true" class="sapUiTinyMargin" items="{Systems>/}">
+                <headerToolbar>
+                    <Toolbar>
+                        <Title text="Configure Systems" />
+                        <ToolbarSpacer />
+                        <Button text="Add New System" press="OnAddSystem" type="Emphasized" />
+                    </Toolbar>
+                </headerToolbar>
+                <columns>
+                    <Column>
+                        <Text text="System" />
+                    </Column>
+                    <Column>
+                        <Text text="Version" />
+                    </Column>
+                    <Column>
+                        <Text text="Source/Target" />
+                    </Column>
+                    <Column width="15em">
+                        <Text text="RFC Destination" />
+                    </Column>
+                    <Column>
+                        <Text text="Status" />
+                    </Column>
+                    <Column>
+                        <Text text="Actions" />
+                    </Column>
+                </columns>
+                <items>
+                    <ColumnListItem vAlign="Middle">
+                        <cells>
+                            <Text text="{Systems>System}" />
+                            <Text text="{Systems>Version}" />
+                            <Text text="{Systems>ST}" />
+                            <Text text="{Systems>RFC}" />
+                            <ObjectStatus text="{Systems>Status}" icon="{=${Systems>Status}==='Connected'?'sap-icon://sys-enter-2':'sap-icon://status-inactive'}" state="{=${Systems>Status}==='Connected'?'Success':'Warning'}" />
+                            <HBox>
+                                <Button icon="sap-icon://edit" press="OnSystemEdit" />
+                                <Button class="sapUiTinyMarginBegin" icon="sap-icon://delete" press="OnSystemDelete" />
+                            </HBox>
+                        </cells>
+                    </ColumnListItem>
+                </items>
+            </Table>
+        </VBox>
+    </Page>
+</core:FragmentDefinition>

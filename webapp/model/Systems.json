@@ -1,0 +1,29 @@
+[
+    {
+        "System": "IEC-100",
+        "Version": "ECC EHP8",
+        "ST": "Source",
+        "RFC": "IEC100_DEST_CLOUD",
+        "Status": "Connected",
+        "Icon":"sap-icon://sys-enter-2",
+        "State":"Success"
+    },
+    {
+        "System": "S4A-100",
+        "Version": "S4H 1809",
+        "ST": "Source",
+        "RFC": "S4A100_DEST_CLOUD",
+        "Status": "Connected",
+        "Icon":"sap-icon://sys-enter-2",
+        "State":"Success"
+    },
+    {
+        "System": "EYD-400",
+        "Version": "S4H 1909",
+        "ST": "Source",
+        "RFC": "EYD400_DEST_CLOUD",
+        "Status": "Inactive",
+        "Icon":"sap-icon://status-inactive",
+        "State":"Warning"
+    }
+]

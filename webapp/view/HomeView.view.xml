@@ -1,0 +1,31 @@
+<mvc:View
+    controllerName="resq.controller.HomeView"
+    xmlns:core="sap.ui.core"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:tnt="sap.tnt"
+>
+    <tnt:ToolPage id="toolPage">
+        <tnt:sideContent>
+            <tnt:SideNavigation class="CustomSidNav" expanded="true" selectedKey="{AppConfig>/selectedKey}" itemSelect=".onItemSelect">
+                <tnt:NavigationList items="{path: 'NavigationModel>/'}">
+                    <tnt:NavigationListItem text="{NavigationModel>title}" icon="{NavigationModel>icon}" key="{NavigationModel>key}" enabled="{enabled}" expanded="{expanded}" items="{items}">
+                        <tnt:NavigationListItem text="{NavigationModel>title}" key="{key}" enabled="{enabled}" />
+                    </tnt:NavigationListItem>
+                </tnt:NavigationList>
+            </tnt:SideNavigation>
+        </tnt:sideContent>
+        <tnt:mainContents>
+            <NavContainer id="pageContainer" initialPage="RESQ">
+                <pages>
+                    <core:Fragment fragmentName="resq.view.ReSQBTPService" type="XML"/>
+                    <core:Fragment fragmentName="resq.view.Configure" type="XML"/>
+                    <core:Fragment fragmentName="resq.view.Analyse" type="XML"/>
+                    <core:Fragment fragmentName="resq.view.Build" type="XML"/>
+                    <core:Fragment fragmentName="resq.view.Dashboard" type="XML"/>
+                </pages>
+            </NavContainer>
+        </tnt:mainContents>
+    </tnt:ToolPage>
+</mvc:View>

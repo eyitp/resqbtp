@@ -1,0 +1,42 @@
+[
+    {
+        "ID": 1,
+        "Name": "Sujai",
+        "Role": "Developer",
+        "Mail": "sujai.prasad@testford.com",
+        "Company": "FORD",
+        "Status": "Active",
+        "Icon":"sap-icon://sys-enter-2",
+        "State":"Success"
+    },
+    {
+        "ID": 2,
+        "Name": "Ajay",
+        "Role": "Functional",
+        "Mail": "ajay.agrawal@testford.com",
+        "Company": "FORD",
+        "Status": "Active",
+        "Icon":"sap-icon://sys-enter-2",
+        "State":"Success"
+    },
+    {
+        "ID": 3,
+        "Name": "Simon",
+        "Role": "Admin",
+        "Mail": "Simon.S@testford.com",
+        "Company": "FORD",
+        "Status": "Active",
+        "Icon":"sap-icon://sys-enter-2",
+        "State":"Success"
+    },
+    {
+        "ID": 4,
+        "Name": "Alex",
+        "Role": "Business User",
+        "Mail": "Alex.D@testford.com",
+        "Company": "FORD",
+        "Status": "Active",
+        "Icon":"sap-icon://sys-enter-2",
+        "State":"Success"
+    }
+]

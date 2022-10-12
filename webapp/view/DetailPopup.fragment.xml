@@ -1,0 +1,52 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:f="sap.ui.layout.form">
+    <Dialog id="PopupDialog" width="50em">
+        <customHeader>
+            <Toolbar>
+                <Title text="Assign Users" />
+                <ToolbarSpacer />
+                <Button icon="sap-icon://sys-cancel" text="Close" press="OnDetailPopupClose" type="Emphasized" />
+            </Toolbar>
+        </customHeader>
+        <Table id="idDetailPopUpTable" inset="true" class="sapUiTinyMargin" items="{Users>/}">
+            <columns>
+                <Column width="5em">
+                    <Text text="ID" />
+                </Column>
+                <Column>
+                    <Text text="User Name" />
+                </Column>
+                <Column>
+                    <Text text="Role" />
+                </Column>
+                <Column width="15em">
+                    <Text text="Mail Id" />
+                </Column>
+                <Column>
+                    <Text text="Company" />
+                </Column>
+                <Column>
+                    <Text text="Status" />
+                </Column>
+                <Column>
+                    <Text text="Actions" />
+                </Column>
+            </columns>
+            <items>
+                <ColumnListItem vAlign="Middle">
+                    <cells>
+                        <Text text="{Users>ID}" />
+                        <Text text="{Users>Name}" />
+                        <Text text="{Users>Role}" />
+                        <Text text="{Users>Mail}" />
+                        <Text text="{Users>Company}" />
+                        <ObjectStatus text="{Users>Status}" icon="{=${Users>Status}==='Active'?'sap-icon://sys-enter-2':'sap-icon://status-inactive'}" state="{=${Users>Status}==='Active'?'Success':'Warning'}" />
+                        <HBox>
+                            <Button icon="sap-icon://edit" press="OnUserEdit" />
+                            <Button class="sapUiTinyMarginBegin" icon="sap-icon://delete" press="OnUserDelete" />
+                        </HBox>
+                    </cells>
+                </ColumnListItem>
+            </items>
+        </Table>
+    </Dialog>
+</core:FragmentDefinition>

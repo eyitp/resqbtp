@@ -1,0 +1,335 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:card="sap.f.cards" xmlns:u="sap.ui.unified" xmlns:core="sap.ui.core" xmlns:f="sap.f" xmlns:mchart="sap.suite.ui.microchart" xmlns:w="sap.ui.integration.widgets">
+    <Page id="Build" showHeader="false" backgroundDesign="Transparent">
+        <VBox backgroundDesign="Transparent">
+            <f:Card class="sapUiTinyMargin" width="auto">
+                <f:content>
+                    <Title class="sapUiTinyMargin" text="LCNC Lobby" />
+                </f:content>
+            </f:Card>
+            <HBox>
+                <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Transform to BTP Cloud" subheader="(BrownField Approach)" frameType="TwoByOne" press="OnBuildToCloudPress">
+                    <TileContent footer="On Premise to BTP Cloud (Clean Core)">
+                        <HBox renderType="Bare">
+                            <FeedContent contentText="Launch LCNC Transform Services" />
+                            <ImageContent src="sap-icon://synchronize" />
+                        </HBox>
+                    </TileContent>
+                </GenericTile>
+                <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Build in BTP Cloud" subheader="(GreenField Approach)" frameType="TwoByOne" press="OnBuildInBTPCloud">
+                    <TileContent footer="Create New in BTP environment (Whitelisted CDS/APIs)">
+                        <HBox renderType="Bare">
+                            <FeedContent contentText="Launch LCNC Build  Services" />
+                            <ImageContent src="sap-icon://upload-to-cloud" />
+                        </HBox>
+                    </TileContent>
+                </GenericTile>
+            </HBox>
+        </VBox>
+    </Page>
+    <Page id="TransToCloudBTP" showHeader="false" backgroundDesign="Transparent">
+        <VBox>
+            <f:Card class="sapUiTinyMargin" width="auto">
+                <f:content>
+                    <VBox>
+                        <HBox>
+                            <Button class="sapUiTinyMargin" icon="sap-icon://nav-back" press="OnBuildBack" />
+                            <Title class="sapUiTinyMargin sapUiSmallMarginTop" text="Transform to Cloud BTP" />
+                        </HBox>
+                    </VBox>
+                </f:content>
+            </f:Card>
+            <Wizard id="CreateProductWizard" showNextButton="false" renderMode="Page" class="sapUiTinyMargin sapUiResponsivePadding--header sapUiResponsivePadding--content" complete="wizardCompletedHandler">
+                <WizardStep id="AnalyseCATResult" title="Analyse CAT Result" validated="true" />
+                <WizardStep id="ALVAdaptor" title="ALV Adaptor" validated="true">
+                    <HBox alignItems="Center">
+                        <VBox>
+                            <Label text="Program Name:" />
+                            <Input />
+                        </VBox>
+                        <VBox class="sapUiSmallMarginBegin">
+                            <Label text="Program Type" />
+                            <Input />
+                        </VBox>
+                        <VBox class="sapUiSmallMarginBegin">
+                            <Label text="Code Complexity" />
+                            <Input />
+                        </VBox>
+                    </HBox>
+
+                    <f:Card class="sapUiLargeMarginTop" width="auto" visible="true">
+                        <f:content>
+                            <Table id="idProgramsMigrat" mode="SingleSelectLeft" inset="true" items="{Programs>/}">
+                                <headerToolbar>
+                                    <Toolbar>
+                                        <SegmentedButton selectedKey="Programs">
+                                            <items>
+                                                <SegmentedButtonItem text="Programs" key="Programs" />
+                                                <SegmentedButtonItem text="Classes" key="Classes" />
+                                                <SegmentedButtonItem text="FMs" key="FMs" />
+                                                <SegmentedButtonItem text="Enhancments/BADIs" key="Enhance" />
+                                            </items>
+                                        </SegmentedButton>
+                                        <ToolbarSpacer />
+                                        <Button text="Lift and Shift" press="MigrateToBTPPress" type="Emphasized" />
+                                    </Toolbar>
+                                </headerToolbar>
+                                <columns>
+                                    <Column width="12em">
+                                        <Text text="Program" />
+                                    </Column>
+                                    <Column>
+                                        <Text text="DB Tables" />
+                                    </Column>
+                                    <Column width="4em">
+                                        <Text text="FMs" />
+                                    </Column>
+                                    <Column>
+                                        <Text text="DB Modify" />
+                                    </Column>
+                                    <Column>
+                                        <Text text="Call TCode" />
+                                    </Column>
+                                    <Column>
+                                        <Text text="Code Complexity" />
+                                    </Column>
+                                    <Column>
+                                        <Text text="Status" />
+                                    </Column>
+                                </columns>
+                                <items>
+                                    <ColumnListItem vAlign="Middle">
+                                        <cells>
+                                            <Text text="{Programs>Program}" />
+                                            <ObjectNumber inverted="true" number="{Programs>CountDBTable}" />
+                                            <ObjectNumber inverted="true" number="{Programs>CountFM}" />
+                                            <Text text="{Programs>DBModify}" />
+                                            <Text text="{Programs>CLLTCode}" />
+                                            <Text text="{Programs>CodeComp}" />
+                                            <ObjectStatus
+                                                text="{=${Programs>Status}==='NI'?'Not Initiated':'' || ${Programs>Status}==='IP'?'RAP Build In Progress':'BTP Deployment Successful'}"
+                                                icon="{=${Programs>Status}==='NI'?'sap-icon://stop':'' || ${Programs>Status}==='IP'?'sap-icon://status-inactive':'sap-icon://message-success'}"
+                                                state="{=${Programs>Status}==='NI'?'None':'' || ${Programs>Status}==='IP'?'Warning':'Success'}"
+                                            />
+                                        </cells>
+                                    </ColumnListItem>
+                                </items>
+                            </Table>
+                        </f:content>
+                    </f:Card>
+                </WizardStep>
+                <WizardStep id="RAPBuilder" title="RAP Builder" validated="true">
+                    <VBox>
+                        <HBox alignItems="Center" visible="{AppConfig>/MoveToFioriBOTBuilder}">
+                            <HBox width="50%">
+                                <MessageStrip class="sapUiTinyMargin" type="Success" text="RAP Build successfully." showIcon="true" />
+                            </HBox>
+                            <HBox width="50%" justifyContent="End">
+                                <Button text="Next Step" type="Emphasized" press="OnNextStepForFioriBuild" />
+                            </HBox>
+                        </HBox>
+
+                        <ObjectHeader icon="sap-icon://sap-box" iconDensityAware="false" iconAlt="Denise Smith" imageShape="Circle" responsive="true" title="{SelectedRow>/Program}" intro="{SelectedRow>/Type}" class="sapUiResponsivePadding--header">
+                            <ObjectAttribute title="DB Tables" text="{SelectedRow>/CountDBTable}" />
+                            <ObjectAttribute title="Function Modules" text="{SelectedRow>/CountFM}" />
+                            <ObjectAttribute title="DB Modify" text="{SelectedRow>/DBModify}" />
+                            <ObjectAttribute title="Call TCode" text="{SelectedRow>/CLLTCode}" />
+                            <ObjectAttribute title="Code Complexity" text="{SelectedRow>/CodeComp}" />
+                            <statuses>
+                                <ObjectStatus
+                                    class="sapUiSmallMarginBottom"
+                                    title="Status"
+                                    text="{=${SelectedRow>/Status}==='NI'?'Not Initiated':'' || ${SelectedRow>/Status}==='IP'?'RAP Build In Progress':'RAP Build Successful'}"
+                                    inverted="true"
+                                    state="{=${SelectedRow>/Status}==='NI'?'None':'' || ${SelectedRow>/Status}==='IP'?'Warning':'Success'}"
+                                />
+                            </statuses>
+                        </ObjectHeader>
+                        <HBox justifyContent="Center">
+                            <f:Card class="sapUiTinyMargin CustomTileBGColor" width="auto" height="12em">
+                                <f:header>
+                                    <card:Header title="Custom Entity Creation" subtitle="complete(%)" />
+                                </f:header>
+                                <f:content>
+                                    <mchart:RadialMicroChart id="CustomEntityChart" class="sapUiTinyMargin sapUiSmallMarginTop" size="L" percentage="0" alignContent="Center" valueColor="Good" />
+                                </f:content>
+                            </f:Card>
+                            <f:Card class="sapUiTinyMargin CustomTileBGColor" width="auto">
+                                <f:header>
+                                    <card:Header title="Custom Query Class Creation" subtitle="complete(%)" />
+                                </f:header>
+                                <f:content>
+                                    <mchart:RadialMicroChart busy="true" id="CustomQueryChart" class="sapUiTinyMargin" size="L" percentage="0" alignContent="Center" valueColor="Good" />
+                                </f:content>
+                            </f:Card>
+                            <f:Card class="sapUiTinyMargin CustomTileBGColor" width="auto">
+                                <f:header>
+                                    <card:Header title="Service Definition Creation" subtitle="complete(%)" />
+                                </f:header>
+                                <f:content>
+                                    <mchart:RadialMicroChart busy="true" id="ServiceDefinitionChart" class="sapUiTinyMargin" size="L" percentage="0" alignContent="Center" valueColor="Good" />
+                                </f:content>
+                            </f:Card>
+                            <f:Card class="sapUiTinyMargin CustomTileBGColor" width="auto" height="12em">
+                                <f:header>
+                                    <card:Header title="Service binding" subtitle="complete(%)" />
+                                </f:header>
+                                <f:content>
+                                    <mchart:RadialMicroChart busy="true" id="ServiceBindingChart" class="sapUiTinyMargin sapUiSmallMarginTop" size="L" percentage="0" alignContent="Center" valueColor="Good" />
+                                </f:content>
+                            </f:Card>
+                        </HBox>
+                    </VBox>
+                </WizardStep>
+                <WizardStep id="FioriRAPBuilder" title="Fiori RAP Builder" validated="true">
+                    <MessageStrip visible="{=${SelectedRow>/Status}==='C'}" class="sapUiTinyMargin" type="Success" text="Report ({SelectedRow>/Program}) Migrated to BTP and FIORI app deployed in BTP Launchpad successfully. Click to Launch app from " showIcon="true">
+                        <link>
+                            <Link text="BTP FIORI Launchpad" target="_blank" href="https://e42f23c5trial.launchpad.cfapps.us10.hana.ondemand.com/site?siteId=e1b23256-742f-4f91-b896-b2d4a034ad34#Shell-home" />
+                        </link>
+                    </MessageStrip>
+                    <ObjectHeader icon="sap-icon://sap-box" iconDensityAware="false" iconAlt="Denise Smith" imageShape="Circle" responsive="true" title="{SelectedRow>/Program}" intro="{SelectedRow>/Type}" class="sapUiResponsivePadding--header">
+                        <ObjectAttribute title="DB Tables" text="{SelectedRow>/CountDBTable}" />
+                        <ObjectAttribute title="Function Modules" text="{SelectedRow>/CountFM}" />
+                        <ObjectAttribute title="DB Modify" text="{SelectedRow>/DBModify}" />
+                        <ObjectAttribute title="Call TCode" text="{SelectedRow>/CLLTCode}" />
+                        <ObjectAttribute title="Code Complexity" text="{SelectedRow>/CodeComp}" />
+                        <statuses>
+                            <ObjectStatus
+                                class="sapUiSmallMarginBottom"
+                                title="Status"
+                                text="{=${SelectedRow>/Status}==='NI'?'Not Initiated':'' || ${SelectedRow>/Status}==='IP'?'Fiori RAP Build In Progress':'BTP Deployment Successful'}"
+                                inverted="true"
+                                state="{=${SelectedRow>/Status}==='NI'?'None':'' || ${SelectedRow>/Status}==='IP'?'Warning':'Success'}"
+                            />
+                        </statuses>
+                    </ObjectHeader>
+
+                    <HBox justifyContent="Center">
+                        <f:Card class="sapUiTinyMargin CustomTileBGColor" width="auto" height="12em">
+                            <f:header>
+                                <card:Header title="Fiori List Report Creation" subtitle="complete(%)" />
+                            </f:header>
+                            <f:content>
+                                <mchart:RadialMicroChart id="idFioriListReportCreationChart" class="sapUiTinyMargin" size="L" percentage="0" alignContent="Center" valueColor="Good" />
+                            </f:content>
+                        </f:Card>
+                        <f:Card class="sapUiTinyMargin CustomTileBGColor" width="auto"  height="12em">
+                            <f:header>
+                                <card:Header title="Fiori Tile Configuration" subtitle="complete(%)" />
+                            </f:header>
+                            <f:content>
+                                <mchart:RadialMicroChart busy="true" id="idFioriTileConfigurationChart" class="sapUiTinyMargin" size="L" percentage="0" alignContent="Center" valueColor="Good" />
+                            </f:content>
+                        </f:Card>
+                    </HBox>
+                </WizardStep>
+            </Wizard>
+        </VBox>
+    </Page>
+    <Page id="BuildInBTPCloud" showHeader="false" backgroundDesign="Transparent">
+        <VBox>
+            <f:Card class="sapUiTinyMargin" width="auto">
+                <f:content>
+                    <VBox>
+                        <HBox>
+                            <Button class="sapUiTinyMargin" icon="sap-icon://nav-back" press="OnBuildBack" />
+                            <Title class="sapUiTinyMargin sapUiSmallMarginTop" text="Create New- Consume API" />
+                        </HBox>
+                    </VBox>
+                </f:content>
+            </f:Card>
+            <Wizard id="NewBuildInCloud" showNextButton="false" renderMode="Page" class="sapUiTinyMargin sapUiResponsivePadding--header sapUiResponsivePadding--content" complete="wizardCompletedHandler">
+                <WizardStep id="UploadEDMX" title="Upload EDMX" validated="true">
+                    <HBox>
+                        <u:FileUploader id="fileUploader" name="myFileUpload" uploadUrl="upload/" tooltip="Upload your file to the local server" uploadComplete="handleUploadComplete" />
+                        <Button class="sapUiSmallMarginBegin" text="Upload File" press="handleUploadPress" type="Emphasized" />
+                    </HBox>
+                    <Table id="idUploadEDMXTable" inset="true" class="sapUiTinyMargin" items="{UploadedEDMX>/}" visible="{AppConfig>/EDMXTableVisibility}">
+                        <columns>
+                            <Column width="10em">
+                                <Text text="Service Entity Set" />
+                            </Column>
+                            <Column width="12em">
+                                <Text text="ABAP Artifact Name" />
+                            </Column>
+                            <Column width="4em">
+                                <Text text="CREATE" />
+                            </Column>
+                            <Column width="4em">
+                                <Text text="READ" />
+                            </Column>
+                            <Column width="4em">
+                                <Text text="UPDATE" />
+                            </Column>
+                            <Column width="4em">
+                                <Text text="DELETE" />
+                            </Column>
+                            <Column width="4em">
+                                <Text text="GET" />
+                            </Column>
+                        </columns>
+                        <items>
+                            <ColumnListItem vAlign="Middle">
+                                <cells>
+                                    <Text text="{UploadedEDMX>Entity}" />
+                                    <Text text="{UploadedEDMX>Artifact}" />
+                                    <CheckBox selected="{UploadedEDMX>Create}" valueState="{=${UploadedEDMX>Create}?'Success':'None'}" />
+                                    <CheckBox selected="{UploadedEDMX>Read}" valueState="{=${UploadedEDMX>Read}?'Success':'None'}" />
+                                    <CheckBox selected="{UploadedEDMX>Update}" valueState="{=${UploadedEDMX>Update}?'Success':'None'}" />
+                                    <CheckBox selected="{UploadedEDMX>Delete}" valueState="{=${UploadedEDMX>Delete}?'Success':'None'}" />
+                                    <CheckBox selected="{UploadedEDMX>Get}" valueState="{=${UploadedEDMX>Get}?'Success':'None'}" />
+                                </cells>
+                            </ColumnListItem>
+                        </items>
+                    </Table>
+                    <HBox justifyContent="End">
+                        <Button text="Proceed" type="Emphasized" press="OnUploadEDMXProceed" visible="{AppConfig>/EDMXTableVisibility}" />
+                    </HBox>
+                </WizardStep>
+                <WizardStep id="EYAPIServiceAdap" title="EY API Service Adapter" validated="true">
+                    <MessageStrip class="sapUiSmallMargin" enableFormattedText="true" type="Success" text="{AppConfig>/EYAPIServAdaptMessage}" showIcon="true" />
+                    <Table id="idUploadEDMXTable2" inset="true" class="sapUiTinyMargin" items="{UploadedEDMX>/}" visible="{AppConfig>/EDMXTableVisibility}">
+                        <columns>
+                            <Column width="10em">
+                                <Text text="Service Entity Set" />
+                            </Column>
+                            <Column width="12em">
+                                <Text text="ABAP Artifact Name" />
+                            </Column>
+                            <Column width="4em">
+                                <Text text="CREATE" />
+                            </Column>
+                            <Column width="4em">
+                                <Text text="READ" />
+                            </Column>
+                            <Column width="4em">
+                                <Text text="UPDATE" />
+                            </Column>
+                            <Column width="4em">
+                                <Text text="DELETE" />
+                            </Column>
+                            <Column width="4em">
+                                <Text text="GET" />
+                            </Column>
+                        </columns>
+                        <items>
+                            <ColumnListItem vAlign="Middle">
+                                <cells>
+                                    <Text text="{UploadedEDMX>Entity}" />
+                                    <Text text="{UploadedEDMX>Artifact}" />
+                                    <CheckBox selected="{UploadedEDMX>Create}" valueState="{=${UploadedEDMX>Create}?'Success':'None'}" />
+                                    <CheckBox selected="{UploadedEDMX>Read}" valueState="{=${UploadedEDMX>Read}?'Success':'None'}" />
+                                    <CheckBox selected="{UploadedEDMX>Update}" valueState="{=${UploadedEDMX>Update}?'Success':'None'}" />
+                                    <CheckBox selected="{UploadedEDMX>Delete}" valueState="{=${UploadedEDMX>Delete}?'Success':'None'}" />
+                                    <CheckBox selected="{UploadedEDMX>Get}" valueState="{=${UploadedEDMX>Get}?'Success':'None'}" />
+                                </cells>
+                            </ColumnListItem>
+                        </items>
+                    </Table>
+                </WizardStep>
+                <WizardStep id="NewRAPBuilder" title="RAP Builderr" validated="true" />
+                <WizardStep id="LCNC" title="LCNC" validated="true" />
+                <WizardStep id="FioriBOT" title="Fiori BOT" validated="true" />
+            </Wizard>
+        </VBox>
+    </Page>
+</core:FragmentDefinition>
