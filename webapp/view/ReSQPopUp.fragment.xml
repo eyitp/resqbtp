@@ -1,16 +1,17 @@
 <core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:f="sap.f" xmlns:card="sap.f.cards" xmlns:mchart="sap.suite.ui.microchart" xmlns:w="sap.ui.integration.widgets">
-    <Dialog id="UserDialog" title="Service Activation">
-        <HBox>
+    <Dialog id="UserDialog" title="Service Activation" contentWidth="35em">
+        <HBox alignItems="Center" class="sapUiSmallMargin">
             <Avatar src="sap-icon://crm-service-manager" displayShape="Circle" />
-            <Title text="{ServiceDetails>/0/Title}" />
+            <Title class="sapUiSmallMarginBegin" text="{ServiceDetails>/Title}" />
         </HBox>
-        <Label text="Info" />
-        <Text class="sapUiTinyMargin" text="{ServiceDetails>/Description}" />
-        <Label text="Features" />
-        <FormattedText htmlText="{ServiceDetails>/Features}" />
-        <Label text="Pre-Requisite" />
-        <FormattedText htmlText="{ServiceDetails>/PreRequisite }" />
+        <Title text="Info" class="sapUiSmallMargin" />
+        <Text class="sapUiSmallMarginBegin sapUiTinyMarginTop" text="{ServiceDetails>/Description}" />
+        <Title text="Features" class="sapUiSmallMargin" />
+        <FormattedText class="sapUiSmallMarginBegin sapUiTinyMarginTop" htmlText="{ServiceDetails>/Features}" />
+        <Title class="sapUiSmallMargin" text="Pre-Requisite" />
+        <FormattedText class="sapUiSmallMarginBegin sapUiTinyMarginTop" htmlText="{ServiceDetails>/PreRequisite}" />
         <buttons>
+            <Button id="IdBookSlotProceed" text="proceed" type="Emphasized" press="OnBookSlotProceed" />
             <Button id="IdBookSlotCancel" text="Cancel" press="OnBookSlotCancel" />
         </buttons>
     </Dialog>

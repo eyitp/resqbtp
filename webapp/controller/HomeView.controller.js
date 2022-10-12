@@ -23,8 +23,7 @@ sap.ui.define([
                 var oModel = new JSONModel();
                 this.getView().setModel(oModel, "SelectedRow");
 
-                var sPath = jQuery.sap.getModulePath("resq", "/model/ServiceDetails.json");
-                var oModel = new JSONModel(sPath);
+                var oModel = new JSONModel();
                 this.getView().setModel(oModel, "ServiceDetails");
 
                 var sPath = jQuery.sap.getModulePath("resq", "/model/CASModel.json");
@@ -295,7 +294,7 @@ sap.ui.define([
             },
 
             //******************************************************************************************* */
-            OnBookSlot: function () {
+            OnBookSlot1: function () {
                 var that = this;
                 if (!this.ReSQPopUp) {
                     this.ReSQPopUp = this.loadFragment({
@@ -305,6 +304,8 @@ sap.ui.define([
                 this.ReSQPopUp.then(function (oDialog) {
                     that.getView().setBusy(true);
                     oDialog.open();
+                    that.getView().getModel("ServiceDetails").setData(that.getView().getModel("CASModel").getData());
+                    
                 });
             },
 
