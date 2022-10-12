@@ -279,6 +279,19 @@ sap.ui.define([
             },
 
             //******************************************************************************************* */
+            OnBookSlot: function () {
+                var that = this;
+                if (!this.ReSQPopUp) {
+                    this.ReSQPopUp = this.loadFragment({
+                        name: "resq.view.ReSQPopUp"
+                    });
+                }
+                this.ReSQPopUp.then(function (oDialog) {
+                    that.getView().setBusy(true);
+                    oDialog.open();
+                });
+            },
+
             OnUserEdit: function (oEvent) {
                 var that = this;
                 if (!this.UserFrag) {
@@ -326,6 +339,10 @@ sap.ui.define([
                     initialFocus: null,                                  // default
                     textDirection: sap.ui.core.TextDirection.Inherit     // default
                 });
+            },
+            OnBookSlotCancel:function (oEvent){
+                this.getView().setBusy(false);
+                oEvent.getSource().getParent().close();
             },
             OnUserCancel: function (oEvent) {
                 this.getView().setBusy(false);
