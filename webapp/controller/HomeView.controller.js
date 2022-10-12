@@ -9,7 +9,7 @@ sap.ui.define([
      */
     function (Controller, JSONModel, MessageBox, ChartFormatter) {
         "use strict";
-
+//Hello
         return Controller.extend("resq.controller.HomeView", {
             onInit: function () {
                 this.editsystem = false;
