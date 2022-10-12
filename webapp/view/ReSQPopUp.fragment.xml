@@ -1,0 +1,71 @@
+<core:FragmentDefinition xmlns="sap.m"    xmlns:core="sap.ui.core" xmlns:f="sap.f" xmlns:card="sap.f.cards" xmlns:mchart="sap.suite.ui.microchart" xmlns:w="sap.ui.integration.widgets">
+    <Page id="Dashboard" showHeader="false" backgroundDesign="Transparent">
+        <VBox>
+            <f:Card class="sapUiTinyMargin" width="auto">
+                <f:content>
+                    <Title class="sapUiTinyMargin" text="My Dashboard" />
+                </f:content>
+            </f:Card>
+            <HBox>
+                <f:Card class="sapUiTinyMargin" width="auto">
+                    <f:header>
+                        <card:Header title="ALV Reports" subtitle="complete(%)" />
+                    </f:header>
+                    <f:content>
+                        <mchart:RadialMicroChart class="sapUiTinyMargin" size="L" percentage="43" alignContent="Center" valueColor="#ffe600" />
+                    </f:content>
+                </f:Card>
+                <f:Card class="sapUiTinyMargin" width="auto">
+                    <f:header>
+                        <card:Header title="Classes" subtitle="complete(%)" />
+                    </f:header>
+                    <f:content>
+                        <mchart:RadialMicroChart class="sapUiTinyMargin" size="L" percentage="59" alignContent="Center" valueColor="#ffe600" />
+                    </f:content>
+                </f:Card>
+                <f:Card class="sapUiTinyMargin" width="auto">
+                    <f:header>
+                        <card:Header title="FMs" subtitle="complete(%)" />
+                    </f:header>
+                    <f:content>
+                        <mchart:RadialMicroChart class="sapUiTinyMargin" size="L" percentage="71" alignContent="Center" valueColor="#ffe600" />
+                    </f:content>
+                </f:Card>
+            </HBox>
+            <HBox width="100%">
+                <f:Card class="sapUiTinyMargin" width="27.2em">
+                    <f:header>
+                        <card:Header title="New Developments" subtitle="Object Count" />
+                    </f:header>
+                    <f:content>
+                        <mchart:InteractiveBarChart labelWidth="25%">
+                            <mchart:bars>
+                                <mchart:InteractiveBarChartBar label="FMs" value="10" />
+                                <mchart:InteractiveBarChartBar label="RAP" value="20" />
+                                <mchart:InteractiveBarChartBar label="Class" value="70" />
+                            </mchart:bars>
+                        </mchart:InteractiveBarChart>
+                    </f:content>
+                </f:Card>
+                <f:Card class="sapUiTinyMargin" width="13.2em" height="11.2em">
+                    <f:header>
+                        <card:Header title="Clean Core Meter" />
+                    </f:header>
+                    <f:content>
+                        <mchart:BulletMicroChart scale="M" targetValue="2144" actualValueLabel="Clean Core Count: 1267" targetValueLabel="Total Count: 2144" press="press" size="Responsive">
+                            <mchart:actual>
+                                <mchart:BulletMicroChartData value="1267" color="Critical" />
+                            </mchart:actual>
+                            <mchart:thresholds>
+                                <mchart:BulletMicroChartData value="0" color="Error" />
+                                <mchart:BulletMicroChartData value="750" color="Critical" />
+                                <mchart:BulletMicroChartData value="1500" color="Critical" />
+                                <mchart:BulletMicroChartData value="3000" color="Error" />
+                            </mchart:thresholds>
+                        </mchart:BulletMicroChart>
+                    </f:content>
+                </f:Card>
+            </HBox>
+        </VBox>
+    </Page>
+</core:FragmentDefinition>
