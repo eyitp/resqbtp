@@ -42,6 +42,10 @@ sap.ui.define([
                 var oModel = new JSONModel(sPath);
                 this.getView().setModel(oModel, "NavigationModel");
 
+                var sPath = jQuery.sap.getModulePath("resq", "/model/CloudReadinessData.json");
+                var oModel = new JSONModel(sPath);
+                this.getView().setModel(oModel, "CloudReadinessData");
+
                 var sPath = jQuery.sap.getModulePath("resq", "/model/BuildOnCloudProcessFlow.json");
                 var oModel = new JSONModel(sPath);
                 this.getView().setModel(oModel, "BuildOnCloudProcessFlow");

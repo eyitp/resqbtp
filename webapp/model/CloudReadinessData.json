@@ -1,0 +1,5351 @@
+[
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DTEL FIELDNAME",
+  "OperationCode": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DTEL DDOBJNAME",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DTEL BIERRNUM",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DGT TRUXS_T_TEXT_DATA",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible TYPE TRUXS",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible TTYP LTX1_UEB_TT",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible TABL MARA",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible STRU SYST",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible STRU RLGRAP",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible STRU MUEB_REST",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible STRU MFIELDRES",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible STRU MERRDAT",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible STRU MARA_UEB",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible STRU MARA",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible STRU LTX1_UEB",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible STRU LTX1",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible STRU EMARA",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible STRU DFIES",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible MSAG ZZ",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible FUNC TEXT_CONVERT_XLS_TO_SAP",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible FUNC MATERIAL_MAINTAIN_DARK",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible FUNC FI_MESSAGE_TEXT_GET",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible FUNC F4_FILENAME",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible FUNC DDIF_FIELDINFO_GET",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible FUNC CONVERSION_EXIT_MATN1_INPUT",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible FUNC CONVERSION_EXIT_ALPHA_INPUT",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DTEL MATNR",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP REPORT",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SELECTION-SCREEN",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP PARAMETERS",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SELECTION-SCREEN",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP (dynpro) Sel. Screen AT SELECTION-SCREEN",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP START-OF-SELECTION",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP (dynpro) MESSAGE",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP WRITE",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP WRITE",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP STOP",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP MOVE",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP MOVE",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP MOVE",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP MOVE",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP MOVE",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP MOVE",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP MOVE",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP MOVE",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP MOVE",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP MOVE",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP MOVE",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP MOVE",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP MOVE",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP MOVE",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "If new Open SQL syntax is used, all host variables must be escaped using @.",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP MOVE",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP MOVE",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP MOVE",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP MOVE",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SY-MANDT",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SY-MANDT",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SKIP",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP WRITE",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP WRITE",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP WRITE",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP WRITE",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP WRITE",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP WRITE",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SKIP",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP WRITE",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP WRITE",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP WRITE",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP WRITE",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP WRITE",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP WRITE",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP WRITE",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP WRITE",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP TOP-OF-PAGE",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP WRITE",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP WRITE",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP FORM",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP WRITE",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP WRITE",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP WRITE",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP WRITE",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP ENDFORM",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is Deprecated DTEL CHAR100",
+  "Operation Code": "WLC005"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DTEL CHAR01",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DTEL BUKRS",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DTEL AUART",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DGT SLIS_T_FIELDCAT_ALV",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DGT SLIS_FIELDCAT_ALV",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible TYPE SLIS",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible TYPE ABAP",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible CLAS CL_SALV_AGGREGATIONS",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible CLAS CL_SALV_COLUMN",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible CLAS CL_SALV_COLUMNS",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible CLAS CL_SALV_COLUMNS_TABLE",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible CLAS CL_SALV_COLUMN_LIST",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible CLAS CL_SALV_COLUMN_TABLE",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible CLAS CL_SALV_EVENTS",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible CLAS CL_SALV_EVENTS_TABLE",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible CLAS CL_SALV_FUNCTIONS",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible CLAS CL_SALV_MODEL_BASE",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible CLAS CL_SALV_SORTS",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible CLAS CL_SALV_TABLE",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible CLAS CX_SALV_DATA_ERROR",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible STRU BDCMSGCOLL",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible CLAS CX_SALV_EXISTING",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible CLAS CX_SALV_MSG",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible CLAS CX_SALV_NOT_FOUND",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DGT ABAP_TRUE",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible STRU BAPIRETURN",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible STRU BAPIMMPARA",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible PARA BES",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible OE ADDED_FUNCTION",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible OE ADDED_FUNCTION",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible OA TRUE",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible OA TOTAL",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible OA SORT_UP",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible OA MINIMUM",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible OA MAXIMUM",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible OA HOTSPOT",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible OA C_FUNCTIONS_ALL",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible OA AVERAGE",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible TABL T16FV",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible TABL T100",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible STRU EKKODATA",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible TABL VBAK",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible TRAN ME23N",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible STRU EKPODATA",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible TABL T030",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible TABL T001W",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible TABL T001K",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible TABL MBEW",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible TABL MAKT",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible TABL EKPO",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible TABL EKKO",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible STRU SYST",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible STRU SI_T001K",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible STRU EMBEW",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible INTF IF_SALV_EVENTS_FUNCTIONS",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible INTF IF_SALV_EVENTS_ACTIONS_TABLE",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible INTF IF_SALV_C_SORT",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible INTF IF_SALV_C_CELL_TYPE",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is Deprecated DTEL CHAR20",
+  "Operation Code": "WLC005"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DTEL LVC_FNAME",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DTEL LVC_OUTLEN",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DTEL SALV_DE_AGGREGATION",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DTEL VBELN",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DTEL VKORG",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DTEL WERKS_D",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible FUNC BAPI_PO_RELEASE",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible FUNC POPUP_TO_CONFIRM",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible FUNC REUSE_ALV_GRID_DISPLAY",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible INCL ZMMR_PO_RELEASE_CD1",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible INCL ZMMR_PO_RELEASE_CI1",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible INCL ZMMR_PO_RELEASE_E01",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible INCL ZMMR_PO_RELEASE_F01",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible INCL ZMMR_PO_RELEASE_SEL",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible INCL ZMMR_PO_RELEASE_TOP",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible OE LINK_CLICK",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible INTF IF_SALV_C_AGGREGATION",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible INTF IF_SALV_C_BOOL_SAP",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE",
+  "SubObjectName": "ZMMR_PO_RELEASE",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP REPORT",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE_CI1",
+  "SubObjectName": "ZMMR_PO_RELEASE_CI1",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP (dynpro) CALL TRANSACTION",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE_CI1",
+  "SubObjectName": "ZMMR_PO_RELEASE_CI1",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP MOVE",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE_CI1",
+  "SubObjectName": "ZMMR_PO_RELEASE_CI1",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP MOVE",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE_CI1",
+  "SubObjectName": "ZMMR_PO_RELEASE_CI1",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP MOVE",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE_CI1",
+  "SubObjectName": "ZMMR_PO_RELEASE_CI1",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP MOVE",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE_CI1",
+  "SubObjectName": "ZMMR_PO_RELEASE_CI1",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP MOVE",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE_CI1",
+  "SubObjectName": "ZMMR_PO_RELEASE_CI1",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SY-REPID",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE_CI1",
+  "SubObjectName": "ZMMR_PO_RELEASE_CI1",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "If new Open SQL syntax is used, all host variables must be escaped using @.",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE_CI1",
+  "SubObjectName": "ZMMR_PO_RELEASE_CI1",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "If new Open SQL syntax is used, all host variables must be escaped using @.",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE_CI1",
+  "SubObjectName": "ZMMR_PO_RELEASE_CI1",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "If new Open SQL syntax is used, all host variables must be escaped using @.",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE_CI1",
+  "SubObjectName": "ZMMR_PO_RELEASE_CI1",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "If new Open SQL syntax is used, all host variables must be escaped using @.",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE_CI1",
+  "SubObjectName": "ZMMR_PO_RELEASE_CI1",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "If new Open SQL syntax is used, all host variables must be escaped using @.",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE_CI1",
+  "SubObjectName": "ZMMR_PO_RELEASE_CI1",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "If new Open SQL syntax is used, all host variables must be escaped using @.",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE_CI1",
+  "SubObjectName": "ZMMR_PO_RELEASE_CI1",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "If new Open SQL syntax is used, all host variables must be escaped using @.",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE_CI1",
+  "SubObjectName": "ZMMR_PO_RELEASE_CI1",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "If new Open SQL syntax is used, all host variables must be escaped using @.",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE_E01",
+  "SubObjectName": "ZMMR_PO_RELEASE_E01",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP START-OF-SELECTION",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE_E01",
+  "SubObjectName": "ZMMR_PO_RELEASE_E01",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP (dynpro) MESSAGE",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE_F01",
+  "SubObjectName": "ZMMR_PO_RELEASE_F01",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP FORM",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE_F01",
+  "SubObjectName": "ZMMR_PO_RELEASE_F01",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP ENDFORM",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE_F01",
+  "SubObjectName": "ZMMR_PO_RELEASE_F01",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP FORM",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE_F01",
+  "SubObjectName": "ZMMR_PO_RELEASE_F01",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP REFRESH",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE_F01",
+  "SubObjectName": "ZMMR_PO_RELEASE_F01",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SY-REPID",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE_F01",
+  "SubObjectName": "ZMMR_PO_RELEASE_F01",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP ENDFORM",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE_SEL",
+  "SubObjectName": "ZMMR_PO_RELEASE_SEL",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SELECTION-SCREEN",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE_SEL",
+  "SubObjectName": "ZMMR_PO_RELEASE_SEL",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP PARAMETER",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE_SEL",
+  "SubObjectName": "ZMMR_PO_RELEASE_SEL",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP PARAMETER",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE_SEL",
+  "SubObjectName": "ZMMR_PO_RELEASE_SEL",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SELECT-OPTIONS",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE_SEL",
+  "SubObjectName": "ZMMR_PO_RELEASE_SEL",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SELECT-OPTIONS",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE_SEL",
+  "SubObjectName": "ZMMR_PO_RELEASE_SEL",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SELECT-OPTIONS",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE_SEL",
+  "SubObjectName": "ZMMR_PO_RELEASE_SEL",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SELECTION-SCREEN",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE_TOP",
+  "SubObjectName": "ZMMR_PO_RELEASE_TOP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP TYPE-POOLS",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE_TOP",
+  "SubObjectName": "ZMMR_PO_RELEASE_TOP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP TABLES",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE_TOP",
+  "SubObjectName": "ZMMR_PO_RELEASE_TOP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP TABLES",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMMR_PO_RELEASE_TOP",
+  "SubObjectName": "ZMMR_PO_RELEASE_TOP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP TABLES",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_CLASS_IMPLEMENT",
+  "SubObjectName": "ZMM_CLASS_IMPLEMENT",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SY-DATUM",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_CLASS_IMPLEMENT",
+  "SubObjectName": "ZMM_CLASS_IMPLEMENT",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP FREE",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_PBO_PAI_MODULES",
+  "SubObjectName": "ZMM_PBO_PAI_MODULES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP MODULE",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_PBO_PAI_MODULES",
+  "SubObjectName": "ZMM_PBO_PAI_MODULES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP (dynpro) MESSAGE",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_PBO_PAI_MODULES",
+  "SubObjectName": "ZMM_PBO_PAI_MODULES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP ENDMODULE",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_PBO_PAI_MODULES",
+  "SubObjectName": "ZMM_PBO_PAI_MODULES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP MODULE",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_PBO_PAI_MODULES",
+  "SubObjectName": "ZMM_PBO_PAI_MODULES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SY-UCOMM",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_PBO_PAI_MODULES",
+  "SubObjectName": "ZMM_PBO_PAI_MODULES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SY-UCOMM",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_PBO_PAI_MODULES",
+  "SubObjectName": "ZMM_PBO_PAI_MODULES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SY-UCOMM",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_PBO_PAI_MODULES",
+  "SubObjectName": "ZMM_PBO_PAI_MODULES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SY-UCOMM",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_PBO_PAI_MODULES",
+  "SubObjectName": "ZMM_PBO_PAI_MODULES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SY-UCOMM",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_PBO_PAI_MODULES",
+  "SubObjectName": "ZMM_PBO_PAI_MODULES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SY-UCOMM",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_PBO_PAI_MODULES",
+  "SubObjectName": "ZMM_PBO_PAI_MODULES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SY-UCOMM",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_PBO_PAI_MODULES",
+  "SubObjectName": "ZMM_PBO_PAI_MODULES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP LEAVE",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_PBO_PAI_MODULES",
+  "SubObjectName": "ZMM_PBO_PAI_MODULES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP LEAVE",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_PBO_PAI_MODULES",
+  "SubObjectName": "ZMM_PBO_PAI_MODULES",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP ENDMODULE",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_PO_MASS_UPLOAD",
+  "SubObjectName": "ZMM_PO_MASS_UPLOAD",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DTEL MENGE_D",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_PO_MASS_UPLOAD",
+  "SubObjectName": "ZMM_PO_MASS_UPLOAD",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DGT SLIS_T_FIELDCAT_ALV",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_PO_MASS_UPLOAD",
+  "SubObjectName": "ZMM_PO_MASS_UPLOAD",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible TYPE ABAP",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_PO_MASS_UPLOAD",
+  "SubObjectName": "ZMM_PO_MASS_UPLOAD",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible TTYP LVC_T_FCAT",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_PO_MASS_UPLOAD",
+  "SubObjectName": "ZMM_PO_MASS_UPLOAD",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible TABL EKPO",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_PO_MASS_UPLOAD",
+  "SubObjectName": "ZMM_PO_MASS_UPLOAD",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible TABL EKKO",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_PO_MASS_UPLOAD",
+  "SubObjectName": "ZMM_PO_MASS_UPLOAD",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible TABL EKET",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_PO_MASS_UPLOAD",
+  "SubObjectName": "ZMM_PO_MASS_UPLOAD",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible TABL EKBE",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_PO_MASS_UPLOAD",
+  "SubObjectName": "ZMM_PO_MASS_UPLOAD",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible STRU SYST",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_PO_MASS_UPLOAD",
+  "SubObjectName": "ZMM_PO_MASS_UPLOAD",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible STRU LVC_S_FCAT",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_PO_MASS_UPLOAD",
+  "SubObjectName": "ZMM_PO_MASS_UPLOAD",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible CLAS CL_GUI_ALV_GRID",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_PO_MASS_UPLOAD",
+  "SubObjectName": "ZMM_PO_MASS_UPLOAD",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible CLAS CL_GUI_CUSTOM_CONTAINER",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_PO_MASS_UPLOAD",
+  "SubObjectName": "ZMM_PO_MASS_UPLOAD",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DGT ABAP_FALSE",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_PO_MASS_UPLOAD",
+  "SubObjectName": "ZMM_PO_MASS_UPLOAD",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible INCL ZMM_CLASS_DEFINITION",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_PO_MASS_UPLOAD",
+  "SubObjectName": "ZMM_PO_MASS_UPLOAD",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible STRU BAPIMEPOITEMX",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_PO_MASS_UPLOAD",
+  "SubObjectName": "ZMM_PO_MASS_UPLOAD",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible STRU BAPIMEPOITEM",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_PO_MASS_UPLOAD",
+  "SubObjectName": "ZMM_PO_MASS_UPLOAD",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible FUNC BAPI_PO_CHANGE",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_PO_MASS_UPLOAD",
+  "SubObjectName": "ZMM_PO_MASS_UPLOAD",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible STRU ALV_S_FCAT",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_PO_MASS_UPLOAD",
+  "SubObjectName": "ZMM_PO_MASS_UPLOAD",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible INCL ZMM_SEL_SCREEN_ELEMNTS",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_PO_MASS_UPLOAD",
+  "SubObjectName": "ZMM_PO_MASS_UPLOAD",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible INCL ZMM_PBO_PAI_MODULES",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_PO_MASS_UPLOAD",
+  "SubObjectName": "ZMM_PO_MASS_UPLOAD",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible FUNC REUSE_ALV_LIST_DISPLAY",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_PO_MASS_UPLOAD",
+  "SubObjectName": "ZMM_PO_MASS_UPLOAD",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DGT ABAP_TRUE",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_PO_MASS_UPLOAD",
+  "SubObjectName": "ZMM_PO_MASS_UPLOAD",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DGT SLIS_FIELDCAT_ALV",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_PO_MASS_UPLOAD",
+  "SubObjectName": "ZMM_PO_MASS_UPLOAD",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible FUNC BAPI_TRANSACTION_COMMIT",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_PO_MASS_UPLOAD",
+  "SubObjectName": "ZMM_PO_MASS_UPLOAD",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible TYPE SLIS",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_PO_MASS_UPLOAD",
+  "SubObjectName": "ZMM_PO_MASS_UPLOAD",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DGT SLIS_LAYOUT_ALV",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_PO_MASS_UPLOAD",
+  "SubObjectName": "ZMM_PO_MASS_UPLOAD",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible INCL ZMM_CLASS_IMPLEMENT",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_PO_MASS_UPLOAD",
+  "SubObjectName": "ZMM_PO_MASS_UPLOAD",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible STRU BAPIRET2",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_PO_MASS_UPLOAD",
+  "SubObjectName": "ZMM_PO_MASS_UPLOAD",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible STRU EKBEDATA",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_PO_MASS_UPLOAD",
+  "SubObjectName": "ZMM_PO_MASS_UPLOAD",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible STRU EKETDATA",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_PO_MASS_UPLOAD",
+  "SubObjectName": "ZMM_PO_MASS_UPLOAD",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible STRU EKKODATA",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_PO_MASS_UPLOAD",
+  "SubObjectName": "ZMM_PO_MASS_UPLOAD",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible STRU EKPODATA",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_PO_MASS_UPLOAD",
+  "SubObjectName": "ZMM_PO_MASS_UPLOAD",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP REPORT",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_PO_MASS_UPLOAD",
+  "SubObjectName": "ZMM_PO_MASS_UPLOAD",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP INITIALIZATION",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_PO_MASS_UPLOAD",
+  "SubObjectName": "ZMM_PO_MASS_UPLOAD",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP START-OF-SELECTION",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_PO_MASS_UPLOAD",
+  "SubObjectName": "ZMM_PO_MASS_UPLOAD",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP (dynpro) CALL SCREEN",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_SEL_SCREEN_ELEMNTS",
+  "SubObjectName": "ZMM_SEL_SCREEN_ELEMNTS",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP TABLES",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_SEL_SCREEN_ELEMNTS",
+  "SubObjectName": "ZMM_SEL_SCREEN_ELEMNTS",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP TABLES",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_SEL_SCREEN_ELEMNTS",
+  "SubObjectName": "ZMM_SEL_SCREEN_ELEMNTS",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP TABLES",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_SEL_SCREEN_ELEMNTS",
+  "SubObjectName": "ZMM_SEL_SCREEN_ELEMNTS",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP FREE",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_SEL_SCREEN_ELEMNTS",
+  "SubObjectName": "ZMM_SEL_SCREEN_ELEMNTS",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP FREE",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_SEL_SCREEN_ELEMNTS",
+  "SubObjectName": "ZMM_SEL_SCREEN_ELEMNTS",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP FREE",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_SEL_SCREEN_ELEMNTS",
+  "SubObjectName": "ZMM_SEL_SCREEN_ELEMNTS",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SELECTION-SCREEN",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_SEL_SCREEN_ELEMNTS",
+  "SubObjectName": "ZMM_SEL_SCREEN_ELEMNTS",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SELECT-OPTIONS",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_SEL_SCREEN_ELEMNTS",
+  "SubObjectName": "ZMM_SEL_SCREEN_ELEMNTS",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SELECT-OPTIONS",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_SEL_SCREEN_ELEMNTS",
+  "SubObjectName": "ZMM_SEL_SCREEN_ELEMNTS",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SELECT-OPTIONS",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_SEL_SCREEN_ELEMNTS",
+  "SubObjectName": "ZMM_SEL_SCREEN_ELEMNTS",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SELECT-OPTIONS",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_SEL_SCREEN_ELEMNTS",
+  "SubObjectName": "ZMM_SEL_SCREEN_ELEMNTS",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SELECT-OPTIONS",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_SEL_SCREEN_ELEMNTS",
+  "SubObjectName": "ZMM_SEL_SCREEN_ELEMNTS",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SELECT-OPTIONS",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_SEL_SCREEN_ELEMNTS",
+  "SubObjectName": "ZMM_SEL_SCREEN_ELEMNTS",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SELECT-OPTIONS",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_SEL_SCREEN_ELEMNTS",
+  "SubObjectName": "ZMM_SEL_SCREEN_ELEMNTS",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SELECT-OPTIONS",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_SEL_SCREEN_ELEMNTS",
+  "SubObjectName": "ZMM_SEL_SCREEN_ELEMNTS",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SELECT-OPTIONS",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_SEL_SCREEN_ELEMNTS",
+  "SubObjectName": "ZMM_SEL_SCREEN_ELEMNTS",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP PARAMETERS",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZMM_SEL_SCREEN_ELEMNTS",
+  "SubObjectName": "ZMM_SEL_SCREEN_ELEMNTS",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SELECTION-SCREEN",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "The INTO\/APPENDING clause must be at the end of the SELECT.",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP REFRESH",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "The INTO\/APPENDING clause must be at the end of the SELECT.",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "The INTO\/APPENDING clause must be at the end of the SELECT.",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "The INTO\/APPENDING clause must be at the end of the SELECT.",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "The INTO\/APPENDING clause must be at the end of the SELECT.",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "The INTO\/APPENDING clause must be at the end of the SELECT.",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "The INTO\/APPENDING clause must be at the end of the SELECT.",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "The INTO\/APPENDING clause must be at the end of the SELECT.",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "If new Open SQL syntax is used, all host variables must be escaped using @.",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "The INTO\/APPENDING clause must be at the end of the SELECT.",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP (dynpro) MESSAGE",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP LEAVE",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP (dynpro) MESSAGE",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP LEAVE",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "The INTO\/APPENDING clause must be at the end of the SELECT.",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP (dynpro) MESSAGE",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP LEAVE",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP (dynpro) MESSAGE",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP LEAVE",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "The INTO\/APPENDING clause must be at the end of the SELECT.",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP (dynpro) MESSAGE",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP LEAVE",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP REFRESH",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP (dynpro) MESSAGE",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP LEAVE",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "The INTO\/APPENDING clause must be at the end of the SELECT.",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP (dynpro) MESSAGE",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP LEAVE",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP (dynpro) MESSAGE",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP LEAVE",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "The INTO\/APPENDING clause must be at the end of the SELECT.",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP (dynpro) MESSAGE",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP LEAVE",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP (dynpro) MESSAGE",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP LEAVE",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "The INTO\/APPENDING clause must be at the end of the SELECT.",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP (dynpro) MESSAGE",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP LEAVE",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP (dynpro) MESSAGE",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP LEAVE",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "The INTO\/APPENDING clause must be at the end of the SELECT.",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP (dynpro) MESSAGE",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP LEAVE",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP (dynpro) MESSAGE",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP LEAVE",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "The INTO\/APPENDING clause must be at the end of the SELECT.",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP (dynpro) MESSAGE",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP LEAVE",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP (dynpro) MESSAGE",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP LEAVE",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SY-DYNNR",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SY-REPID",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SY-DYNNR",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SY-REPID",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP REFRESH",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SY-REPID",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SY-DYNNR",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP DESCRIBE",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP DESCRIBE",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP REFRESH",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP REFRESH",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP REFRESH",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP REFRESH",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP (dynpro) MESSAGE",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_IMP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SY-REPID",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_TOP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_TOP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP TABLES",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_TOP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_TOP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP TABLES",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_TOP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_TOP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP TABLES",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_TOP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_TOP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP TABLES",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_TOP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_TOP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP TABLES",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_PRICING_TOP",
+  "SubObjectName": "ZOTC002I_INTERNAL_PRICING_TOP",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP TABLES",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_SEL_SCREEN",
+  "SubObjectName": "ZOTC002I_INTERNAL_SEL_SCREEN",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SELECTION-SCREEN",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_SEL_SCREEN",
+  "SubObjectName": "ZOTC002I_INTERNAL_SEL_SCREEN",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SY-DATUM",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_SEL_SCREEN",
+  "SubObjectName": "ZOTC002I_INTERNAL_SEL_SCREEN",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP PARAMETERS",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_SEL_SCREEN",
+  "SubObjectName": "ZOTC002I_INTERNAL_SEL_SCREEN",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SELECT-OPTIONS",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_SEL_SCREEN",
+  "SubObjectName": "ZOTC002I_INTERNAL_SEL_SCREEN",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SELECT-OPTIONS",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_SEL_SCREEN",
+  "SubObjectName": "ZOTC002I_INTERNAL_SEL_SCREEN",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SELECT-OPTIONS",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_SEL_SCREEN",
+  "SubObjectName": "ZOTC002I_INTERNAL_SEL_SCREEN",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SELECT-OPTIONS",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_SEL_SCREEN",
+  "SubObjectName": "ZOTC002I_INTERNAL_SEL_SCREEN",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SELECT-OPTIONS",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_SEL_SCREEN",
+  "SubObjectName": "ZOTC002I_INTERNAL_SEL_SCREEN",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SELECT-OPTIONS",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_SEL_SCREEN",
+  "SubObjectName": "ZOTC002I_INTERNAL_SEL_SCREEN",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SELECT-OPTIONS",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_SEL_SCREEN",
+  "SubObjectName": "ZOTC002I_INTERNAL_SEL_SCREEN",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SELECT-OPTIONS",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_SEL_SCREEN",
+  "SubObjectName": "ZOTC002I_INTERNAL_SEL_SCREEN",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SELECT-OPTIONS",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC002I_INTERNAL_SEL_SCREEN",
+  "SubObjectName": "ZOTC002I_INTERNAL_SEL_SCREEN",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SELECTION-SCREEN",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible FUNC RSAQRT_TEXTFIELD_REFRESH",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible TABL VBAP",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible PARA VKG",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible TABL VBFA",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible TABL VBPA",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible TABL VBRK",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible TABL VBRP",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible TRAN BP",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible TRAN MM03",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible TRAN VA03",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible TRAN VF03",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible TYPE ABAP",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible TYPE SLIS",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible PARA VF",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible PARA VAG",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible PARA MAT",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible PARA AUN",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible PARA AAT",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible MSAG ZOTC",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible MESS 017",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible MESS 016",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible MESS 015",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible MESS 014",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DTEL EAN11",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is Deprecated DTEL CHAR1",
+  "Operation Code": "WLC005"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DTEL BSTMG",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DGT SLIS_T_FIELDCAT_ALV",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DGT SLIS_SELFIELD",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DGT SLIS_LAYOUT_ALV",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DGT SLIS_FIELDCAT_ALV",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DGT ABAP_TRUE",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible CLAS CX_SY_ITAB_LINE_NOT_FOUND",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DTEL KWMENG",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible TABL VBAK",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible TABL STXH",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible TABL PLAF",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible TABL MEAN",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible TABL MARA",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible TABL MAKT",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible TABL LIPS",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible PARA VKO",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible STRU DISVARIANT",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible STRU EMARA",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible STRU SYST",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible FUNC REUSE_ALV_GRID_DISPLAY",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible FUNC READ_TEXT",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible FUNC MD_CONVERT_MATERIAL_UNIT",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible FUNC LVC_VARIANT_SAVE_LOAD",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible FUNC LVC_VARIANT_EXISTENCE_CHECK",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DTEL VRKME",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DTEL TDOBNAME",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DTEL TDOBJECT",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DTEL TDID",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DTEL SPRAS",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DTEL SLIS_VARI",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DTEL PSTTR",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DTEL PARVW",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DTEL NETWR_AP",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DTEL NAME1_GP",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DTEL MATNR",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible TABL KNA1",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible STRU ZOTC_S_SOLIST",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible STRU TLINE",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is Deprecated DTEL FLAG",
+  "Operation Code": "WLC005"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DTEL KUNNR",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP REPORT",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP TYPE-POOLS",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP TYPE-POOLS",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP TABLES",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP TABLES",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP TABLES",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP TABLES",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP TABLES",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP TABLES",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP TABLES",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SY-REPID",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SELECTION-SCREEN",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SELECT-OPTIONS",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SELECT-OPTIONS",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SELECT-OPTIONS",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SELECT-OPTIONS",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SELECT-OPTIONS",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SELECT-OPTIONS",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SELECT-OPTIONS",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SELECT-OPTIONS",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SELECT-OPTIONS",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SELECT-OPTIONS",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SELECT-OPTIONS",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SELECTION-SCREEN",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SELECTION-SCREEN",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP PARAMETERS",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SELECTION-SCREEN",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP (dynpro) Sel. Screen AT SELECTION-SCREEN",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP (dynpro) Sel. Screen AT SELECTION-SCREEN",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP START-OF-SELECTION",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP END-OF-SELECTION",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SY-UCOMM",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP FORM",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP (dynpro) CALL TRANSACTION",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP (dynpro) CALL TRANSACTION",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP (dynpro) CALL TRANSACTION",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP (dynpro) CALL TRANSACTION",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP ENDFORM",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP FORM",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP ENDFORM",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP FORM",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SY-REPID",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP (dynpro) MESSAGE",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP ENDFORM",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP FORM",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP CLOSE",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP OPEN",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP (dynpro) MESSAGE",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP FETCH",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "The INTO\/APPENDING clause must be at the end of the SELECT.",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "The INTO\/APPENDING clause must be at the end of the SELECT.",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "The INTO\/APPENDING clause must be at the end of the SELECT.",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "The INTO\/APPENDING clause must be at the end of the SELECT.",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP REFRESH",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "The INTO\/APPENDING clause must be at the end of the SELECT.",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "The INTO\/APPENDING clause must be at the end of the SELECT.",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "The INTO\/APPENDING clause must be at the end of the SELECT.",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "The INTO\/APPENDING clause must be at the end of the SELECT.",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "The INTO\/APPENDING clause must be at the end of the SELECT.",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "The INTO\/APPENDING clause must be at the end of the SELECT.",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "The INTO\/APPENDING clause must be at the end of the SELECT.",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP TABLES",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "The INTO\/APPENDING clause must be at the end of the SELECT.",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP CLOSE",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP (dynpro) MESSAGE",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP (dynpro) MESSAGE",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP ENDFORM",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP FORM",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SY-REPID",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP ENDFORM",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP FORM",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SY-REPID",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP ENDFORM",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP FORM",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "The INTO\/APPENDING clause must be at the end of the SELECT.",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP (dynpro) MESSAGE",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "The INTO\/APPENDING clause must be at the end of the SELECT.",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP (dynpro) MESSAGE",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP ENDFORM",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP FORM",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SY-REPID",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP MESSAGE RAISING",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP ENDFORM",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP FORM",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTCR_SALESORDERLIST",
+  "SubObjectName": "ZOTCR_SALESORDERLIST",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP ENDFORM",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is Deprecated DTEL CHAR5",
+  "Operation Code": "WLC005"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is Deprecated DTEL CHAR4",
+  "Operation Code": "WLC005"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is Deprecated DTEL CHAR3",
+  "Operation Code": "WLC005"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is Deprecated DTEL CHAR25",
+  "Operation Code": "WLC005"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is Deprecated DTEL CHAR20",
+  "Operation Code": "WLC005"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is Deprecated DTEL CHAR2",
+  "Operation Code": "WLC005"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is Deprecated DTEL CHAR18",
+  "Operation Code": "WLC005"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is Deprecated DTEL CHAR17",
+  "Operation Code": "WLC005"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DTEL CHAR11",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is Deprecated DTEL CHAR10",
+  "Operation Code": "WLC005"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is Deprecated DTEL CHAR1",
+  "Operation Code": "WLC005"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DTEL AD_SMTPADR",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DTEL ABAP_ENCOD",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DTEL CHAR7",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is Deprecated DTEL CHAR8",
+  "Operation Code": "WLC005"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DTEL CTS_STRING",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DTEL KAPPL",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible STRU BAPIITEMEX",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible TTYP SOLIX_TAB",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible TYPE ABAP",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible OA HORIZONTAL_TAB",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible MESS 017",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible MESS 022",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible MESS 021",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible MESS 020",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible MESS 019",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DGT ABAP_TRUE",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible STRU BAPIITEMIN",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible STRU BAPIPARTNR",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible STRU BAPIRETURN",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DTEL PRSDT",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DTEL PRODH_D",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DTEL OS_BOOLEAN",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DTEL MATNR",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DTEL LVC_FNAME",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DTEL KSCHL",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible CLAS CL_ABAP_CHAR_UTILITIES",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible CLAS CL_BCS",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible CLAS CL_BCS_CONVERT",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible CLAS CL_CAM_ADDRESS_BCS",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible CLAS CL_DOCUMENT_BCS",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible CLAS CL_SALV_COLUMN",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible CLAS CL_SALV_COLUMNS",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible CLAS CL_SALV_COLUMNS_TABLE",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible CLAS CL_SALV_DISPLAY_SETTINGS",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible CLAS CL_SALV_FUNCTIONS",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible CLAS CL_SALV_FUNCTIONS_LIST",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible CLAS CL_SALV_LAYOUT",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible CLAS CL_SALV_MODEL_LIST",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible CLAS CL_SALV_TABLE",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible CLAS CX_BCS",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible CLAS CX_SALV_MSG",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible CLAS CX_SALV_NOT_FOUND",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible OA RESTRICT_NONE",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible STRU BAPISDHEAD",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible STRU BAPISCHDL",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible OA NEWLINE",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DTEL SO_OBJ_DES",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible STRU DDSHRETVAL",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible STRU EMARA",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible STRU SALV_S_LAYOUT_KEY",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible STRU SELOPT",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible STRU SYST",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible TABL ADR6",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible TABL KNA1",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible OA FALSE",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible TABL KNVH",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible TABL KNVP",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible TABL KNVV",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible MSAG ZOTC",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible MESS 023",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible TABL MAKT",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible TABL MARA",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible TABL T179",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible TABL TSPA",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible TABL TVKO",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible TABL TVTW",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible TABL VBAK",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible TABL VBAP",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible STRU BAPISHIPTO",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible MESS 018",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible MESS 016",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible STRU BAPIVBELN",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DTEL SO_OBJ_LEN",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DTEL SO_OBJ_TP",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DTEL SPART",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DTEL VKORG",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DTEL VTWEG",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible FUNC BAPI_SALESORDER_SIMULATE",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible FUNC F4IF_FIELD_VALUE_REQUEST",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible FUNC F4IF_INT_TABLE_VALUE_REQUEST",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible INCL ZOTC002I_INTERNAL_PRICING_IMP",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible INCL ZOTC002I_INTERNAL_PRICING_TOP",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible INCL ZOTC002I_INTERNAL_SEL_SCREEN",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible INTF IF_RECIPIENT_BCS",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible INTF IF_SALV_C_BOOL_SAP",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible INTF IF_SALV_C_LAYOUT",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible MESS 007",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible MESS 008",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible MESS 011",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible MESS 012",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible MESS 013",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible MESS 014",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible MESS 015",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible TTYP BCSY_TEXT",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible STRU BAPISOLDTO",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP REPORT",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP INITIALIZATION",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP (dynpro) Sel. Screen AT SELECTION-SCREEN",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP (dynpro) Sel. Screen AT SELECTION-SCREEN",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP (dynpro) Sel. Screen AT SELECTION-SCREEN",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "SubObjectName": "ZOTC_SALES_ORD_SIMULATE",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP START-OF-SELECTION",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_REPORT",
+  "SubObjectName": "ZOTC_SALES_REPORT",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP REPORT",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_REPORT",
+  "SubObjectName": "ZOTC_SALES_REPORT",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP TABLES",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_REPORT",
+  "SubObjectName": "ZOTC_SALES_REPORT",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP TABLES",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZOTC_SALES_REPORT",
+  "SubObjectName": "ZOTC_SALES_REPORT",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SELECT-OPTIONS",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "SubObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DTEL VKORG",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "SubObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DTEL VBELN_VA",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "SubObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible FUNC REUSE_ALV_GRID_DISPLAY",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "SubObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible FUNC ZFM_OTC_SALESORD_DETAILS",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "SubObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible MESS 000",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "SubObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible MSAG ZTEST",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "SubObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible STRU SCREEN",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "SubObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DTEL LIFSK",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "SubObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DTEL ERDAT",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "SubObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is Deprecated DTEL CHAR1",
+  "Operation Code": "WLC005"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "SubObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DGT SLIS_LAYOUT_ALV",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "SubObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible DGT SLIS_FIELDCAT_ALV",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "SubObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible TYPE SLIS",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "SubObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible STRU SYST",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "SubObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible STRU ZSSALESORD",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "SubObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "ErrorDescription": "Whitelist Check",
+  "Description": "API is not cloud compatible TABL VBAK",
+  "Operation Code": "WLC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "SubObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP REPORT",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "SubObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP TABLES",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "SubObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SELECTION-SCREEN",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "SubObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SELECT-OPTIONS",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "SubObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SELECT-OPTIONS",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "SubObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP PARAMETERS",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "SubObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SELECTION-SCREEN",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "SubObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SELECTION-SCREEN",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "SubObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP PARAMETERS",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "SubObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SELECT-OPTIONS",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "SubObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SELECTION-SCREEN",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "SubObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP (dynpro) Sel. Screen AT SELECTION-SCREEN",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "SubObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP (dynpro) LOOP AT SCREEN",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "SubObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP REFRESH",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "SubObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP START-OF-SELECTION",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "SubObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP FREE",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "SubObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP (dynpro) MESSAGE",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "SubObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP END-OF-SELECTION",
+  "Operation Code": "RAC001"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "SubObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP FORM",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "SubObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP FREE",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "SubObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP SY-REPID",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ },
+ {
+  "ObjectType": "PROG",
+  "ObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "SubObjectName": "ZSW_SALES_ORDER_DETAILS",
+  "ErrorDescription": "Restricted ABAP syntax for Cloud",
+  "Description": "Erroneous ABAP statement for SCP ENDFORM",
+  "Operation Code": "RAC001",
+  "Automatic Fix": "X"
+ }
+]

@@ -2,48 +2,41 @@
     <Dialog id="PopupDialog" width="50em">
         <customHeader>
             <Toolbar>
-                <Title text="Assign Users" />
+                <Title text="Cloud Readiness" />
                 <ToolbarSpacer />
                 <Button icon="sap-icon://sys-cancel" text="Close" press="OnDetailPopupClose" type="Emphasized" />
             </Toolbar>
         </customHeader>
-        <Table id="idDetailPopUpTable" inset="true" class="sapUiTinyMargin" items="{Users>/}">
+        <Table id="idDetailPopUpTable" inset="true" class="sapUiTinyMargin" items="{CloudReadinessData>/}">
             <columns>
-                <Column width="5em">
-                    <Text text="ID" />
+                <Column >
+                    <Text text="Object Type" />
                 </Column>
                 <Column>
-                    <Text text="User Name" />
+                    <Text text="Object Name" />
                 </Column>
                 <Column>
-                    <Text text="Role" />
+                    <Text text="Sub Object Name" />
                 </Column>
-                <Column width="15em">
-                    <Text text="Mail Id" />
-                </Column>
-                <Column>
-                    <Text text="Company" />
+                <Column >
+                    <Text text="Error Description" />
                 </Column>
                 <Column>
-                    <Text text="Status" />
+                    <Text text="Description" />
                 </Column>
                 <Column>
-                    <Text text="Actions" />
+                    <Text text="Operation Code" />
                 </Column>
             </columns>
             <items>
                 <ColumnListItem vAlign="Middle">
                     <cells>
-                        <Text text="{Users>ID}" />
-                        <Text text="{Users>Name}" />
-                        <Text text="{Users>Role}" />
-                        <Text text="{Users>Mail}" />
-                        <Text text="{Users>Company}" />
-                        <ObjectStatus text="{Users>Status}" icon="{=${Users>Status}==='Active'?'sap-icon://sys-enter-2':'sap-icon://status-inactive'}" state="{=${Users>Status}==='Active'?'Success':'Warning'}" />
-                        <HBox>
-                            <Button icon="sap-icon://edit" press="OnUserEdit" />
-                            <Button class="sapUiTinyMarginBegin" icon="sap-icon://delete" press="OnUserDelete" />
-                        </HBox>
+                        <Text text="{CloudReadinessData>ObjectType}" />
+                        <Text text="{CloudReadinessData>ObjectName}" />
+                        <Text text="{CloudReadinessData>SubObjectName}" />
+                        <Text text="{CloudReadinessData>ErrorDescription}" />
+                        <Text text="{CloudReadinessData>ComDescriptionpany}" />
+                        <Text text="{CloudReadinessData>OperationCode}" />
                     </cells>
                 </ColumnListItem>
             </items>
