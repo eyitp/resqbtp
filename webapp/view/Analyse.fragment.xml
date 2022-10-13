@@ -1,4 +1,4 @@
-<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:f="sap.f" xmlns:mchart="sap.suite.ui.microchart" xmlns:w="sap.ui.integration.widgets">
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:ui="sap.ui.table" xmlns:f="sap.f" xmlns:mchart="sap.suite.ui.microchart" xmlns:w="sap.ui.integration.widgets">
     <Page id="Analyse" showHeader="false" backgroundDesign="Transparent">
         <f:Card class="sapUiTinyMargin" width="auto">
             <f:content>
@@ -63,7 +63,7 @@
                 </GenericTile>
                 <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop " width="13em" header="Semi Automatic Fix" frameType="OneByHalf" press="onPress">
                     <TileContent>
-                        <NumericContent value="148" valueColor="None" indicator="None" withMargin="false" />
+                        <NumericContent value="78%" valueColor="None" indicator="None" withMargin="false" />
                     </TileContent>
                 </GenericTile>
             </VBox>
@@ -132,48 +132,65 @@
 
                 <WizardStep id="AD3" title="Legacy Dependency" validated="true">
                     <Text text="Source System: IEC-100" />
-                    <Table id="idAnalyseProceedeTable" mode="None" inset="true" items="{Programs>/}">
-                        <columns>
-                            <Column>
-                                <Text text="Program" />
-                            </Column>
-                            <Column>
-                                <Text text="Program Type" />
-                            </Column>
-                            <Column>
-                                <Text text="DB Tables" />
-                            </Column>
-                            <Column>
-                                <Text text="FMs" />
-                            </Column>
-                            <Column>
-                                <Text text="DB Modify" />
-                            </Column>
-                            <Column>
-                                <Text text="Call TCode" />
-                            </Column>
-                            <Column>
-                                <Text text="Code Complexity" />
-                            </Column>
-                            <Column>
-                                <Text text="Tightly Coupled" />
-                            </Column>
-                        </columns>
-                        <items>
-                            <ColumnListItem vAlign="Middle">
-                                <cells>
-                                    <Text text="{Programs>Program}" />
-                                    <Text text="{Programs>Type}" />
+                    <ui:Table rows="{Programs>/}" alternateRowColors="true" class="sapUiTinyMargin" selectionMode="None" visibleRowCount="7">
+                        <ui:columns>
+                            <ui:Column width="10rem">
+                                <Label text="Program" />
+                                <ui:template>
+                                    <Text text="{Programs>Program}" wrapping="false" />
+                                </ui:template>
+                            </ui:Column>
+                            <ui:Column width="10rem">
+                                <Label text="Program Type" />
+                                <ui:template>
+                                    <Text text="{Programs>Type}" wrapping="false" />
+                                </ui:template>
+                            </ui:Column>
+                            <ui:Column width="6rem">
+                                <Label text="DB Tables" />
+                                <ui:template>
                                     <ObjectNumber inverted="true" number="{Programs>CountDBTable}" />
+                                </ui:template>
+                            </ui:Column>
+                            <ui:Column width="6rem">
+                                <Label text="FM/class" />
+                                <ui:template>
                                     <ObjectNumber inverted="true" number="{Programs>CountFM}" />
-                                    <Text text="{Programs>DBModify}" />
-                                    <Text text="{Programs>CLLTCode}" />
-                                    <Text text="{Programs>CodeComp}" />
-                                    <Text text="{Programs>TC}" />
-                                </cells>
-                            </ColumnListItem>
-                        </items>
-                    </Table>
+                                </ui:template>
+                            </ui:Column>
+                            <ui:Column width="6rem">
+                                <Label text="Submit/Includes" />
+                                <ui:template>
+                                    <ObjectNumber inverted="true" number="{Programs>SubInc}" />
+                                </ui:template>
+                            </ui:Column>
+                            <ui:Column width="7rem">
+                                <Label text="DB Modify" />
+                                <ui:template>
+                                    <Text text="{Programs>DBModify}" wrapping="false" />
+                                </ui:template>
+                            </ui:Column>
+                            <ui:Column width="7rem">
+                                <Label text="Call TCode" />
+                                <ui:template>
+                                    <Text text="{Programs>CLLTCode}" wrapping="false" />
+                                </ui:template>
+                            </ui:Column>
+                            <ui:Column width="8rem">
+                                <Label text="Code Complexity" />
+                                <ui:template>
+                                    <Text text="{Programs>CodeComp}" wrapping="false" />
+                                </ui:template>
+                            </ui:Column>
+                            <ui:Column width="8rem">
+                                <Label text="Tightly Coupled" />
+                                <ui:template>
+                                    <Text text="{Programs>TC}" wrapping="false" />
+                                </ui:template>
+                            </ui:Column>
+                        </ui:columns>
+                    </ui:Table>
+
                     <HBox justifyContent="End">
                         <Button text="Download ReSQ Result" type="Emphasized" press="OnDownloadReSQResult" />
                     </HBox>
@@ -181,48 +198,65 @@
                 <WizardStep id="AD4" title="Download Result" validated="true">
                     <Text text="Source System: IEC-100" />
                     <MessageStrip class="sapUiSmallMargin" type="Success" text="ReSQ CAT results downloaded successfully" showIcon="true" />
-                    <Table id="idAnalyseProceedeTableAD4" mode="None" inset="true" items="{Programs>/}">
-                        <columns>
-                            <Column>
-                                <Text text="Program" />
-                            </Column>
-                            <Column>
-                                <Text text="Program Type" />
-                            </Column>
-                            <Column>
-                                <Text text="DB Tables" />
-                            </Column>
-                            <Column>
-                                <Text text="FMs" />
-                            </Column>
-                            <Column>
-                                <Text text="DB Modify" />
-                            </Column>
-                            <Column>
-                                <Text text="Call TCode" />
-                            </Column>
-                            <Column>
-                                <Text text="Code Complexity" />
-                            </Column>
-                            <Column>
-                                <Text text="Tightly Coupled" />
-                            </Column>
-                        </columns>
-                        <items>
-                            <ColumnListItem vAlign="Middle">
-                                <cells>
-                                    <Text text="{Programs>Program}" />
-                                    <Text text="{Programs>Type}" />
+                    <ui:Table rows="{Programs>/}" alternateRowColors="true" class="sapUiTinyMargin" selectionMode="None" visibleRowCount="7">
+                        <ui:columns>
+                            <ui:Column width="10rem">
+                                <Label text="Program" />
+                                <ui:template>
+                                    <Text text="{Programs>Program}" wrapping="false" />
+                                </ui:template>
+                            </ui:Column>
+                            <ui:Column width="10rem">
+                                <Label text="Program Type" />
+                                <ui:template>
+                                    <Text text="{Programs>Type}" wrapping="false" />
+                                </ui:template>
+                            </ui:Column>
+                            <ui:Column width="6rem">
+                                <Label text="DB Tables" />
+                                <ui:template>
                                     <ObjectNumber inverted="true" number="{Programs>CountDBTable}" />
+                                </ui:template>
+                            </ui:Column>
+                            <ui:Column width="6rem">
+                                <Label text="FM/class" />
+                                <ui:template>
                                     <ObjectNumber inverted="true" number="{Programs>CountFM}" />
-                                    <Text text="{Programs>DBModify}" />
-                                    <Text text="{Programs>CLLTCode}" />
-                                    <Text text="{Programs>CodeComp}" />
-                                    <Text text="{Programs>TC}" />
-                                </cells>
-                            </ColumnListItem>
-                        </items>
-                    </Table>
+                                </ui:template>
+                            </ui:Column>
+                            <ui:Column width="6rem">
+                                <Label text="Submit/Includes" />
+                                <ui:template>
+                                    <ObjectNumber inverted="true" number="{Programs>SubInc}" />
+                                </ui:template>
+                            </ui:Column>
+                            <ui:Column width="7rem">
+                                <Label text="DB Modify" />
+                                <ui:template>
+                                    <Text text="{Programs>DBModify}" wrapping="false" />
+                                </ui:template>
+                            </ui:Column>
+                            <ui:Column width="7rem">
+                                <Label text="Call TCode" />
+                                <ui:template>
+                                    <Text text="{Programs>CLLTCode}" wrapping="false" />
+                                </ui:template>
+                            </ui:Column>
+                            <ui:Column width="8rem">
+                                <Label text="Code Complexity" />
+                                <ui:template>
+                                    <Text text="{Programs>CodeComp}" wrapping="false" />
+                                </ui:template>
+                            </ui:Column>
+                            <ui:Column width="8rem">
+                                <Label text="Tightly Coupled" />
+                                <ui:template>
+                                    <Text text="{Programs>TC}" wrapping="false" />
+                                </ui:template>
+                            </ui:Column>
+                        </ui:columns>
+                    </ui:Table>
+
                 </WizardStep>
             </Wizard>
         </VBox>

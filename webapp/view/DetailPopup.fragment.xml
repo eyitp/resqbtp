@@ -8,7 +8,6 @@
             </Toolbar>
         </customHeader>
         <ui:Table rows="{CloudReadinessData>/}" class="sapUiTinyMargin" selectionMode="None" visibleRowCount="7">
-           
             <ui:columns>
                 <ui:Column width="7rem">
                     <Label text="Object Type" />
@@ -46,8 +45,7 @@
                         <Text text="{CloudReadinessData>OperationCode}" wrapping="false" />
                     </ui:template>
                 </ui:Column>
-                
             </ui:columns>
         </ui:Table>
-           </Dialog>
+    </Dialog>
 </core:FragmentDefinition>

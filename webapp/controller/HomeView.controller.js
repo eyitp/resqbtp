@@ -12,6 +12,19 @@ sap.ui.define([
         //Hello
         return Controller.extend("resq.controller.HomeView", {
             onInit: function () {
+
+                var b = [];
+                var c = {};
+                //Fiori Theme font family and URI
+                var t = {
+                    fontFamily: "SAP-icons-TNT",
+                    fontURI: sap.ui.require.toUrl("sap/tnt/themes/base/fonts/")
+                };
+                //Registering to the icon pool
+                sap.ui.core.IconPool.registerFont(t);
+                b.push(sap.ui.core.IconPool.fontLoaded("SAP-icons-TNT"));
+                c["SAP-icons-TNT"] = t;
+
                 this.editsystem = false;
                 var AppConfig = {
                     "EDMXTableVisibility": false,
