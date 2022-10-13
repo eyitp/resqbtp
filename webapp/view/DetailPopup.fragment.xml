@@ -1,5 +1,5 @@
-<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:f="sap.ui.layout.form">
-    <Dialog id="PopupDialog" width="50em">
+<core:FragmentDefinition xmlns="sap.m" xmlns:ui="sap.ui.table" xmlns:core="sap.ui.core" xmlns:f="sap.ui.layout.form">
+    <Dialog id="PopupDialog" contentWidth="50em">
         <customHeader>
             <Toolbar>
                 <Title text="Cloud Readiness" />
@@ -7,39 +7,47 @@
                 <Button icon="sap-icon://sys-cancel" text="Close" press="OnDetailPopupClose" type="Emphasized" />
             </Toolbar>
         </customHeader>
-        <Table id="idDetailPopUpTable" inset="true" class="sapUiTinyMargin" items="{CloudReadinessData>/}">
-            <columns>
-                <Column >
-                    <Text text="Object Type" />
-                </Column>
-                <Column>
-                    <Text text="Object Name" />
-                </Column>
-                <Column>
-                    <Text text="Sub Object Name" />
-                </Column>
-                <Column >
-                    <Text text="Error Description" />
-                </Column>
-                <Column>
-                    <Text text="Description" />
-                </Column>
-                <Column>
-                    <Text text="Operation Code" />
-                </Column>
-            </columns>
-            <items>
-                <ColumnListItem vAlign="Middle">
-                    <cells>
-                        <Text text="{CloudReadinessData>ObjectType}" />
-                        <Text text="{CloudReadinessData>ObjectName}" />
-                        <Text text="{CloudReadinessData>SubObjectName}" />
-                        <Text text="{CloudReadinessData>ErrorDescription}" />
-                        <Text text="{CloudReadinessData>ComDescriptionpany}" />
-                        <Text text="{CloudReadinessData>OperationCode}" />
-                    </cells>
-                </ColumnListItem>
-            </items>
-        </Table>
-    </Dialog>
+        <ui:Table rows="{CloudReadinessData>/}" class="sapUiTinyMargin" selectionMode="None" visibleRowCount="7">
+           
+            <ui:columns>
+                <ui:Column width="7rem">
+                    <Label text="Object Type" />
+                    <ui:template>
+                        <Text text="{CloudReadinessData>ObjectType}" wrapping="false" />
+                    </ui:template>
+                </ui:Column>
+                <ui:Column width="11rem">
+                    <Label text="Object Name" />
+                    <ui:template>
+                        <Text text="{CloudReadinessData>ObjectName}" wrapping="false" />
+                    </ui:template>
+                </ui:Column>
+                <ui:Column width="11rem">
+                    <Label text="Sub Object Name" />
+                    <ui:template>
+                        <Text text="{CloudReadinessData>SubObjectName}" wrapping="false" />
+                    </ui:template>
+                </ui:Column>
+                <ui:Column width="11rem">
+                    <Label text="Error Description" />
+                    <ui:template>
+                        <Text text="{CloudReadinessData>ErrorDescription}" wrapping="false" />
+                    </ui:template>
+                </ui:Column>
+                <ui:Column width="11rem">
+                    <Label text="Description" />
+                    <ui:template>
+                        <Text text="{CloudReadinessData>ComDescriptionpany}" wrapping="false" />
+                    </ui:template>
+                </ui:Column>
+                <ui:Column width="11rem">
+                    <Label text="Operation Code" />
+                    <ui:template>
+                        <Text text="{CloudReadinessData>OperationCode}" wrapping="false" />
+                    </ui:template>
+                </ui:Column>
+                
+            </ui:columns>
+        </ui:Table>
+           </Dialog>
 </core:FragmentDefinition>
