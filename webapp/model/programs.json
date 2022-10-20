@@ -1,7 +1,7 @@
 [
     {
-        "Program": "ZMM137_MATMAST",
-        "Type": "Display ALV Report",
+        "Program": "ZMM137_MATERIAL_MASTER_UPDATES",
+        "Type": "Display ALV",
         "CountDBTable": 4,
         "CountFM": 2,
         "SubInc": 2,
@@ -12,8 +12,8 @@
         "TC":"Yes"
     },
     {
-        "Program": "ZMM137_MATMAST2",
-        "Type": "Display ALV Report",
+        "Program": "ZMM176_VENDOR_INFO",
+        "Type": "Modify Report",
         "CountDBTable": 4,
         "CountFM": 2,
         "SubInc": 3,
@@ -24,20 +24,20 @@
         "TC":"No"
     },
     {
-        "Program": "ZMM137_MATMAST3",
-        "Type": "Display ALV Report",
-        "CountDBTable": 4,
-        "CountFM": 2,
-        "SubInc": 4,
+        "Program": "ZMMR_PO_RELEASE",
+        "Type": "Display ALV",
+        "CountDBTable": 18,
+        "CountFM": 3,
+        "SubInc": 2,
         "DBModify": "No",
         "CLLTCode":"No",
-        "CodeComp":"Low",
+        "CodeComp":"High",
         "Status":"NI",
         "TC":"Yes"
     },
     {
-        "Program": "ZMM137_MATMAST4",
-        "Type": "Display ALV Report",
+        "Program": "ZMMR_PO_MASS_UPLOAD",
+        "Type": "Display ALV",
         "CountDBTable": 4,
         "CountFM": 2,
         "SubInc": 1,
@@ -48,8 +48,44 @@
         "TC":"No"
     } ,
     {
-        "Program": "ZMM137_MATMAST5",
-        "Type": "Display ALV Report",
+        "Program": "ZOTC002I_INTERNAL_PRICING_IMP",
+        "Type": "Display ALV",
+        "CountDBTable": 4,
+        "CountFM": 2,
+        "SubInc": 2,
+        "DBModify": "No",
+        "CLLTCode":"No",
+        "CodeComp":"Low",
+        "Status":"NI",
+        "TC":"No"
+    },
+    {
+        "Program": "ZOTCR_SALESORDERLIST",
+        "Type": "Display ALV",
+        "CountDBTable": 4,
+        "CountFM": 2,
+        "SubInc": 2,
+        "DBModify": "No",
+        "CLLTCode":"No",
+        "CodeComp":"Low",
+        "Status":"NI",
+        "TC":"No"
+    },
+    {
+        "Program": "ZOTC_SALES_ORD_SIMULATE",
+        "Type": "Display ALV",
+        "CountDBTable": 4,
+        "CountFM": 2,
+        "SubInc": 2,
+        "DBModify": "No",
+        "CLLTCode":"No",
+        "CodeComp":"Low",
+        "Status":"NI",
+        "TC":"No"
+    },
+    {
+        "Program": "ZOTC_SALES_REPORT",
+        "Type": "Modify Report",
         "CountDBTable": 4,
         "CountFM": 2,
         "SubInc": 2,

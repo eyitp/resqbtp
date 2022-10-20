@@ -1,8 +1,6 @@
 {
     "_version": "1.42.0",
-    "sap.card": {
-        
-    },
+    "sap.card": {},
     "sap.app": {
         "id": "resq",
         "type": "application",
@@ -26,6 +24,21 @@
                     "annotations": [],
                     "localUri": "localService/metadata.xml",
                     "odataVersion": "2.0"
+                }
+            }
+        },
+        "crossNavigation": {
+            "inbounds": {
+                "resq-inbound": {
+                    "signature": {
+                        "parameters": {},
+                        "additionalParameters": "allowed"
+                    },
+                    "semanticObject": "resq",
+                    "action": "display",
+                    "title": "{{flpTitle}}",
+                    "subTitle": "{{flpSubtitle}}",
+                    "icon": ""
                 }
             }
         }

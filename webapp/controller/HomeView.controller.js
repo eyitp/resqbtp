@@ -3,14 +3,16 @@ sap.ui.define([
     "sap/ui/model/json/JSONModel",
     "sap/m/MessageBox",
     'sap/viz/ui5/format/ChartFormatter',
+    "../model/formatter"
 ],
     /**
      * @param {typeof sap.ui.core.mvc.Controller} Controller
      */
-    function (Controller, JSONModel, MessageBox, ChartFormatter) {
+    function (Controller, JSONModel, MessageBox, ChartFormatter, formatter) {
         "use strict";
         //Hello
         return Controller.extend("resq.controller.HomeView", {
+            f: formatter,
             onInit: function () {
 
                 var b = [];
@@ -35,6 +37,9 @@ sap.ui.define([
 
                 var oModel = new JSONModel();
                 this.getView().setModel(oModel, "SelectedRow");
+
+                var oModel = new JSONModel();
+                this.getView().setModel(oModel, "SelectedFMRow");
 
                 var oModel = new JSONModel();
                 this.getView().setModel(oModel, "ServiceDetails");
@@ -79,6 +84,18 @@ sap.ui.define([
                 var oModel = new JSONModel(sPath);
                 this.getView().setModel(oModel, "Programs");
 
+                var sPath = jQuery.sap.getModulePath("resq", "/model/Classes.json");
+                var oModel = new JSONModel(sPath);
+                this.getView().setModel(oModel, "Classes");
+
+                var sPath = jQuery.sap.getModulePath("resq", "/model/FMs.json");
+                var oModel = new JSONModel(sPath);
+                this.getView().setModel(oModel, "FMs");
+
+                var sPath = jQuery.sap.getModulePath("resq", "/model/FMsDetails.json");
+                var oModel = new JSONModel(sPath);
+                this.getView().setModel(oModel, "FMDetails");
+
                 var sPath = jQuery.sap.getModulePath("resq", "/model/CloudCompCheck.json");
                 var oModel = new JSONModel(sPath);
                 this.getView().setModel(oModel, "CloudCompCheck");
@@ -113,24 +130,9 @@ sap.ui.define([
                 this.getView().getModel("AppConfig").setProperty("/MoveToFioriBOTBuilder", false)
                 this.getOwnerComponent().getModel("AppConfig").refresh();
             },
-            MigrateToBTPPress: function () {
-                var oSelectedItem = this.getView().byId("idProgramsMigrat").getSelectedItem();
-                var programName = oSelectedItem.getCells()[0].getProperty("text")
-                var Programs = this.getView().getModel("Programs").getData();
-                var i;
-                var that = this;
 
-                Programs.forEach((ovalue, index) => {
-                    if (ovalue.Program === programName) {
-                        ovalue.Status = "IP";
-                        i = index;
-                        that.getView().getModel("SelectedRow").setData(ovalue);
-                    }
-                }, this);
-                this.getView().getModel("Programs").setData(Programs);
-                this.getView().byId("CreateProductWizard").nextStep();
-                this.setIntervalFunction(1, "CustomEntityChart", ["ServiceBindingChart", "ServiceDefinitionChart", "CustomQueryChart", "CustomEntityChart"], this);
-
+            onClassSelected: function () {
+                this.getView().byId("ClassesWizard").nextStep();
             },
             setIntervalFunction(j, sIdChart, sIdNextChart, that) {
 
@@ -162,6 +164,18 @@ sap.ui.define([
             OnBuildToCloudPress: function () {
                 this.byId("pageContainer").to(this.getView().createId("TransToCloudBTP"));
                 this.getView().byId("CreateProductWizard").nextStep();
+            },
+            onFilterSelect: function () {
+                if (this.getView().byId("idIconTabBar").getSelectedKey() === "Programs") {
+                    this.getView().byId("CreateProductWizard").nextStep();
+                }
+                else if (this.getView().byId("idIconTabBar").getSelectedKey() === "Classes") {
+                    this.getView().byId("ClassesWizard").nextStep();
+                }
+                else if (this.getView().byId("idIconTabBar").getSelectedKey() === "FMs") {
+                    this.getView().byId("FMsWizard").nextStep();
+                }
+                else if (this.getView().byId("idIconTabBar").getSelectedKey() === "Enhancements") { }
             },
             OnBuildInBTPCloud: function () {
                 this.byId("pageContainer").to(this.getView().createId("BuildInBTPCloud"));
@@ -212,6 +226,132 @@ sap.ui.define([
                     that.getView().setBusy(true);
                     oDialog.open();
                 });
+            },
+            onFMRemediatePress: function () {
+                var that = this;
+                var aFMsRows = this.getView().byId("idFMsMigrat").getItems();
+                var selectedRow = this.getView().byId("idFMsMigrat").getSelectedItems();
+                if (selectedRow.length === 0) {
+                    MessageBox.error("Please select a record to Remediate");
+                }
+                else {
+                    if (selectedRow[0].getCells()[5].getSelected()) {
+                        MessageBox.error("Cannot Perform Remediate for this record as it is retired");
+                    }
+                    else {
+                        if (!this.FMDetailsFrag) {
+                            this.FMDetailsFrag = this.loadFragment({
+                                name: "resq.view.FMDetailsPopup"
+                            });
+                        }
+                        this.FMDetailsFrag.then(function (oDialog) {
+                            that.getView().setBusy(true);
+                            oDialog.open();
+                        });
+                    }
+                }
+            },
+            OnFMsDetailPopupClose: function (oEvent) {
+                var aFMsRows = this.getView().byId("idFMsMigrat").getItems();
+                var selectedRow = this.getView().byId("idFMsMigrat").getSelectedItems();
+                selectedRow[0].getCells()[3].setText("In Progress");
+                selectedRow[0].getCells()[3].setState("Warning");
+                this.getView().setBusy(false);
+                oEvent.getSource().getParent().getParent().close();
+            },
+            onFMDetailsProcess: function (oEvent) {
+                if (oEvent.getSource().getParent().getCells()[4].getText() === "Automatic") {
+                    oEvent.getSource().getParent().getCells()[4].setText("Completed");
+                    oEvent.getSource().getParent().getCells()[4].setState("Success");
+                }
+            },
+            onFMRemediationComplete: function (oEvent) {
+                var aFMsRows = this.getView().byId("idFMsMigrat").getItems();
+                var selectedRow = this.getView().byId("idFMsMigrat").getSelectedItems();
+                selectedRow[0].getCells()[3].setText("Cloud Ready");
+                selectedRow[0].getCells()[3].setState("Success");
+                this.getView().setBusy(false);
+                this.FMDetailsFrag.then(function (oDialog) {
+                    oDialog.close();
+                });
+            },
+            onFMsLiftAndShiftPress: function () {
+                var aFMsRows = this.getView().byId("idFMsMigrat").getItems();
+                var selectedRow = this.getView().byId("idFMsMigrat").getSelectedItems();
+
+                if (selectedRow.length === 0) {
+                    MessageBox.error("Please select a record to Lift and Shift");
+                }
+                else {
+                    if (selectedRow[0].getCells()[5].getSelected()) {
+                        MessageBox.error("Cannot Perform Lift and Shift for this record as it is retired");
+                    }
+                    else if (selectedRow[0].getCells()[3].getText() !== "Cloud Ready") {
+                        MessageBox.warning("Cannot Perform Lift and Shift for this record as it is not Cloud Ready. Please remediate the record.");
+                    }
+                    else {
+                        //var oSelectedItem = this.getView().byId("idFMsMigrat").getSelectedItem();
+                        var programName = selectedRow[0].getCells()[0].getText();
+                        var FMs = this.getView().getModel("FMs").getData();
+                        //var i;
+                        var that = this;
+
+                        FMs.forEach((ovalue, index) => {
+                            if (ovalue.Program === programName) {
+                                ovalue.Status = "Cloud Ready";
+                                that.getView().getModel("SelectedFMRow").setData(ovalue);
+                            }
+                        }, this);
+                        //that.getView().getModel("FMs").setData(fMs);
+                        this.getView().byId("FMsWizard").nextStep();
+                        this.getView().getModel("AppConfig").setProperty("/FMImportToBTP", false)
+                        this.getOwnerComponent().getModel("AppConfig").refresh();
+                        //this.setIntervalFunction(1, "CustomEntityChart", ["ServiceBindingChart", "ServiceDefinitionChart", "CustomQueryChart", "CustomEntityChart"], this);
+                    }
+                }
+            },
+            handleFMUpload:function(){
+                var fmSelectedRow = this.getView().getModel("SelectedFMRow").getData();
+                fmSelectedRow.Status="Exported to GitHub";
+                this.getView().getModel("SelectedFMRow").setData(fmSelectedRow);
+                this.getView().getModel("AppConfig").setProperty("/FMImportToBTP", true)
+                this.getOwnerComponent().getModel("AppConfig").refresh();
+                this.getView().getModel("SelectedFMRow").refresh();
+            },
+            OnNextStepForFMFioriBuild:function(){
+                this.getView().byId("FMsWizard").nextStep();
+            },
+            onFMsWrapPress: function () {
+                var aFMsRows = this.getView().byId("idFMsMigrat").getItems();
+                var selectedRow = this.getView().byId("idFMsMigrat").getSelectedItems();
+                if (selectedRow.length === 0) {
+                    MessageBox.error("Please select a record to Wrap");
+                }
+                else {
+                    if (selectedRow[0].getCells()[5].getSelected()) {
+                        MessageBox.error("Cannot Perform Wrap for this record as it is retired");
+                    }
+                    else { }
+                }
+            },
+            MigrateToBTPPress: function () {
+                var oSelectedItem = this.getView().byId("idProgramsMigrat").getSelectedItem();
+                var programName = oSelectedItem.getCells()[0].getProperty("text")
+                var Programs = this.getView().getModel("Programs").getData();
+                var i;
+                var that = this;
+
+                Programs.forEach((ovalue, index) => {
+                    if (ovalue.Program === programName) {
+                        ovalue.Status = "IP";
+                        i = index;
+                        that.getView().getModel("SelectedRow").setData(ovalue);
+                    }
+                }, this);
+                this.getView().getModel("Programs").setData(Programs);
+                this.getView().byId("CreateProductWizard").nextStep();
+                this.setIntervalFunction(1, "CustomEntityChart", ["ServiceBindingChart", "ServiceDefinitionChart", "CustomQueryChart", "CustomEntityChart"], this);
+
             },
             OnDetailPopupClose: function (oEvent) {
                 this.getView().setBusy(false);
@@ -325,11 +465,11 @@ sap.ui.define([
                     if (buttonId === "container-resq---HomeView--CASBookSlot") {
                         that.getView().getModel("ServiceDetails").setData(that.getView().getModel("CASModel").getData());
                     }
-                    else if (buttonId === "container-resq---HomeView--LCNCBookSlot") { 
-                        that.getView().getModel("ServiceDetails").setData(that.getView().getModel("LCNCModel").getData()); 
+                    else if (buttonId === "container-resq---HomeView--LCNCBookSlot") {
+                        that.getView().getModel("ServiceDetails").setData(that.getView().getModel("LCNCModel").getData());
                     }
-                    else { 
-                        that.getView().getModel("ServiceDetails").setData(that.getView().getModel("LCNCAPIModel").getData()); 
+                    else {
+                        that.getView().getModel("ServiceDetails").setData(that.getView().getModel("LCNCAPIModel").getData());
                     }
                 });
             },
@@ -435,7 +575,7 @@ sap.ui.define([
                 this.getView().byId("IdUserCancel").firePress();
             },
 
-            OnRunAnalysis:function(){
+            OnRunAnalysis: function () {
                 this.getView().byId("TitleCATSummary").setVisible(true);
                 this.getView().byId("CATSummaryObjectDetails").setVisible(true);
                 this.getView().byId("ButtonDetailView").setVisible(true);

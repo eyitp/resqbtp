@@ -1,4 +1,4 @@
-<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:ui="sap.ui.table" xmlns:f="sap.f" xmlns:mchart="sap.suite.ui.microchart" xmlns:w="sap.ui.integration.widgets">
+<core:FragmentDefinition xmlns="sap.m" xmlns:card="sap.f.cards" xmlns:core="sap.ui.core" xmlns:ui="sap.ui.table" xmlns:f="sap.f" xmlns:mchart="sap.suite.ui.microchart" xmlns:w="sap.ui.integration.widgets">
     <Page id="Analyse" showHeader="false" backgroundDesign="Transparent">
         <f:Card class="sapUiTinyMargin" width="auto">
             <f:content>
@@ -28,7 +28,7 @@
             </f:content>
         </f:Card>
         <HBox id="CATSummaryObjectDetails" visible="false">
-            <w:Card id="AnalyseIntCard" class="sapUiTinyMargin" width="25em" manifest="{ColumnChart>/stackedColumn}">
+            <w:Card id="AnalyseIntCard" class="sapUiTinyMargin" width="25em" height="22em" manifest="{ColumnChart>/stackedColumn}">
                 <w:layoutData>
                     <f:GridContainerItemLayoutData rows="8" columns="8" />
                 </w:layoutData>
@@ -51,21 +51,49 @@
                 </GenericTile>
             </VBox>
             <VBox class="sapUiTinyMarginBegin">
-                <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop " width="13em" header="Loosely Coupled Objects" frameType="OneByHalf" press="onPress">
+                <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop" width="13em" header="Loosely Coupled Objects" frameType="OneByHalf" press="onPress">
                     <TileContent>
                         <NumericContent value="68" valueColor="None" indicator="None" withMargin="false" />
                     </TileContent>
                 </GenericTile>
-                <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop " width="13em" header="Tightly Couple Objects" frameType="OneByHalf" press="onPress">
+                <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop" width="13em" header="Tightly Couple Objects" frameType="OneByHalf" press="onPress">
                     <TileContent>
                         <NumericContent value="244" valueColor="None" indicator="None" withMargin="false" />
                     </TileContent>
                 </GenericTile>
-                <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop " width="13em" header="Semi Automatic Fix" frameType="OneByHalf" press="onPress">
+                <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop" width="13em" header="Semi Automatic Fix" frameType="OneByHalf" press="onPress">
                     <TileContent>
                         <NumericContent value="78%" valueColor="None" indicator="None" withMargin="false" />
                     </TileContent>
                 </GenericTile>
+            </VBox>
+            <VBox>
+                <f:Card class="sapUiTinyMargin" width="10em">
+                    <f:content>
+                        <VBox>
+                            <Title text="Automatic Fix" class="sapUiTinyMarginBegin" />
+                            <mchart:RadialMicroChart id="CustomAutomaticFix" class="sapUiTinyMargin" size="S" percentage="30" alignContent="Center" valueColor="Good" />
+                        </VBox>
+                    </f:content>
+                </f:Card>
+
+                <f:Card class="sapUiTinyMargin" width="10em">
+                    <f:content>
+                        <VBox>
+                            <Title text="Semi-Automatic Fix" class="sapUiTinyMarginBegin" />
+                            <mchart:RadialMicroChart id="SemiCustomAutomaticFix" class="sapUiTinyMargin sapUiSmallMarginTop" size="S" percentage="52" alignContent="Center" valueColor="Good" />
+                        </VBox>
+                    </f:content>
+                </f:Card>
+
+                <f:Card class="sapUiTinyMargin" width="10em">
+                    
+                    <f:content>
+                    <VBox>
+                            <Title text="Manual Fix" class="sapUiTinyMarginBegin" />
+                        <mchart:RadialMicroChart id="ManualFix" class="sapUiTinyMargin sapUiSmallMarginTop" size="S" percentage="18" alignContent="Center" valueColor="Good" />
+                    </VBox></f:content>
+                </f:Card>
             </VBox>
         </HBox>
         <HBox justifyContent="End" id="ButtonDetailView" visible="false">
@@ -256,7 +284,6 @@
                             </ui:Column>
                         </ui:columns>
                     </ui:Table>
-
                 </WizardStep>
             </Wizard>
         </VBox>

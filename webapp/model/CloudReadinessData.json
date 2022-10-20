@@ -3,6 +3,7 @@
   "ObjectType": "PROG",
   "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
   "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "LineNumber": "5",
   "ErrorDescription": "Whitelist Check",
   "Description": "API is not cloud compatible DTEL FIELDNAME",
   "OperationCode": "WLC001"
@@ -11,6 +12,7 @@
   "ObjectType": "PROG",
   "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
   "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "LineNumber": "6",
   "ErrorDescription": "Whitelist Check",
   "Description": "API is not cloud compatible DTEL DDOBJNAME",
   "Operation Code": "WLC001"
@@ -19,6 +21,7 @@
   "ObjectType": "PROG",
   "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
   "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "LineNumber": "10",
   "ErrorDescription": "Whitelist Check",
   "Description": "API is not cloud compatible DTEL BIERRNUM",
   "Operation Code": "WLC001"
@@ -27,6 +30,7 @@
   "ObjectType": "PROG",
   "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
   "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "LineNumber": "12",
   "ErrorDescription": "Whitelist Check",
   "Description": "API is not cloud compatible DGT TRUXS_T_TEXT_DATA",
   "Operation Code": "WLC001"
@@ -35,6 +39,7 @@
   "ObjectType": "PROG",
   "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
   "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "LineNumber": "28",
   "ErrorDescription": "Whitelist Check",
   "Description": "API is not cloud compatible TYPE TRUXS",
   "Operation Code": "WLC001"
@@ -43,6 +48,7 @@
   "ObjectType": "PROG",
   "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
   "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "LineNumber": "32",
   "ErrorDescription": "Whitelist Check",
   "Description": "API is not cloud compatible TTYP LTX1_UEB_TT",
   "Operation Code": "WLC001"
@@ -51,6 +57,7 @@
   "ObjectType": "PROG",
   "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
   "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "LineNumber": "56",
   "ErrorDescription": "Whitelist Check",
   "Description": "API is not cloud compatible TABL MARA",
   "Operation Code": "WLC001"
@@ -59,6 +66,7 @@
   "ObjectType": "PROG",
   "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
   "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "LineNumber": "65",
   "ErrorDescription": "Whitelist Check",
   "Description": "API is not cloud compatible STRU SYST",
   "Operation Code": "WLC001"
@@ -67,6 +75,7 @@
   "ObjectType": "PROG",
   "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
   "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "LineNumber": "58",
   "ErrorDescription": "Whitelist Check",
   "Description": "API is not cloud compatible STRU RLGRAP",
   "Operation Code": "WLC001"
@@ -75,6 +84,7 @@
   "ObjectType": "PROG",
   "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
   "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "LineNumber": "59",
   "ErrorDescription": "Whitelist Check",
   "Description": "API is not cloud compatible STRU MUEB_REST",
   "Operation Code": "WLC001"
@@ -83,6 +93,7 @@
   "ObjectType": "PROG",
   "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
   "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "LineNumber": "50",
   "ErrorDescription": "Whitelist Check",
   "Description": "API is not cloud compatible STRU MFIELDRES",
   "Operation Code": "WLC001"
@@ -91,6 +102,7 @@
   "ObjectType": "PROG",
   "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
   "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "LineNumber": "15",
   "ErrorDescription": "Whitelist Check",
   "Description": "API is not cloud compatible STRU MERRDAT",
   "Operation Code": "WLC001"
@@ -99,6 +111,7 @@
   "ObjectType": "PROG",
   "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
   "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "LineNumber": "5",
   "ErrorDescription": "Whitelist Check",
   "Description": "API is not cloud compatible STRU MARA_UEB",
   "Operation Code": "WLC001"
@@ -107,6 +120,7 @@
   "ObjectType": "PROG",
   "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
   "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "LineNumber": "5",
   "ErrorDescription": "Whitelist Check",
   "Description": "API is not cloud compatible STRU MARA",
   "Operation Code": "WLC001"
@@ -115,6 +129,7 @@
   "ObjectType": "PROG",
   "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
   "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "LineNumber": "5",
   "ErrorDescription": "Whitelist Check",
   "Description": "API is not cloud compatible STRU LTX1_UEB",
   "Operation Code": "WLC001"
@@ -123,6 +138,7 @@
   "ObjectType": "PROG",
   "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
   "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "LineNumber": "5",
   "ErrorDescription": "Whitelist Check",
   "Description": "API is not cloud compatible STRU LTX1",
   "Operation Code": "WLC001"
@@ -131,6 +147,7 @@
   "ObjectType": "PROG",
   "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
   "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "LineNumber": "5",
   "ErrorDescription": "Whitelist Check",
   "Description": "API is not cloud compatible STRU EMARA",
   "Operation Code": "WLC001"
@@ -139,6 +156,7 @@
   "ObjectType": "PROG",
   "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
   "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "LineNumber": "5",
   "ErrorDescription": "Whitelist Check",
   "Description": "API is not cloud compatible STRU DFIES",
   "Operation Code": "WLC001"
@@ -147,6 +165,7 @@
   "ObjectType": "PROG",
   "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
   "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "LineNumber": "5",
   "ErrorDescription": "Whitelist Check",
   "Description": "API is not cloud compatible MSAG ZZ",
   "Operation Code": "WLC001"
@@ -155,6 +174,7 @@
   "ObjectType": "PROG",
   "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
   "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "LineNumber": "5",
   "ErrorDescription": "Whitelist Check",
   "Description": "API is not cloud compatible FUNC TEXT_CONVERT_XLS_TO_SAP",
   "Operation Code": "WLC001"
@@ -163,6 +183,7 @@
   "ObjectType": "PROG",
   "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
   "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "LineNumber": "5",
   "ErrorDescription": "Whitelist Check",
   "Description": "API is not cloud compatible FUNC MATERIAL_MAINTAIN_DARK",
   "Operation Code": "WLC001"
@@ -171,6 +192,7 @@
   "ObjectType": "PROG",
   "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
   "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "LineNumber": "5",
   "ErrorDescription": "Whitelist Check",
   "Description": "API is not cloud compatible FUNC FI_MESSAGE_TEXT_GET",
   "Operation Code": "WLC001"
@@ -179,6 +201,7 @@
   "ObjectType": "PROG",
   "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
   "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "LineNumber": "5",
   "ErrorDescription": "Whitelist Check",
   "Description": "API is not cloud compatible FUNC F4_FILENAME",
   "Operation Code": "WLC001"
@@ -187,6 +210,7 @@
   "ObjectType": "PROG",
   "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
   "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "LineNumber": "5",
   "ErrorDescription": "Whitelist Check",
   "Description": "API is not cloud compatible FUNC DDIF_FIELDINFO_GET",
   "Operation Code": "WLC001"
@@ -195,6 +219,7 @@
   "ObjectType": "PROG",
   "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
   "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "LineNumber": "5",
   "ErrorDescription": "Whitelist Check",
   "Description": "API is not cloud compatible FUNC CONVERSION_EXIT_MATN1_INPUT",
   "Operation Code": "WLC001"
@@ -203,6 +228,7 @@
   "ObjectType": "PROG",
   "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
   "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "LineNumber": "5",
   "ErrorDescription": "Whitelist Check",
   "Description": "API is not cloud compatible FUNC CONVERSION_EXIT_ALPHA_INPUT",
   "Operation Code": "WLC001"
@@ -211,6 +237,7 @@
   "ObjectType": "PROG",
   "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
   "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "LineNumber": "5",
   "ErrorDescription": "Whitelist Check",
   "Description": "API is not cloud compatible DTEL MATNR",
   "Operation Code": "WLC001"
@@ -219,6 +246,7 @@
   "ObjectType": "PROG",
   "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
   "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "LineNumber": "5",
   "ErrorDescription": "Restricted ABAP syntax for Cloud",
   "Description": "Erroneous ABAP statement for SCP REPORT",
   "Operation Code": "RAC001"
@@ -227,6 +255,7 @@
   "ObjectType": "PROG",
   "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
   "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "LineNumber": "5",
   "ErrorDescription": "Restricted ABAP syntax for Cloud",
   "Description": "Erroneous ABAP statement for SCP SELECTION-SCREEN",
   "Operation Code": "RAC001"
@@ -235,6 +264,7 @@
   "ObjectType": "PROG",
   "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
   "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "LineNumber": "5",
   "ErrorDescription": "Restricted ABAP syntax for Cloud",
   "Description": "Erroneous ABAP statement for SCP PARAMETERS",
   "Operation Code": "RAC001"
@@ -243,6 +273,7 @@
   "ObjectType": "PROG",
   "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
   "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "LineNumber": "5",
   "ErrorDescription": "Restricted ABAP syntax for Cloud",
   "Description": "Erroneous ABAP statement for SCP SELECTION-SCREEN",
   "Operation Code": "RAC001"
@@ -251,6 +282,7 @@
   "ObjectType": "PROG",
   "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
   "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "LineNumber": "5",
   "ErrorDescription": "Restricted ABAP syntax for Cloud",
   "Description": "Erroneous ABAP statement for SCP (dynpro) Sel. Screen AT SELECTION-SCREEN",
   "Operation Code": "RAC001"
@@ -259,6 +291,7 @@
   "ObjectType": "PROG",
   "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
   "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "LineNumber": "5",
   "ErrorDescription": "Restricted ABAP syntax for Cloud",
   "Description": "Erroneous ABAP statement for SCP START-OF-SELECTION",
   "Operation Code": "RAC001"
@@ -267,6 +300,7 @@
   "ObjectType": "PROG",
   "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
   "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "LineNumber": "5",
   "ErrorDescription": "Restricted ABAP syntax for Cloud",
   "Description": "Erroneous ABAP statement for SCP (dynpro) MESSAGE",
   "Operation Code": "RAC001"
@@ -275,6 +309,7 @@
   "ObjectType": "PROG",
   "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
   "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "LineNumber": "5",
   "ErrorDescription": "Restricted ABAP syntax for Cloud",
   "Description": "Erroneous ABAP statement for SCP WRITE",
   "Operation Code": "RAC001"
@@ -283,6 +318,7 @@
   "ObjectType": "PROG",
   "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
   "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "LineNumber": "5",
   "ErrorDescription": "Restricted ABAP syntax for Cloud",
   "Description": "Erroneous ABAP statement for SCP WRITE",
   "Operation Code": "RAC001"
@@ -291,6 +327,7 @@
   "ObjectType": "PROG",
   "ObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
   "SubObjectName": "ZMM137_MATERIAL_MASTER_UPDATES",
+  "LineNumber": "5",
   "ErrorDescription": "Restricted ABAP syntax for Cloud",
   "Description": "Erroneous ABAP statement for SCP STOP",
   "Operation Code": "RAC001"
