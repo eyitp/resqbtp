@@ -1,0 +1,72 @@
+[
+    {
+      "ObjectType": "CLAS",
+      "ObjectDesc": "CLASS (ABAP OBJECTS)",
+      "CountofObjectType": 52
+    },
+    {
+      "ObjectType": "DCLS",
+      "ObjectDesc": "ABAP DATA CONTROL LANGUAGE SOURCE",
+      "CountofObjectType": 34
+    },
+    {
+      "ObjectType": "DDLS",
+      "ObjectDesc": "DATA DEFINTION LANGUAGE SOURCE",
+      "CountofObjectType": 121
+    },
+    {
+      "ObjectType": "DOMA",
+      "ObjectDesc": "DOMAIN",
+      "CountofObjectType": 485
+    },
+    {
+      "ObjectType": "DTEL",
+      "ObjectDesc": "DATA ELEMENT",
+      "CountofObjectType": 335
+    },
+    {
+      "ObjectType": "ENQU",
+      "ObjectDesc": "LOCK OBJECT",
+      "CountofObjectType": 55
+    },
+    {
+      "ObjectType": "FUGR",
+      "ObjectDesc": "FUNCTION GROUP",
+      "CountofObjectType": 22
+    },
+    {
+      "ObjectType": "INTF",
+      "ObjectDesc": "INTERFACE (ABAP OBJECTS)",
+      "CountofObjectType": 81
+    },
+    {
+      "ObjectType": "MSAG",
+      "ObjectDesc": "MESSAGE CLASS",
+      "CountofObjectType": 57
+    },
+    {
+      "ObjectType": "STOB",
+      "ObjectDesc": "STRUCTURED OBJECT",
+      "CountofObjectType": 58
+    },
+    {
+      "ObjectType": "TABL",
+      "ObjectDesc": "TABLE",
+      "CountofObjectType": 376
+    },
+    {
+      "ObjectType": "TTYP",
+      "ObjectDesc": "TABLE TYPE",
+      "CountofObjectType": 84
+    },
+    {
+      "ObjectType": "XSLT",
+      "ObjectDesc": "TRANSFORMATION",
+      "CountofObjectType": 4
+    },
+    {
+      "ObjectType": "PROG",
+      "ObjectDesc": "PROGRAMS",
+      "CountofObjectType": 68
+    }
+   ]

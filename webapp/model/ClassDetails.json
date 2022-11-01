@@ -1,83 +1,83 @@
 [
     {
-      "ClassName": "ZFSDR37_SOLIST",
+      "ClassName": "YCL_OTC_SALESREPORT",
       "LineNo": 52,
       "ErrorDescription": "Whitelist Check",
       "Description": "API is not cloud compatible STRU SYST",
       "Remediation": "Semi-Automatic"
     },
     {
-      "ClassName": "ZFSDR37_SOLIST",
+      "ClassName": "YCL_OTC_SALESREPORT",
       "LineNo": 78,
       "ErrorDescription": "Whitelist Check",
       "Description": "API is not cloud compatible STRU ZSSALESORD",
       "Remediation": "Manual"
     },
     {
-      "ClassName": "ZFSDR37_SOLIST",
+      "ClassName": "YCL_OTC_SALESREPORT",
       "LineNo": 81,
       "ErrorDescription": "Whitelist Check",
       "Description": "API is not cloud compatible TABL VBAK",
       "Remediation": "Semi-Automatic"
     },
     {
-      "ClassName": "ZFSDR37_SOLIST",
+      "ClassName": "YCL_OTC_SALESREPORT",
       "LineNo": 8,
       "ErrorDescription": "Restricted ABAP syntax for Cloud",
       "Description": "Erroneous ABAP statement for SCP STOP",
       "Remediation": "Manual"
     },
     {
-      "ClassName": "ZFSDR37_SOLIST",
+      "ClassName": "YCL_OTC_SALESREPORT",
       "LineNo": 10,
       "ErrorDescription": "Restricted ABAP syntax for Cloud",
       "Description": "Erroneous ABAP statement for SCP MOVE",
       "Remediation": "Automatic"
     },
     {
-      "ClassName": "ZFSDR37_SOLIST",
+      "ClassName": "YCL_OTC_SALESREPORT",
       "LineNo": 11,
       "ErrorDescription": "Restricted ABAP syntax for Cloud",
       "Description": "API is not cloud compatible FUNC TEXT_CONVERT_XLS_TO_SAP",
       "Remediation": "Automatic"
     },
     {
-      "ClassName": "ZFSDR37_SOLIST",
+      "ClassName": "YCL_OTC_SALESREPORT",
       "LineNo": 14,
       "ErrorDescription": "Restricted ABAP syntax for Cloud",
       "Description": "API is not cloud compatible FUNC MATERIAL_MAINTAIN_DARK",
       "Remediation": "Semi-Automatic"
     },
     {
-      "ClassName": "ZFSDR37_SOLIST",
+      "ClassName": "YCL_OTC_SALESREPORT",
       "LineNo": 178,
       "ErrorDescription": "Restricted ABAP syntax for Cloud",
       "Description": "API is not cloud compatible FUNC FI_MESSAGE_TEXT_GET",
       "Remediation": "Semi-Automatic"
     },
     {
-      "ClassName": "ZFSDR37_SOLIST",
+      "ClassName": "YCL_OTC_SALESREPORT",
       "LineNo": 254,
       "ErrorDescription": "Restricted ABAP syntax for Cloud",
       "Description": "API is not cloud compatible FUNC F4_FILENAME",
       "Remediation": "Semi-Automatic"
     },
     {
-      "ClassName": "ZFSDR37_SOLIST",
+      "ClassName": "YCL_OTC_SALESREPORT",
       "LineNo": 270,
       "ErrorDescription": "Restricted ABAP syntax for Cloud",
       "Description": "API is not cloud compatible FUNC DDIF_FIELDINFO_GET",
       "Remediation": "Semi-Automatic"
     },
     {
-      "ClassName": "ZFSDR37_SOLIST",
+      "ClassName": "YCL_OTC_SALESREPORT",
       "LineNo": 281,
       "ErrorDescription": "Restricted ABAP syntax for Cloud",
       "Description": "API is not cloud compatible FUNC CONVERSION_EXIT_MATN1_INPUT",
       "Remediation": "Automatic"
     },
     {
-      "ClassName": "ZFSDR37_SOLIST",
+      "ClassName": "YCL_OTC_SALESREPORT",
       "LineNo": 307,
       "ErrorDescription": "Restricted ABAP syntax for Cloud",
       "Description": "API is not cloud compatible FUNC CONVERSION_EXIT_ALPHA_INPUT",

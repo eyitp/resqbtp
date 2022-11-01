@@ -1,0 +1,8 @@
+[
+    {
+      "Program Name": "ZMMR_PO_RELEASE",
+      "Type": "Call Transaction",
+      "Tcode": "ME23N"
+    }
+]
+   

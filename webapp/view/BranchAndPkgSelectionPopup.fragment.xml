@@ -1,0 +1,20 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:f="sap.ui.layout.form">
+    <Dialog id="PopupDialog" contentWidth="65em">
+        <f:SimpleForm id="GitAuthForm" editable="true" layout="ResponsiveGridLayout" title="Branch and Package Selection">
+            <f:content>
+                <Label text="Branch" required="true" />
+                <Input placeholder="Enter Branch" width="25em" />
+                <Label text="Package" required="true" />
+                <Input placeholder="Enter Package" width="25em" />
+                <Label text="Pull after link" />
+                <CheckBox />
+                <Label text="Transport Request No" />
+                <Input placeholder="Enter TR Number" width="25em" required="true" />
+            </f:content>
+        </f:SimpleForm>
+        <buttons>
+            <Button text="Ok" type="Emphasized" press="onSaveBranchSelection" />
+            <Button text="Cancel" type="Emphasized" press="onCancelBranchSelection" />
+        </buttons>
+    </Dialog>
+</core:FragmentDefinition>

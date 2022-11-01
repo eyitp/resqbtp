@@ -1,0 +1,12 @@
+[
+    {
+      "ProgramName": "ZMMR_PO_RELEASE",
+      "Type": "Include",
+      "Name": "ZMMR_PO_RELEASE_CI1"
+    },
+    {
+      "ProgramName": "ZMMR_PO_RELEASE",
+      "Type": "Include",
+      "Name": "ZMMR_PO_RELEASE_F01"
+    }
+]

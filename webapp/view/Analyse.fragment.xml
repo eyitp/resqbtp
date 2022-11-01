@@ -34,41 +34,41 @@
                 </w:layoutData>
             </w:Card>
             <VBox class="sapUiTinyMarginBegin">
-                <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop " header="Total Custom Objects" frameType="OneByHalf" press="onPress">
+                <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop " header="Total Custom" frameType="OneByHalf" press="onPress">
                     <TileContent>
                         <NumericContent value="2144" valueColor="None" indicator="None" withMargin="false" />
                     </TileContent>
                 </GenericTile>
-                <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop " header="Compatible for BTP" frameType="OneByHalf" press="onPress">
+                <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop " header="BTP Compatible" frameType="OneByHalf" press="onPressDisplayBTPCompDetails">
                     <TileContent>
-                        <NumericContent value="532" valueColor="None" indicator="None" withMargin="false" />
+                        <NumericContent value="1832" valueColor="None" indicator="None" withMargin="false" />
                     </TileContent>
                 </GenericTile>
-                <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop " header="Cloud Ready Objects" frameType="OneByHalf" press="onPress">
+                <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop " header="BTP Non-Compatible" frameType="OneByHalf" press="onPress">
                     <TileContent>
                         <NumericContent value="148" valueColor="None" indicator="None" withMargin="false" />
                     </TileContent>
                 </GenericTile>
             </VBox>
             <VBox class="sapUiTinyMarginBegin">
-                <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop" width="13em" header="Loosely Coupled Objects" frameType="OneByHalf" press="onPress">
+                <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop" header="Cloud Ready" frameType="OneByHalf" press="onPress">
                     <TileContent>
-                        <NumericContent value="68" valueColor="None" indicator="None" withMargin="false" />
+                        <NumericContent value="148" valueColor="None" indicator="None" withMargin="false" />
                     </TileContent>
                 </GenericTile>
-                <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop" width="13em" header="Tightly Couple Objects" frameType="OneByHalf" press="onPress">
+                <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop" header="Loosly Coupled" frameType="OneByHalf" press="onPress">
                     <TileContent>
-                        <NumericContent value="244" valueColor="None" indicator="None" withMargin="false" />
+                        <NumericContent value="918" valueColor="None" indicator="None" withMargin="false" />
                     </TileContent>
                 </GenericTile>
-                <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop" width="13em" header="Semi Automatic Fix" frameType="OneByHalf" press="onPress">
+                <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop" header="Tightly Coupled" frameType="OneByHalf" press="onPress">
                     <TileContent>
-                        <NumericContent value="78%" valueColor="None" indicator="None" withMargin="false" />
+                        <NumericContent value="766" valueColor="None" indicator="None" withMargin="false" />
                     </TileContent>
                 </GenericTile>
             </VBox>
             <VBox>
-                <f:Card class="sapUiTinyMargin" width="10em">
+                <f:Card class="sapUiTinyMarginBegin sapUiTinyMarginTop" width="10em" height="6.75em">
                     <f:content>
                         <VBox>
                             <Title text="Automatic Fix" class="sapUiTinyMarginBegin" />
@@ -77,7 +77,7 @@
                     </f:content>
                 </f:Card>
 
-                <f:Card class="sapUiTinyMargin" width="10em">
+                <f:Card class="sapUiTinyMarginBegin sapUiTinyMarginTop" width="10em" height="6.75em">
                     <f:content>
                         <VBox>
                             <Title text="Semi-Automatic Fix" class="sapUiTinyMarginBegin" />
@@ -86,7 +86,7 @@
                     </f:content>
                 </f:Card>
 
-                <f:Card class="sapUiTinyMargin" width="10em">
+                <f:Card class="sapUiTinyMarginBegin sapUiTinyMarginTop" width="10em" height="6.75em">
                     
                     <f:content>
                     <VBox>
@@ -134,8 +134,8 @@
                                     <Text text="{CloudCompCheck>ProgName}" />
                                     <mchart:ComparisonMicroChart size="M" press="OnCheckCatchartPress" isResponsive="false">
                                         <mchart:data>
-                                            <mchart:ComparisonMicroChartData title="Restricted ABAP Check" value="{CloudCompCheck>ResABAPCheck}" color="{=${CloudCompCheck>ResABAPCheck}>0?'Good':'Error'}" />
-                                            <mchart:ComparisonMicroChartData title="Whitelisted API Check" value="{CloudCompCheck>WhiteAPICheck}" color="{=${CloudCompCheck>WhiteAPICheck}>0?'Good':'Error'}" />
+                                            <mchart:ComparisonMicroChartData title="Restricted ABAP Check" value="{CloudCompCheck>ResABAPCheck}" color="{=${CloudCompCheck>ResABAPCheck}>0?'Error':'Good'}" />
+                                            <mchart:ComparisonMicroChartData title="Whitelisted API Check" value="{CloudCompCheck>WhiteAPICheck}" color="{=${CloudCompCheck>WhiteAPICheck}>0?'Error':'Good'}" />
                                         </mchart:data>
                                     </mchart:ComparisonMicroChart>
                                     <HBox>
@@ -162,13 +162,13 @@
                     <Text text="Source System: IEC-100" />
                     <ui:Table rows="{Programs>/}" alternateRowColors="true" class="sapUiTinyMargin" selectionMode="None" visibleRowCount="7">
                         <ui:columns>
-                            <ui:Column width="10rem">
+                            <ui:Column width="13rem">
                                 <Label text="Program" />
                                 <ui:template>
                                     <Text text="{Programs>Program}" wrapping="false" />
                                 </ui:template>
                             </ui:Column>
-                            <ui:Column width="10rem">
+                            <ui:Column width="7rem">
                                 <Label text="Program Type" />
                                 <ui:template>
                                     <Text text="{Programs>Type}" wrapping="false" />
@@ -177,19 +177,19 @@
                             <ui:Column width="6rem">
                                 <Label text="DB Tables" />
                                 <ui:template>
-                                    <ObjectNumber inverted="true" number="{Programs>CountDBTable}" />
+                                    <ObjectNumber active="true" inverted="true" number="{Programs>CountDBTable}" press="openDBTableDetails"/>
                                 </ui:template>
                             </ui:Column>
                             <ui:Column width="6rem">
                                 <Label text="FM/class" />
                                 <ui:template>
-                                    <ObjectNumber inverted="true" number="{Programs>CountFM}" />
+                                    <ObjectNumber active="true" inverted="true" number="{Programs>CountFM}" press="openFMNamesDetails"/>
                                 </ui:template>
                             </ui:Column>
                             <ui:Column width="6rem">
                                 <Label text="Submit/Includes" />
                                 <ui:template>
-                                    <ObjectNumber inverted="true" number="{Programs>SubInc}" />
+                                    <ObjectNumber active="true" inverted="true" number="{Programs>SubInc}" press="openIncludesDetails"/>
                                 </ui:template>
                             </ui:Column>
                             <ui:Column width="7rem">
@@ -243,7 +243,7 @@
                             <ui:Column width="6rem">
                                 <Label text="DB Tables" />
                                 <ui:template>
-                                    <ObjectNumber inverted="true" number="{Programs>CountDBTable}" />
+                                    <ObjectNumber inverted="true" number="{Programs>CountDBTable}"/>
                                 </ui:template>
                             </ui:Column>
                             <ui:Column width="6rem">

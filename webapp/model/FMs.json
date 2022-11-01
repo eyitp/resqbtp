@@ -1,6 +1,6 @@
 [
     {
-        "Program": "ZMM137_MATMAST",
+        "Program": "ZFM137_MATMAST",
         "Type": "Display ALV Report",
         "RFC": "Yes",
         "CodeComp": "Low",
@@ -8,15 +8,15 @@
         "RemediationType": "Automatic"
     },
     {
-        "Program": "ZMM137_MATMAST2",
-        "Type": "Display ALV Report",
+        "Program": "ZFMMU_CREATEDOC",
+        "Type": "Modify Report",
         "RFC": "No",
         "CodeComp": "Low",
         "Status": "Not Initiated",
         "RemediationType": "Automatic"
     },
     {
-        "Program": "ZMM137_MATMAST3",
+        "Program": "ZFSDR37_SOLIST",
         "Type": "Display ALV Report",
         "RFC": "Yes",
         "CodeComp": "Low",
@@ -24,7 +24,7 @@
         "RemediationType": "Manual"
     },
     {
-        "Program": "ZMM137_MATMAST4",
+        "Program": "ZRFC_OTC_SALES",
         "Type": "Display ALV Report",
         "RFC": "No",
         "CodeComp": "Low",
@@ -32,7 +32,7 @@
         "RemediationType": "Semi-Automatic"
     },
     {
-        "Program": "ZMM137_MATMAST5",
+        "Program": "ZFM_PURCHASE_REG",
         "Type": "Display ALV Report",
         "RFC": "No",
         "CodeComp": "Low",

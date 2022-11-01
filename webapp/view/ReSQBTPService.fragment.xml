@@ -1,63 +1,73 @@
 <core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:f="sap.f">
-<Page id="RESQ" showHeader="false" backgroundDesign="Transparent">
-    <VBox backgroundDesign="Transparent">
-        <f:Card class="sapUiTinyMargin " width="auto">
-            <f:content>
-                <Title class="sapUiTinyMargin" text="ReSQ BTP Services" />
-            </f:content>
-        </f:Card>
-        <HBox>
-            <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Cloud Assessment Service (CAT)" frameType="TwoByOne" press="onPress" mode="ActionMode">
-                <actionButtons>
-                    <Button id="CASBookSlot" text="Book Slot" press="OnBookSlot"/>
-                </actionButtons>
-                <TileContent>
-                    <FeedContent contentText="Assessment Tool for Source system to run analysis and  display results on BTP Compatibility and check for Clean core strategy" />
-                </TileContent>
-            </GenericTile>
-            <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="LCNC Tool - RAP Builder" frameType="TwoByOne" press="onPress" mode="ActionMode">
-                <actionButtons>
-                    <Button id="LCNCBookSlot" text="Book Slot" press="OnBookSlot"/>
-                </actionButtons>
-                <TileContent>
-                    <FeedContent contentText="This Service is used to build RAP enabled services for BTP Cloud Reports" />
-                </TileContent>
-            </GenericTile>
-            <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Whitelist CDS/API Finder" frameType="TwoByOne" press="onPress" mode="ActionMode">
-                <actionButtons>
-                    <Button text="Active" type="Success"/>
-                </actionButtons>
-                <TileContent>
-                    <FeedContent contentText="This tool acts as a wizard in suggesting Whitelisted CDS  and Whitelisted APIs relevant to Steampunk" />
-                </TileContent>
-            </GenericTile>
-        </HBox>
-        <HBox>
-            <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="LCNC Tool - FIORI App Builder" frameType="TwoByOne" press="onPress" mode="ActionMode">
-                <actionButtons>
-                    <Button id="LCNCFioriBookSlot" text="Book Slot" press="OnBookSlot"/>
-                </actionButtons>
-                <TileContent>
-                    <FeedContent contentText="This Service is used to Deploy FIORI apps in BTP and automate the BTP Launchpad Tile configurations" />
-                </TileContent>
-            </GenericTile>
-            <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="LCNC Tool - API Consumption Tool for BTP" frameType="TwoByOne" press="onPress" mode="ActionMode">
-                <actionButtons>
-                    <Button text="Active" type="Success"/>
-                </actionButtons>
-                <TileContent>
-                    <FeedContent contentText="This Service is used to build RAP enabled services for  whitelisted and 3rd Party APIs and build FIORI Apps for the services" />
-                </TileContent>
-            </GenericTile>
-            <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="EY InApp Recommendation" frameType="TwoByOne" press="onPress" mode="ActionMode">
-                <actionButtons>
-                    <Button text="Active" type="Success"/>
-                </actionButtons>
-                <TileContent>
-                    <FeedContent contentText="This Service suggests the list of In App extensions based On premise Tcodes" />
-                </TileContent>
-            </GenericTile>
-        </HBox>
-    </VBox>
-</Page>
+    <Page id="RESQ" showHeader="false" backgroundDesign="Transparent">
+        <VBox backgroundDesign="Transparent">
+            <f:Card class="sapUiTinyMargin " width="auto">
+                <f:content>
+                    <Title class="sapUiTinyMargin" text="IXP BTP Services" />
+                </f:content>
+            </f:Card>
+            <HBox>
+                <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Cloud Assessment Service (CAT)" frameType="TwoByOne" press="onPress" mode="ActionMode">
+                    <actionButtons>
+                        <Button id="CASBookSlot" text="More Details" press="OnBookSlot" />
+                    </actionButtons>
+                    <TileContent>
+                        <FeedContent contentText="Assessment Tool for Source system to run analysis and  display results on BTP Compatibility and check for Clean core strategy" />
+                    </TileContent>
+                </GenericTile>
+                <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="LCNC Tool - RAP Builder" frameType="TwoByOne" press="onPress" mode="ActionMode">
+                    <actionButtons>
+                        <Button id="LCNCBookSlot" text="More Details" press="OnBookSlot" />
+                    </actionButtons>
+                    <TileContent>
+                        <FeedContent contentText="This Service is used to build RAP enabled services for BTP Cloud Reports" />
+                    </TileContent>
+                </GenericTile>
+                <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Whitelist CDS/API Finder" frameType="TwoByOne" press="onPress" mode="ActionMode">
+                    <actionButtons>
+                        <Button text="Active" type="Success" />
+                    </actionButtons>
+                    <TileContent>
+                        <FeedContent contentText="This tool acts as a wizard in suggesting Whitelisted CDS  and Whitelisted APIs relevant to Steampunk" />
+                    </TileContent>
+                </GenericTile>
+            </HBox>
+            <HBox>
+                <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="LCNC Tool - FIORI App Builder" frameType="TwoByOne" press="onPress" mode="ActionMode">
+                    <actionButtons>
+                        <Button id="LCNCFioriBookSlot" text="More Details" press="OnBookSlot" />
+                    </actionButtons>
+                    <TileContent>
+                        <FeedContent contentText="This Service is used to Deploy FIORI apps in BTP and automate the BTP Launchpad Tile configurations" />
+                    </TileContent>
+                </GenericTile>
+                <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="LCNC Tool - API Consumption Tool for BTP" frameType="TwoByOne" press="onPress" mode="ActionMode">
+                    <actionButtons>
+                        <Button text="Active" type="Success" />
+                    </actionButtons>
+                    <TileContent>
+                        <FeedContent contentText="This Service is used to build RAP enabled services for  whitelisted and 3rd Party APIs and build FIORI Apps for the services" />
+                    </TileContent>
+                </GenericTile>
+                <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="EY InApp Recommendation" frameType="TwoByOne" press="onPress" mode="ActionMode">
+                    <actionButtons>
+                        <Button text="Active" type="Success" />
+                    </actionButtons>
+                    <TileContent>
+                        <FeedContent contentText="This Service suggests the list of In App extensions based On premise Tcodes" />
+                    </TileContent>
+                </GenericTile>
+            </HBox>
+            <HBox>
+                <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="EY DevOps - CI/CD pipeline" frameType="TwoByOne" press="onPress" mode="ActionMode">
+                    <actionButtons>
+                        <Button text="More Details" />
+                    </actionButtons>
+                    <TileContent>
+                        <FeedContent contentText="This service is used in setting up and implementing continuous integration and delivery processes." />
+                    </TileContent>
+                </GenericTile>
+            </HBox>
+        </VBox>
+    </Page>
 </core:FragmentDefinition>

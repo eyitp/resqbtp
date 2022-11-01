@@ -1,0 +1,92 @@
+[
+    {
+      "ProgramName": "ZMMR_PO_RELEASE",
+      "DBOperation": "Read",
+      "TableName": "EKKO"
+    },
+    {
+      "ProgramName": "ZMMR_PO_RELEASE",
+      "DBOperation": "Read",
+      "TableName": "EKPO"
+    },
+    {
+      "ProgramName": "ZMMR_PO_RELEASE",
+      "DBOperation": "Read",
+      "TableName": "MAKT"
+    },
+    {
+      "ProgramName": "ZMMR_PO_RELEASE",
+      "DBOperation": "Read",
+      "TableName": "MBEW"
+    },
+    {
+      "ProgramName": "ZMMR_PO_RELEASE",
+      "DBOperation": "Read",
+      "TableName": "T001K"
+    },
+    {
+      "ProgramName": "ZMMR_PO_RELEASE",
+      "DBOperation": "Read",
+      "TableName": "T001W"
+    },
+    {
+      "ProgramName": "ZMMR_PO_RELEASE",
+      "DBOperation": "Read",
+      "TableName": "T030"
+    },
+    {
+      "ProgramName": "ZMMR_PO_RELEASE",
+      "DBOperation": "Read",
+      "TableName": "T16FV"
+    },
+    {
+      "ProgramName": "ZMMR_PO_RELEASE",
+      "DBOperation": "Read",
+      "TableName": "VBAK"
+    },
+    {
+      "ProgramName": "ZMMR_PO_RELEASE_CI1",
+      "DBOperation": "Read",
+      "TableName": "EKKO"
+    },
+    {
+      "ProgramName": "ZMMR_PO_RELEASE_CI1",
+      "DBOperation": "Read",
+      "TableName": "EKPO"
+    },
+    {
+      "ProgramName": "ZMMR_PO_RELEASE_CI1",
+      "DBOperation": "Read",
+      "TableName": "MAKT"
+    },
+    {
+      "ProgramName": "ZMMR_PO_RELEASE_CI1",
+      "DBOperation": "Read",
+      "TableName": "MBEW"
+    },
+    {
+      "ProgramName": "ZMMR_PO_RELEASE_CI1",
+      "DBOperation": "Read",
+      "TableName": "T001K"
+    },
+    {
+      "ProgramName": "ZMMR_PO_RELEASE_CI1",
+      "DBOperation": "Read",
+      "TableName": "T001W"
+    },
+    {
+      "ProgramName": "ZMMR_PO_RELEASE_CI1",
+      "DBOperation": "Read",
+      "TableName": "T030"
+    },
+    {
+      "ProgramName": "ZMMR_PO_RELEASE_CI1",
+      "DBOperation": "Read",
+      "TableName": "T16FV"
+    },
+    {
+      "ProgramName": "ZMMR_PO_RELEASE_CI1",
+      "DBOperation": "Read",
+      "TableName": "VBAK"
+    }
+   ]

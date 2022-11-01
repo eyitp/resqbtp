@@ -4,15 +4,19 @@ sap.ui.define([], function () {
         returnAutomateIcon: function (value) {
 			if(value === "Semi-Automatic")
             {
-                value = "sap-icon://save";
+                value = "sap-icon://learning-assistant";
                 return value;
             }
             else if(value === "Automatic") {
-                value = "sap-icon://SAP-icons-TNT/process-package";
+                value = "sap-icon://activate";
+                return value;
+            }
+            else if(value === "Completed") {
+                value = "sap-icon://checklist-item-2";
                 return value;
             }
             else{
-                value = "sap-icon://SAP-icons-TNT/manual-task";
+                value = "sap-icon://person-placeholder";
                 return value;
             }
 			

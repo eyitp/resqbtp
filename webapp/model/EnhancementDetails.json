@@ -1,30 +1,40 @@
 [
     {
-      "ClassName": "ZCL_MATMAST",
+      "EnhancementName": "YYCL_BADI_SO",
+      "Type": "BADI",
+      "Tcode": "VA02",
       "CodeComplexity": "Low",
       "Status": "Not Initiated",
       "RemediationType": "Automatic"
     },
     {
-      "ClassName": "ZCL_MM_CREATEDOC",
+      "EnhancementName": "ZMV45AFZZ",
+      "Type": "Exit",
+      "Tcode": "VA01",
       "CodeComplexity": "High",
       "Status": "Not Initiated",
       "RemediationType": "Manual"
     },
     {
-      "ClassName": "ZCL_SDR37_SOLIST",
+      "EnhancementName": "ZY_ENH01",
+      "Type": "Enh Impl",
+      "Tcode": "VF02",
       "CodeComplexity": "Medium",
       "Status": "Not Initiated",
       "RemediationType": "Manual"
     },
     {
-      "ClassName": "YCL_OTC_SALESREPORT",
+      "EnhancementName": "ME_PROCESS_PO_CUST",
+      "Type": "BADI",
+      "Tcode": "ME21",
       "CodeComplexity": "Low",
       "Status": "Not Initiated",
       "RemediationType": "Semi-automatic"
     },
     {
-      "ClassName": "ZCLMM_PURCHASE_REG",
+      "EnhancementName": "YYCL_BADI_PR",
+      "Type": "BADI",
+      "Tcode": "ME51N",
       "CodeComplexity": "Low",
       "Status": "Not Initiated",
       "RemediationType": "Semi-automatic"

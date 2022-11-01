@@ -1,0 +1,17 @@
+[
+    {
+        "ProgramName": "ZMMR_PO_RELEASE_F01",
+        "Type": "ALV",
+        "FMClass": "REUSE_ALV_GRID_DISPLAY"
+    },
+    {
+        "ProgramName": "ZMMR_PO_RELEASE_F01",
+        "Type": "BAPI",
+        "FMClass": "BAPI_PO_RELEASE"
+    },
+    {
+        "ProgramName": "ZMMR_PO_RELEASE_F01",
+        "Type": "FM",
+        "FMClass": "POPUP_TO_CONFIRM"
+    }
+]

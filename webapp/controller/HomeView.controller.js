@@ -30,7 +30,8 @@ sap.ui.define([
                 this.editsystem = false;
                 var AppConfig = {
                     "EDMXTableVisibility": false,
-                    "EYAPIServAdaptMessage": "&lt;ul&gt; &lt;li&gt; Below Objects got generated successfully &lt;/li&gt;&lt;li&gt; Class Name: ZPROXY_SALES_API_CRUDQ &lt;/li&gt;&lt;li&gt; Class Name: ZPROXY_SALES_API_CRUDQ &lt;/li&gt;&lt;ul&gt;"
+                    "EYAPIServAdaptMessage": "Objects generated successfully"
+                    //"EYAPIServAdaptMessage": "&lt;ul&gt; &lt;li&gt; Below Objects got generated successfully &lt;/li&gt;&lt;li&gt; Class Name: ZPROXY_SALES_API_CRUDQ &lt;/li&gt;&lt;li&gt; Class Name: ZPROXY_SALES_API_CRUDQ &lt;/li&gt;&lt;ul&gt;"
                 }
                 var oModel = new JSONModel(AppConfig);
                 this.getView().setModel(oModel, "AppConfig");
@@ -40,6 +41,9 @@ sap.ui.define([
 
                 var oModel = new JSONModel();
                 this.getView().setModel(oModel, "SelectedFMRow");
+
+                var oModel = new JSONModel();
+                this.getView().setModel(oModel, "SelectedProgramRow");
 
                 var oModel = new JSONModel();
                 this.getView().setModel(oModel, "ServiceDetails");
@@ -88,6 +92,10 @@ sap.ui.define([
                 var oModel = new JSONModel(sPath);
                 this.getView().setModel(oModel, "Classes");
 
+                var sPath = jQuery.sap.getModulePath("resq", "/model/ClassDetails.json");
+                var oModel = new JSONModel(sPath);
+                this.getView().setModel(oModel, "ClassDetails");
+
                 var sPath = jQuery.sap.getModulePath("resq", "/model/FMs.json");
                 var oModel = new JSONModel(sPath);
                 this.getView().setModel(oModel, "FMs");
@@ -95,6 +103,14 @@ sap.ui.define([
                 var sPath = jQuery.sap.getModulePath("resq", "/model/FMsDetails.json");
                 var oModel = new JSONModel(sPath);
                 this.getView().setModel(oModel, "FMDetails");
+
+                var sPath = jQuery.sap.getModulePath("resq", "/model/ProgramDetails.json");
+                var oModel = new JSONModel(sPath);
+                this.getView().setModel(oModel, "ProgramDetails");
+
+                var sPath = jQuery.sap.getModulePath("resq", "/model/EnhancementRowDetails.json");
+                var oModel = new JSONModel(sPath);
+                this.getView().setModel(oModel, "EnhancementRowDetails");
 
                 var sPath = jQuery.sap.getModulePath("resq", "/model/CloudCompCheck.json");
                 var oModel = new JSONModel(sPath);
@@ -104,6 +120,33 @@ sap.ui.define([
                 var oModel = new JSONModel(sPath);
                 this.getView().setModel(oModel, "UploadedEDMX");
 
+                var sPath = jQuery.sap.getModulePath("resq", "/model/DBTables.json");
+                var oModel = new JSONModel(sPath);
+                this.getView().setModel(oModel, "DBTables");
+
+                var sPath = jQuery.sap.getModulePath("resq", "/model/FMNames.json");
+                var oModel = new JSONModel(sPath);
+                this.getView().setModel(oModel, "FMNames");
+
+                var sPath = jQuery.sap.getModulePath("resq", "/model/Transactions.json");
+                var oModel = new JSONModel(sPath);
+                this.getView().setModel(oModel, "Transactions");
+
+                var sPath = jQuery.sap.getModulePath("resq", "/model/Includes.json");
+                var oModel = new JSONModel(sPath);
+                this.getView().setModel(oModel, "Includes");
+
+                var sPath = jQuery.sap.getModulePath("resq", "/model/EnhancementDetails.json");
+                var oModel = new JSONModel(sPath);
+                this.getView().setModel(oModel, "EnhancementDetails");
+
+                var sPath = jQuery.sap.getModulePath("resq", "/model/InAppDataModel.json");
+                var oModel = new JSONModel(sPath);
+                this.getView().setModel(oModel, "InAppDataModel");
+
+                var sPath = jQuery.sap.getModulePath("resq", "/model/BTPCompatibleData.json");
+                var oModel = new JSONModel(sPath);
+                this.getView().setModel(oModel, "BTPCompatibleData");
 
                 this.userschema = {
                     "ID": "",
@@ -127,43 +170,56 @@ sap.ui.define([
                 this.getView().setModel(oModel, "SystemEdit");
 
                 this.getOwnerComponent().getModel("AppConfig").setProperty("/selectedKey", "RESQ");
-                this.getView().getModel("AppConfig").setProperty("/MoveToFioriBOTBuilder", false)
+                this.getView().getModel("AppConfig").setProperty("/MoveToFioriBOTBuilder", false);
                 this.getOwnerComponent().getModel("AppConfig").refresh();
             },
 
             onClassSelected: function () {
                 this.getView().byId("ClassesWizard").nextStep();
             },
-            setIntervalFunction(j, sIdChart, sIdNextChart, that) {
+            setIntervalFunction(j, sIdChart, sIdNextChart, sIdVBText, that) {
 
                 var a = function () {
-                    that.getView().byId(sIdChart).setPercentage(j);
-                    that.getView().byId(sIdChart).rerender();
+                    //that.getView().byId(sIdChart).setPercentage(j);
+                    //that.getView().byId(sIdChart).rerender();
                     j++;
                     if (j == 101) {
                         clearInterval(that.MyInterval);
-                        sIdNextChart.pop();
-                        if (sIdNextChart.length > 0) {
+
+                        if (sIdNextChart.length > 1) {
                             that.getView().byId(sIdNextChart[sIdNextChart.length - 1]).setBusy(false);
-                            that.setIntervalFunction(1, sIdNextChart[sIdNextChart.length - 1], sIdNextChart, that);
+                            that.getView().byId(sIdVBText[sIdVBText.length - 1]).setVisible(true);
+                            sIdNextChart.pop();
+                            sIdVBText.pop();
+                            that.setIntervalFunction(1, sIdNextChart[sIdNextChart.length - 1], sIdNextChart, sIdVBText, that);
                         }
                         else {
-                            that.getView().getModel("SelectedRow").setProperty("/Status", "C");
-                            that.getView().getModel("AppConfig").setProperty("/MoveToFioriBOTBuilder", true)
+                            that.getView().byId(sIdNextChart[0]).setBusy(false);
+                            that.getView().byId(sIdVBText[0]).setVisible(true);
+                            that.getView().getModel("SelectedProgramRow").setProperty("/Status", "C");
+                            that.getView().getModel("AppConfig").setProperty("/MoveToFioriBOTBuilder", true);
                             // that.getView().byId("CreateProductWizard").nextStep();
+                            /* 
+                                data-sap-ui-theme="EY_Horizon_dark"
+                                data-sap-ui-versionedLibCss="true"
+                                data-sap-ui-theme-roots='{"EY_Horizon_dark" : "/comsapuitheming.runtime/themeroot/v1/~v=Base:11.1.41,*.*.EY_Horizon_dark(sap_horizon_dark):20221018T091949Z/UI5"}'
+                                
+                                https://api.cf.us10-001.hana.ondemand.com
+                                
+                                data-sap-ui-theme="sap_horizon"
+                            */
                         }
                     }
                 };
                 this.MyInterval = setInterval(a, 30);
             },
-            OnNextStepForFioriBuild: function () {
-                this.getView().getModel("SelectedRow").setProperty("/Status", "IP");
+            MigrateToCreateWrapAPI: function () {
                 this.getView().byId("CreateProductWizard").nextStep();
-                this.setIntervalFunction(1, "idFioriListReportCreationChart", ["idFioriTileConfigurationChart", "idFioriListReportCreationChart"], this);
             },
+
             OnBuildToCloudPress: function () {
                 this.byId("pageContainer").to(this.getView().createId("TransToCloudBTP"));
-                this.getView().byId("CreateProductWizard").nextStep();
+                //this.getView().byId("CreateProductWizard").nextStep();
             },
             onFilterSelect: function () {
                 if (this.getView().byId("idIconTabBar").getSelectedKey() === "Programs") {
@@ -175,7 +231,9 @@ sap.ui.define([
                 else if (this.getView().byId("idIconTabBar").getSelectedKey() === "FMs") {
                     this.getView().byId("FMsWizard").nextStep();
                 }
-                else if (this.getView().byId("idIconTabBar").getSelectedKey() === "Enhancements") { }
+                else {
+                    this.getView().byId("EnhancementWizard").nextStep();
+                }
             },
             OnBuildInBTPCloud: function () {
                 this.byId("pageContainer").to(this.getView().createId("BuildInBTPCloud"));
@@ -209,9 +267,7 @@ sap.ui.define([
                 AppConfig.EDMXTableVisibility = !AppConfig.EDMXTableVisibility
                 this.getView().getModel("AppConfig").setData(AppConfig);
             },
-            OnUploadEDMXProceed: function () {
-                this.getView().byId("NewBuildInCloud").nextStep();
-            },
+
             OnAnalyseDetailBack: function () {
                 this.byId("pageContainer").to(this.getView().createId("Analyse"));
             },
@@ -227,6 +283,255 @@ sap.ui.define([
                     oDialog.open();
                 });
             },
+            openDBTableDetails: function () {
+                if (!this.DBTableDetailsDialog) {
+                    this.DBTableDetailsDialog = sap.ui.xmlfragment("myfrag", "resq.view.TableDetails", this);
+                    this.getView().addDependent(this.DBTableDetailsDialog);
+                }
+                this.getView().setBusy(true);
+                this.DBTableDetailsDialog.open();
+            },
+            OnDBTablePopupClose: function () {
+                this.getView().setBusy(false);
+                this.DBTableDetailsDialog.close();
+                this.DBTableDetailsDialog.destroy();
+                this.DBTableDetailsDialog = undefined;
+            },
+            onPressDisplayBTPCompDetails: function () {
+                if (!this.DispBTPCompDetailsDialog) {
+                    this.DispBTPCompDetailsDialog = sap.ui.xmlfragment("myfrag", "resq.view.BTPCompatibleDetails", this);
+                    this.getView().addDependent(this.DispBTPCompDetailsDialog);
+                }
+                this.getView().setBusy(true);
+                this.DispBTPCompDetailsDialog.open();
+            },
+            OnBTPCompPopupClose: function () {
+                this.getView().setBusy(false);
+                this.DispBTPCompDetailsDialog.close();
+                this.DispBTPCompDetailsDialog.destroy();
+                this.DispBTPCompDetailsDialog = undefined;
+            },
+            openFMNamesDetails: function () {
+                if (!this.FMNamesDetailsDialog) {
+                    this.FMNamesDetailsDialog = sap.ui.xmlfragment("myfrag", "resq.view.FMNames", this);
+                    this.getView().addDependent(this.FMNamesDetailsDialog);
+                }
+                this.getView().setBusy(true);
+                this.FMNamesDetailsDialog.open();
+            },
+            OnFMNamesPopupClose: function () {
+                this.getView().setBusy(false);
+                this.FMNamesDetailsDialog.close();
+                this.FMNamesDetailsDialog.destroy();
+                this.FMNamesDetailsDialog = undefined;
+            },
+            openIncludesDetails: function () {
+                if (!this.IncludesDetailsDialog) {
+                    this.IncludesDetailsDialog = sap.ui.xmlfragment("myfrag", "resq.view.Includes", this);
+                    this.getView().addDependent(this.IncludesDetailsDialog);
+                }
+                this.getView().setBusy(true);
+                this.IncludesDetailsDialog.open();
+            },
+            OnIncludesPopupClose: function () {
+                this.getView().setBusy(false);
+                this.IncludesDetailsDialog.close();
+                this.IncludesDetailsDialog.destroy();
+                this.IncludesDetailsDialog = undefined;
+            },
+            /*********************************************** Program Section ***********************************/
+            onProgramRemediatePress: function () {
+                var that = this;
+                var aFMsRows = this.getView().byId("idRemediateProgramsMigrat").getItems();
+                var selectedRow = this.getView().byId("idRemediateProgramsMigrat").getSelectedItems();
+                if (selectedRow.length === 0) {
+                    MessageBox.error("Please select a record to Remediate");
+                }
+                else {
+                    if (selectedRow[0].getCells()[7].getSelected()) {
+                        MessageBox.error("Cannot Perform Remediate for this record as it is retired");
+                    }
+                    else {
+                        if (!this.ProgramDetailsFrag) {
+                            this.ProgramDetailsFrag = sap.ui.xmlfragment("myfrag", "resq.view.ProgramDetailsPopup", this);
+                            this.getView().addDependent(this.ProgramDetailsFrag);
+                        }
+                        this.getView().setBusy(true);
+                        this.ProgramDetailsFrag.open();
+                    }
+                }
+            },
+            OnProgramDetailPopupClose: function (oEvent) {
+                var aFMsRows = this.getView().byId("idRemediateProgramsMigrat").getItems();
+                var selectedRow = this.getView().byId("idRemediateProgramsMigrat").getSelectedItems();
+                selectedRow[0].getCells()[6].setText("In Progress");
+                selectedRow[0].getCells()[6].setState("Warning");
+                this.getView().setBusy(false);
+                this.ProgramDetailsFrag.close();
+                this.ProgramDetailsFrag.destroy();
+                this.ProgramDetailsFrag = undefined;
+            },
+            onProgramDetailsProcess: function (oEvent) {
+                if (oEvent.getSource().getParent().getCells()[4].getText() === "Automatic") {
+                    oEvent.getSource().getParent().getCells()[4].setText("Completed");
+                    oEvent.getSource().getParent().getCells()[4].setState("Success");
+                    oEvent.getSource().getParent().getCells()[5].setColor("#256f3a");
+                }
+            },
+            onProgramRemediationComplete: function (oEvent) {
+                var aFMsRows = this.getView().byId("idRemediateProgramsMigrat").getItems();
+                var selectedRow = this.getView().byId("idRemediateProgramsMigrat").getSelectedItems();
+                selectedRow[0].getCells()[6].setText("Cloud Ready");
+                selectedRow[0].getCells()[6].setState("Success");
+                this.getView().setBusy(false);
+                this.ProgramDetailsFrag.close();
+                this.ProgramDetailsFrag.destroy();
+                this.ProgramDetailsFrag = undefined;
+            },
+            onProgramLiftAndShiftPress: function () {
+                var aFMsRows = this.getView().byId("idRemediateProgramsMigrat").getItems();
+                var selectedRow = this.getView().byId("idRemediateProgramsMigrat").getSelectedItems();
+
+                if (selectedRow.length === 0) {
+                    MessageBox.error("Please select a record to Lift and Shift");
+                }
+                else {
+                    if (selectedRow[0].getCells()[7].getSelected()) {
+                        MessageBox.error("Cannot Perform Lift and Shift for this record as it is retired");
+                    }
+                    else if (selectedRow[0].getCells()[6].getText() !== "Cloud Ready") {
+                        MessageBox.warning("Cannot Perform Lift and Shift for this record as it is not Cloud Ready. Please remediate the record.");
+                    }
+                    else {
+                        //var oSelectedItem = this.getView().byId("idFMsMigrat").getSelectedItem();
+                        var programName = selectedRow[0].getCells()[0].getText();
+                        var Programs = this.getView().getModel("Programs").getData();
+                        //var i;
+                        var that = this;
+
+                        Programs.forEach((ovalue, index) => {
+                            if (ovalue.Program === programName) {
+                                ovalue.Status = "In Progress";
+                                that.getView().getModel("SelectedProgramRow").setData(ovalue);
+                            }
+                        }, this);
+                        //that.getView().getModel("FMs").setData(fMs);
+                        this.getView().byId("CreateProductWizard").nextStep();
+                        this.getView().getModel("AppConfig").setProperty("/MoveToFioriBOTBuilder", false)
+                        //this.getOwnerComponent().getModel("AppConfig").refresh();
+                        this.setIntervalFunction(1, "DynamicArtifact", ["DynamicArtifact"], ["vbDynamicArtifact"], this);
+                    }
+                }
+            },
+            MigrateToBTPPress: function () {
+                var programName = this.getView().getModel("SelectedProgramRow").getData().Program;
+                var Programs = this.getView().getModel("Programs").getData();
+                var i;
+                var that = this;
+
+                Programs.forEach((ovalue, index) => {
+                    if (ovalue.Program === programName) {
+                        ovalue.Status = "IP";
+                        i = index;
+                        that.getView().getModel("SelectedProgramRow").setData(ovalue);
+                    }
+                }, this);
+
+                this.getView().getModel("AppConfig").setProperty("/MoveToFioriBOTBuilder", false);
+                this.getView().byId("CreateProductWizard").nextStep();
+                this.setIntervalFunction(1, "CustomEntityChart", ["CustomQueryChart", "ServiceDefinitionChart", "ServiceBindingChart", "CustomEntityChart"], ["vbCustomQueryChart", "vbServiceDefinitionChart", "vbServiceBindingChart", "vbCustomEntityChart"], this);
+            },
+            OnNextStepForFioriBuild: function () {
+                this.getView().getModel("SelectedProgramRow").setProperty("/Status", "IP");
+                this.getView().getModel("AppConfig").setProperty("/MoveToFioriBOTBuilder", false);
+                this.getView().byId("CreateProductWizard").nextStep();
+                this.setIntervalFunction(1, "idFioriListReportCreationChart", ["idFioriLaunchpadConfiguration", "idFioriTileConfigurationChart", "idFioriListReportCreationChart"], ["idVBFioriLaunchpadConfiguration", "idVBFioriTileConfigurationChart", "idVBFioriListReportCreationChart"], this);
+            },
+            /*********************************************** Class Section ****************************************/
+            onClassRemediatePress: function () {
+                var that = this;
+                var aFMsRows = this.getView().byId("idClassMigrat").getItems();
+                var selectedClassRow = this.getView().byId("idClassMigrat").getSelectedItems();
+                if (selectedClassRow.length === 0) {
+                    MessageBox.error("Please select a record to Remediate");
+                }
+                else {
+                    if (selectedClassRow[0].getCells()[4].getSelected()) {
+                        MessageBox.error("Cannot Perform Remediate for this record as it is retired");
+                    }
+                    else {
+                        if (!this.ClassDetailsFrag) {
+                            this.ClassDetailsFrag = sap.ui.xmlfragment("myfrag", "resq.view.ClassDetailsPopup", this);
+                            this.getView().addDependent(this.ClassDetailsFrag);
+                        }
+                        this.getView().setBusy(true);
+                        this.ClassDetailsFrag.open();
+                    }
+                }
+            },
+            OnClassDetailPopupClose: function (oEvent) {
+                var aFMsRows = this.getView().byId("idClassMigrat").getItems();
+                var selectedClassRow = this.getView().byId("idClassMigrat").getSelectedItems();
+                selectedClassRow[0].getCells()[2].setText("In Progress");
+                selectedClassRow[0].getCells()[2].setState("Warning");
+                this.getView().setBusy(false);
+                this.ClassDetailsFrag.close();
+                this.ClassDetailsFrag.destroy();
+                this.ClassDetailsFrag = undefined;
+            },
+            onClassDetailsProcess: function (oEvent) {
+                if (oEvent.getSource().getParent().getCells()[4].getText() === "Automatic") {
+                    oEvent.getSource().getParent().getCells()[4].setText("Completed");
+                    oEvent.getSource().getParent().getCells()[4].setState("Success");
+                    oEvent.getSource().getParent().getCells()[5].setColor("#256f3a");
+                }
+            },
+            onClassRemediationComplete: function (oEvent) {
+                //var aFMsRows = this.getView().byId("idClassMigrat").getItems();
+                var selectedClassRow = this.getView().byId("idClassMigrat").getSelectedItems();
+                selectedClassRow[0].getCells()[2].setText("Cloud Ready");
+                selectedClassRow[0].getCells()[2].setState("Success");
+                this.getView().setBusy(false);
+                this.ClassDetailsFrag.close();
+                this.ClassDetailsFrag.destroy();
+                this.ClassDetailsFrag = undefined;
+            },
+            onClassLiftAndShiftPress: function () {
+                //var aFMsRows = this.getView().byId("idFMsMigrat").getItems();
+                var selectedClassRow = this.getView().byId("idClassMigrat").getSelectedItems();
+
+                if (selectedClassRow.length === 0) {
+                    MessageBox.error("Please select a record to Lift and Shift");
+                }
+                else {
+                    if (selectedClassRow[0].getCells()[4].getSelected()) {
+                        MessageBox.error("Cannot Perform Lift and Shift for this record as it is retired");
+                    }
+                    else if (selectedClassRow[0].getCells()[2].getText() !== "Cloud Ready") {
+                        MessageBox.warning("Cannot Perform Lift and Shift for this record as it is not Cloud Ready. Please remediate the record.");
+                    }
+                    else {
+                        //var oSelectedItem = this.getView().byId("idFMsMigrat").getSelectedItem();
+                        var className = selectedRow[0].getCells()[0].getText();
+                        var Classes = this.getView().getModel("Classes").getData();
+                        //var i;
+                        var that = this;
+
+                        Classes.forEach((ovalue, index) => {
+                            if (ovalue.ClassName === className) {
+                                ovalue.Status = "Cloud Ready";
+                                that.getView().getModel("selectedClassRow").setData(ovalue);
+                            }
+                        }, this);
+                        //that.getView().getModel("FMs").setData(fMs);
+                        this.getView().byId("ClassesWizard").nextStep();
+                        this.getView().getModel("AppConfig").setProperty("/FMImportToBTP", false)
+                        this.getOwnerComponent().getModel("AppConfig").refresh();
+                        //this.setIntervalFunction(1, "CustomEntityChart", ["ServiceBindingChart", "ServiceDefinitionChart", "CustomQueryChart", "CustomEntityChart"], this);
+                    }
+                }
+            },
+            /*********************************************** FM Section ****************************************/
             onFMRemediatePress: function () {
                 var that = this;
                 var aFMsRows = this.getView().byId("idFMsMigrat").getItems();
@@ -240,14 +545,11 @@ sap.ui.define([
                     }
                     else {
                         if (!this.FMDetailsFrag) {
-                            this.FMDetailsFrag = this.loadFragment({
-                                name: "resq.view.FMDetailsPopup"
-                            });
+                            this.FMDetailsFrag = sap.ui.xmlfragment("myfrag", "resq.view.FMDetailsPopup", this);
+                            this.getView().addDependent(this.FMDetailsFrag);
                         }
-                        this.FMDetailsFrag.then(function (oDialog) {
-                            that.getView().setBusy(true);
-                            oDialog.open();
-                        });
+                        this.getView().setBusy(true);
+                        this.FMDetailsFrag.open();
                     }
                 }
             },
@@ -257,12 +559,15 @@ sap.ui.define([
                 selectedRow[0].getCells()[3].setText("In Progress");
                 selectedRow[0].getCells()[3].setState("Warning");
                 this.getView().setBusy(false);
-                oEvent.getSource().getParent().getParent().close();
+                this.FMDetailsFrag.close();
+                this.FMDetailsFrag.destroy();
+                this.FMDetailsFrag = undefined;
             },
             onFMDetailsProcess: function (oEvent) {
                 if (oEvent.getSource().getParent().getCells()[4].getText() === "Automatic") {
                     oEvent.getSource().getParent().getCells()[4].setText("Completed");
                     oEvent.getSource().getParent().getCells()[4].setState("Success");
+                    oEvent.getSource().getParent().getCells()[5].setColor("#256f3a");
                 }
             },
             onFMRemediationComplete: function (oEvent) {
@@ -271,9 +576,9 @@ sap.ui.define([
                 selectedRow[0].getCells()[3].setText("Cloud Ready");
                 selectedRow[0].getCells()[3].setState("Success");
                 this.getView().setBusy(false);
-                this.FMDetailsFrag.then(function (oDialog) {
-                    oDialog.close();
-                });
+                this.FMDetailsFrag.close();
+                this.FMDetailsFrag.destroy();
+                this.FMDetailsFrag = undefined;
             },
             onFMsLiftAndShiftPress: function () {
                 var aFMsRows = this.getView().byId("idFMsMigrat").getItems();
@@ -310,16 +615,53 @@ sap.ui.define([
                     }
                 }
             },
-            handleFMUpload:function(){
+            handleFMUpload: function () {
+                if (!this.GitAuthFrag) {
+                    this.GitAuthFrag = sap.ui.xmlfragment("myfrag", "resq.view.GitAuthenticationPopup", this);
+                    this.getView().addDependent(this.GitAuthFrag);
+                }
+                this.getView().setBusy(true);
+                this.GitAuthFrag.open();
+            },
+            onSaveGitAuthentication: function () {
+                this.GitAuthFrag.close();
+                this.GitAuthFrag.destroy();
+                this.GitAuthFrag = undefined;
+                this.getView().setBusy(false);
                 var fmSelectedRow = this.getView().getModel("SelectedFMRow").getData();
-                fmSelectedRow.Status="Exported to GitHub";
+                fmSelectedRow.Status = "Exported to GitHub";
                 this.getView().getModel("SelectedFMRow").setData(fmSelectedRow);
                 this.getView().getModel("AppConfig").setProperty("/FMImportToBTP", true)
                 this.getOwnerComponent().getModel("AppConfig").refresh();
                 this.getView().getModel("SelectedFMRow").refresh();
             },
-            OnNextStepForFMFioriBuild:function(){
+            onCancelGitAuthentication: function () {
+                this.GitAuthFrag.close();
+                this.GitAuthFrag.destroy();
+                this.GitAuthFrag = undefined;
+                this.getView().setBusy(false);
+            },
+            OnNextStepForFMFioriBuild: function () {
+                if (!this.BranchSelFrag) {
+                    this.BranchSelFrag = sap.ui.xmlfragment("myfrag", "resq.view.BranchAndPkgSelectionPopup", this);
+                    this.getView().addDependent(this.BranchSelFrag);
+                }
+                this.getView().setBusy(true);
+                this.BranchSelFrag.open();
+                //this.getView().byId("FMsWizard").nextStep();
+            },
+            onSaveBranchSelection: function () {
+                this.BranchSelFrag.close();
+                this.BranchSelFrag.destroy();
+                this.BranchSelFrag = undefined;
+                this.getView().setBusy(false);
                 this.getView().byId("FMsWizard").nextStep();
+            },
+            onCancelBranchSelection: function () {
+                this.BranchSelFrag.close();
+                this.BranchSelFrag.destroy();
+                this.BranchSelFrag = undefined;
+                this.getView().setBusy(false);
             },
             onFMsWrapPress: function () {
                 var aFMsRows = this.getView().byId("idFMsMigrat").getItems();
@@ -334,40 +676,68 @@ sap.ui.define([
                     else { }
                 }
             },
-            MigrateToBTPPress: function () {
-                var oSelectedItem = this.getView().byId("idProgramsMigrat").getSelectedItem();
-                var programName = oSelectedItem.getCells()[0].getProperty("text")
-                var Programs = this.getView().getModel("Programs").getData();
-                var i;
+            onEnhancementRemediatePress: function () {
                 var that = this;
-
-                Programs.forEach((ovalue, index) => {
-                    if (ovalue.Program === programName) {
-                        ovalue.Status = "IP";
-                        i = index;
-                        that.getView().getModel("SelectedRow").setData(ovalue);
+                //var aFMsRows = this.getView().byId("idEnhanceMigrate").getItems();
+                var selectedRow = this.getView().byId("idEnhanceMigrate").getSelectedItems();
+                if (selectedRow.length === 0) {
+                    MessageBox.error("Please select a record to Remediate");
+                }
+                else {
+                    if (selectedRow[0].getCells()[6].getSelected()) {
+                        MessageBox.error("Cannot Perform Remediate for this record as it is retired");
                     }
-                }, this);
-                this.getView().getModel("Programs").setData(Programs);
-                this.getView().byId("CreateProductWizard").nextStep();
-                this.setIntervalFunction(1, "CustomEntityChart", ["ServiceBindingChart", "ServiceDefinitionChart", "CustomQueryChart", "CustomEntityChart"], this);
-
+                    else {
+                        if (!this.EnhancementDetailsFrag) {
+                            this.EnhancementDetailsFrag = sap.ui.xmlfragment("myfrag", "resq.view.EnhancementDetailsPopup", this);
+                            this.getView().addDependent(this.EnhancementDetailsFrag);
+                        }
+                        this.getView().setBusy(true);
+                        this.EnhancementDetailsFrag.open();
+                    }
+                }
             },
+            OnEnhancementDetailPopupClose: function (oEvent) {
+                //var aFMsRows = this.getView().byId("idFMsMigrat").getItems();
+                var selectedRow = this.getView().byId("idEnhanceMigrate").getSelectedItems();
+                selectedRow[0].getCells()[4].setText("In Progress");
+                selectedRow[0].getCells()[4].setState("Warning");
+                this.getView().setBusy(false);
+                this.EnhancementDetailsFrag.close();
+                this.EnhancementDetailsFrag.destroy();
+                this.EnhancementDetailsFrag = undefined;
+            },
+            onEnhancementDetailsProcess: function (oEvent) {
+                if (oEvent.getSource().getParent().getCells()[4].getText() === "Automatic") {
+                    oEvent.getSource().getParent().getCells()[4].setText("Completed");
+                    oEvent.getSource().getParent().getCells()[4].setState("Success");
+                    oEvent.getSource().getParent().getCells()[5].setColor("#256f3a");
+                }
+            },
+            onEnhancementRemediationComplete: function (oEvent) {
+                //var aFMsRows = this.getView().byId("idFMsMigrat").getItems();
+                var selectedRow = this.getView().byId("idEnhanceMigrate").getSelectedItems();
+                selectedRow[0].getCells()[4].setText("Cloud Ready");
+                selectedRow[0].getCells()[4].setState("Success");
+                this.getView().setBusy(false);
+                this.EnhancementDetailsFrag.close();
+                this.EnhancementDetailsFrag.destroy();
+                this.EnhancementDetailsFrag = undefined;
+            },
+            onEnhancementInApp: function () {
+                var selectedRow = this.getView().byId("idEnhanceMigrate").getSelectedItems();
+                if (selectedRow) {
+                    this.getView().byId("EnhancementWizard").nextStep();
+                }
+            },
+
             OnDetailPopupClose: function (oEvent) {
                 this.getView().setBusy(false);
                 oEvent.getSource().getParent().getParent().close();
             },
             OnSystemEdit: function (oEvent) {
                 var that = this;
-                if (!this.systemFrag) {
-                    this.systemFrag = this.loadFragment({
-                        name: "resq.view.system"
-                    });
-                }
-                this.systemFrag.then(function (oDialog) {
-                    that.getView().setBusy(true);
-                    oDialog.open();
-                });
+
                 this.systemschema.System = oEvent.getSource().getParent().getParent().getCells()[0].getProperty("text");
                 this.systemschema.Version = oEvent.getSource().getParent().getParent().getCells()[1].getProperty("text");
                 this.systemschema.ST = oEvent.getSource().getParent().getParent().getCells()[2].getProperty("text");
@@ -375,6 +745,13 @@ sap.ui.define([
                 this.systemschema.Status = oEvent.getSource().getParent().getParent().getCells()[4].getProperty("text");
                 this.getView().getModel("SystemEdit").setData(this.systemschema);
                 this.editsystem = true;
+
+                if (!this.systemFrag) {
+                    this.systemFrag = sap.ui.xmlfragment("myfrag", "resq.view.system", this);
+                    this.getView().addDependent(this.systemFrag);
+                }
+                this.getView().setBusy(true);
+                this.systemFrag.open();
             },
             OnSystemDelete: function (oEvent) {
                 var sSystemName = oEvent.getSource().getParent().getParent().getCells()[0].getProperty("text");
@@ -413,19 +790,22 @@ sap.ui.define([
                     "Status": ""
                 }
                 this.getView().getModel("SystemEdit").setData(this.systemschema);
-                oEvent.getSource().getParent().close();
+                //oEvent.getSource().getParent().close();
+                this.getView().setBusy(false);
+                this.systemFrag.close();
+                this.systemFrag.destroy();
+                this.systemFrag = undefined;
             },
             OnAddSystem: function () {
                 var that = this;
                 if (!this.systemFrag) {
-                    this.systemFrag = this.loadFragment({
-                        name: "resq.view.system"
-                    });
+                    this.systemFrag = sap.ui.xmlfragment("myfrag", "resq.view.system", this);
+                    this.getView().addDependent(this.systemFrag);
                 }
-                this.systemFrag.then(function (oDialog) {
-                    that.getView().setBusy(true);
-                    oDialog.open();
-                });
+
+                that.getView().setBusy(true);
+                this.systemFrag.open();
+
                 this.getView().getModel("SystemEdit").setProperty("/Status", "Connected");
                 this.getView().getModel("SystemEdit").setProperty("/ST", "Source");
             },
@@ -452,39 +832,73 @@ sap.ui.define([
 
             //******************************************************************************************* */
             OnBookSlot: function (oEvent) {
-                var buttonId = oEvent.getSource().getId();
                 var that = this;
-                if (!this.ReSQPopUp) {
-                    this.ReSQPopUp = this.loadFragment({
-                        name: "resq.view.ReSQPopUp"
+                var buttonId = oEvent.getSource().getId();
+                if (buttonId === "container-resq---HomeView--CASBookSlot") {
+                    that.getView().getModel("ServiceDetails").setData(that.getView().getModel("CASModel").getData());
+                }
+                else if (buttonId === "container-resq---HomeView--LCNCBookSlot") {
+                    that.getView().getModel("ServiceDetails").setData(that.getView().getModel("LCNCModel").getData());
+                }
+                else {
+                    that.getView().getModel("ServiceDetails").setData(that.getView().getModel("LCNCAPIModel").getData());
+                }
+                if (!that.ReSQPopUp) {
+                    that.ReSQPopUp = sap.ui.xmlfragment("myfrag", "resq.view.ReSQPopUp", that);
+                    that.getView().addDependent(that.ReSQPopUp);
+                }
+
+                that.getView().setBusy(true);
+                that.ReSQPopUp.open();
+            },
+
+            OnRequestActivation: function (oEvent) {
+                var that = this;
+                var msg = "Pre-Requisites and requested service activated successfully";
+                var serviceDetails = this.getView().getModel("ServiceDetails").getData();
+                if (serviceDetails.Title === "LCNC Tool - RAP Builder") {
+                    MessageBox.success(msg, {
+                        actions: [MessageBox.Action.OK],
+                        emphasizedAction: MessageBox.Action.OK,
+                        onClose: function (sAction) {
+                            that.getView().byId("LCNCBookSlot").setText("Active");
+                            that.getView().byId("LCNCBookSlot").setType("Success");
+                            that.getView().setBusy(false);
+                            that.ReSQPopUp.close();
+                            that.ReSQPopUp.destroy();
+                            that.ReSQPopUp = undefined;
+                            //oEvent.getSource().getParent().close();
+                        }
                     });
                 }
-                this.ReSQPopUp.then(function (oDialog) {
-                    that.getView().setBusy(true);
-                    oDialog.open();
-                    if (buttonId === "container-resq---HomeView--CASBookSlot") {
-                        that.getView().getModel("ServiceDetails").setData(that.getView().getModel("CASModel").getData());
-                    }
-                    else if (buttonId === "container-resq---HomeView--LCNCBookSlot") {
-                        that.getView().getModel("ServiceDetails").setData(that.getView().getModel("LCNCModel").getData());
-                    }
-                    else {
-                        that.getView().getModel("ServiceDetails").setData(that.getView().getModel("LCNCAPIModel").getData());
-                    }
-                });
+                else if (serviceDetails.Title === "Cloud Assessment Service (CAT)") {
+                    this.getView().byId("CASBookSlot").setText("Active");
+                    this.getView().byId("CASBookSlot").setType("Success");
+                    this.getView().setBusy(false);
+                    this.ReSQPopUp.close();
+                    this.ReSQPopUp.destroy();
+                    this.ReSQPopUp = undefined;
+                }
+                else {
+                    MessageBox.success(msg, {
+                        actions: [MessageBox.Action.OK],
+                        emphasizedAction: MessageBox.Action.OK,
+                        onClose: function (sAction) {
+                            that.getView().byId("LCNCFioriBookSlot").setText("Active");
+                            that.getView().byId("LCNCFioriBookSlot").setType("Success");
+                            that.getView().setBusy(false);
+                            that.ReSQPopUp.close();
+                            that.ReSQPopUp.destroy();
+                            that.ReSQPopUp = undefined;
+                            //oEvent.getSource().getParent().close();
+                        }
+                    });
+                }
             },
 
             OnUserEdit: function (oEvent) {
                 var that = this;
-                if (!this.UserFrag) {
-                    this.UserFrag = this.loadFragment({
-                        name: "resq.view.user"
-                    });
-                }
-                this.UserFrag.then(function (oDialog) {
-                    that.getView().setBusy(true);
-                    oDialog.open();
-                });
+
                 this.userschema.ID = oEvent.getSource().getParent().getParent().getCells()[0].getProperty("text");
                 this.userschema.Name = oEvent.getSource().getParent().getParent().getCells()[1].getProperty("text");
                 this.userschema.Role = oEvent.getSource().getParent().getParent().getCells()[2].getProperty("text");
@@ -493,6 +907,12 @@ sap.ui.define([
                 this.userschema.Status = oEvent.getSource().getParent().getParent().getCells()[5].getProperty("text");
                 this.getView().getModel("UserEdit").setData(this.userschema);
                 this.edituser = true;
+                if (!this.UserFrag) {
+                    this.UserFrag = sap.ui.xmlfragment("myfrag", "resq.view.user", this);
+                    this.getView().addDependent(this.UserFrag);
+                }
+                this.getView().setBusy(true);
+                this.UserFrag.open();
             },
             OnUserDelete: function (oEvent) {
                 var sID = oEvent.getSource().getParent().getParent().getCells()[0].getProperty("text");
@@ -524,7 +944,9 @@ sap.ui.define([
             },
             OnBookSlotCancel: function (oEvent) {
                 this.getView().setBusy(false);
-                oEvent.getSource().getParent().close();
+                this.ReSQPopUp.close();
+                this.ReSQPopUp.destroy();
+                this.ReSQPopUp = undefined;
             },
             OnUserCancel: function (oEvent) {
                 this.getView().setBusy(false);
@@ -538,19 +960,21 @@ sap.ui.define([
                     "Status": ""
                 }
                 this.getView().getModel("UserEdit").setData(this.userschema);
-                oEvent.getSource().getParent().close();
+                //oEvent.getSource().getParent().close();
+                this.UserFrag.close();
+                this.UserFrag.destroy();
+                this.UserFrag = undefined;
             },
+
             OnAddUser: function () {
                 var that = this;
                 if (!this.UserFrag) {
-                    this.UserFrag = this.loadFragment({
-                        name: "resq.view.user"
-                    });
+
+                    this.UserFrag = sap.ui.xmlfragment("myfrag", "resq.view.user", this);
+                    this.getView().addDependent(this.UserFrag);
                 }
-                this.UserFrag.then(function (oDialog) {
-                    that.getView().setBusy(true);
-                    oDialog.open();
-                });
+                this.getView().setBusy(true);
+                this.UserFrag.open();
                 this.getView().getModel("UserEdit").setProperty("/Status", "Active");
             },
             OnUserSave: function () {
@@ -579,8 +1003,38 @@ sap.ui.define([
                 this.getView().byId("TitleCATSummary").setVisible(true);
                 this.getView().byId("CATSummaryObjectDetails").setVisible(true);
                 this.getView().byId("ButtonDetailView").setVisible(true);
-            }
+            },
 
+            OnShowAnalysis: function (oEvent) {
+                this.getView().byId("idIconTabBar").setVisible(true);
+                this.getView().byId("idIconTabBar").setBusy(true);
+                //this.getView().byId("CreateProductWizard").setVisible(true);
+                //var firstStep = this.getView().byId("CreateProductWizard").getSteps()[0];
+                //var oCurrStep = this.getView().byId("AnalyseCATResult");
+                //this.getView().byId("CreateProductWizard").setCurrentStep(firstStep);
+                var that= this;
+                setTimeout(() => {
+                    that.getView().byId("idIconTabBar").setBusy(false);
+                    that.getView().byId("CreateProductWizard").nextStep();
+                }, 1000);
+                
+                //var programData = this.getView().getModel("Programs").getData();
+                //this.getView().byId("CreateProductWizard").setCurrentStep(this.byId("idRemediate"));
+                //this.getView().byId("CreateProductWizard").getSteps()[1];
+            },
+
+            /************************************* Green Field Approach ******************/
+            OnUploadEDMXProceed: function () {
+                this.getView().getModel("AppConfig").setProperty("/MoveToFioriBOTBuilder", false);
+                this.getView().byId("NewBuildInCloud").nextStep();
+                this.setIntervalFunction(1, "ProxyArtifactCreate", ["AuxillaryClassCreate", "ProxyArtifactCreate"], ["vbAuxillaryClassCreate", "vbProxyArtifactCreate"], this);
+            },
+
+            OnNextStepForNewRapBuild:function(){
+                this.getView().getModel("AppConfig").setProperty("/MoveToFioriBOTBuilder", false);
+                this.getView().byId("NewBuildInCloud").nextStep();
+                this.setIntervalFunction(1, "CustEntityCreate", ["ServiceBinding", "ServiceDefnCreate", "CustQueryClassCreate", "CustEntityCreate"], ["vbServiceBinding", "vbServiceDefnCreate", "vbCustQueryClassCreate", "vbCustEntityCreate"], this);
+            }
 
             // onSideNavButtonPress: function () {
             //     var oToolPage = this.byId("toolPage");

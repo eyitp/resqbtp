@@ -8,3 +8,9 @@
 .sapMGT.OneByHalf {
     height:6.75em;
 }
+.sapMTitleStyleAuto {
+    font-size: .875rem;
+}
+.sapSuiteRMCGoodTextColor{
+    font-weight: bold;
+}

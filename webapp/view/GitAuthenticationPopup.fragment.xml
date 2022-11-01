@@ -1,0 +1,23 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:f="sap.ui.layout.form">
+    <Dialog id="PopupDialog" contentWidth="65em">
+        <f:SimpleForm id="GitAuthForm" editable="true" layout="ResponsiveGridLayout" title="Git User Authentication">
+            <f:content>
+                <Label text="Git E-mail Address" required="true" />
+                <Input placeholder="Enter Email Address" width="25em" />
+                <Label text="User Name" required="true" />
+                <Input placeholder="Enter User Name" width="25em" />
+                <Label text="Token" />
+                <Input placeholder="Enter Token" width="25em" required="true" />
+                <Label />
+                <HBox>
+                    <CheckBox />
+                    <Label class="sapUiTinyMarginTop" text="Save GIT User Information" />
+                </HBox>
+            </f:content>
+        </f:SimpleForm>
+        <buttons>
+            <Button text="Ok" type="Emphasized" press="onSaveGitAuthentication" />
+            <Button text="Cancel" type="Emphasized" press="onCancelGitAuthentication" />
+        </buttons>
+    </Dialog>
+</core:FragmentDefinition>

@@ -1,0 +1,33 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" class="sapUiSizeCompact">
+    <Dialog contentWidth="45em" contentHeight="30em">
+        <customHeader>
+            <Toolbar>
+                <Title text="DB Table Details" />
+                <ToolbarSpacer />
+                <Button icon="sap-icon://sys-cancel" text="Close" press="OnDBTablePopupClose" type="Emphasized" />
+            </Toolbar>
+        </customHeader>
+        <Table id="tabDetails" sticky="ColumnHeaders,HeaderToolbar" items="{DBTables>/}">
+            <items>
+                <ColumnListItem>
+                    <cells>
+                        <Text text="{DBTables>ProgramName}" />
+                        <Text text="{DBTables>DBOperation}" />
+                        <Text text="{DBTables>TableName}" />
+                    </cells>
+                </ColumnListItem>
+            </items>
+            <columns>
+                <Column>
+                    <Label text="Program Name" />
+                </Column>
+                <Column>
+                    <Label text="DB Operation" />
+                </Column>
+                <Column>
+                    <Label text="Table Name" />
+                </Column>
+            </columns>
+        </Table>
+    </Dialog>
+</core:FragmentDefinition>

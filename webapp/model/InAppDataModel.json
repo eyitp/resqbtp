@@ -1,0 +1,119 @@
+[
+    {
+      "BusinessContext": "MM_PURDOC_DISTRIBUTION",
+      "ExtensibleObject": "MM_PUR_S4_CCTR_CHECK",
+      "Type": "BADI",
+      "ReleaseState": "Released",
+      "Description": "Procurement: Purchasing Document Distribution",
+      "FioriID": "F0842A",
+      "Package": "ME"
+    },
+    {
+      "BusinessContext": "MM_PURDOC_DISTRIBUTION",
+      "ExtensibleObject": "MM_PUR_S4_CCTR_FLDCTRL_SIMPLE",
+      "Type": "BADI",
+      "ReleaseState": "Released",
+      "Description": "Procurement: Purchasing Document Distribution",
+      "FioriID": "F0842A",
+      "Package": "ME"
+    },
+    {
+      "BusinessContext": "MM_PURDOC_DISTRIBUTION",
+      "ExtensibleObject": "MM_PUR_S4_CCTR_MODIFY_HEADER",
+      "Type": "BADI",
+      "ReleaseState": "Released",
+      "Description": "Procurement: Purchasing Document Distribution",
+      "FioriID": "F0842A",
+      "Package": "ME"
+    },
+    {
+      "BusinessContext": "MM_PURDOC_DISTRIBUTION",
+      "ExtensibleObject": "MM_PUR_S4_CCTR_MODIFY_ITEM",
+      "Type": "BADI",
+      "ReleaseState": "Released",
+      "Description": "Procurement: Purchasing Document Distribution",
+      "FioriID": "F0842A",
+      "Package": "ME"
+    },
+    {
+      "BusinessContext": "MM_PURDOC_DISTRIBUTION",
+      "ExtensibleObject": "C_CNTRLPURCONTRDISTRIBUTIONTP",
+      "Type": "CDS",
+      "ReleaseState": "Released",
+      "Description": "Central PC Distribution Consumption View",
+      "FioriID": "F0842A",
+      "Package": "ME"
+    },
+    {
+      "BusinessContext": "MM_PURDOC_DISTRIBUTION",
+      "ExtensibleObject": "C_CNTRLPURCONTRHDRDISTRTP",
+      "Type": "CDS",
+      "ReleaseState": "Released",
+      "Description": "C-View for Header Distribution in Central Purchase Contract",
+      "FioriID": "F0842A",
+      "Package": "ME"
+    },
+    {
+      "BusinessContext": "MM_PURDOC_DISTRIBUTION",
+      "ExtensibleObject": "I_CNTRLPURCONTRDISTRIBUTIONTP",
+      "Type": "CDS",
+      "ReleaseState": "Released",
+      "Description": "Central Purchase Contract Item Distribution BO View",
+      "FioriID": "F0842A",
+      "Package": "ME"
+    },
+    {
+      "BusinessContext": "MM_PURDOC_DISTRIBUTION",
+      "ExtensibleObject": "I_CNTRLPURCONTRHDRDISTRTP",
+      "Type": "CDS",
+      "ReleaseState": "Released",
+      "Description": "BO View for Header Distribution in Central Purchase Contract",
+      "FioriID": "F0842A",
+      "Package": "ME"
+    },
+    {
+      "BusinessContext": "MM_PURDOC_DISTRIBUTION",
+      "ExtensibleObject": "MM_PUR_CNTRL_CTR_MAINTAIN_MDL",
+      "Type": "ODATA",
+      "ReleaseState": "Released",
+      "Description": "Manage Central Purchasing Contract",
+      "FioriID": "F0842A",
+      "Package": "ME"
+    },
+    {
+      "BusinessContext": "MM_MANAGE_SOS_SOURCELIST",
+      "ExtensibleObject": "C_MPPURCHASINGSOURCE",
+      "Type": "CDS",
+      "ReleaseState": "Not Released",
+      "Description": "Source List Header Consumption View",
+      "FioriID": "F0842A",
+      "Package": "ME"
+    },
+    {
+      "BusinessContext": "MM_MANAGE_SOS_SOURCELIST",
+      "ExtensibleObject": "C_MPPURCHASINGSOURCEITEM",
+      "Type": "CDS",
+      "ReleaseState": "Released",
+      "Description": "Source List Item Consumption View",
+      "FioriID": "F0842A",
+      "Package": "ME"
+    },
+    {
+      "BusinessContext": "MM_MANAGE_SOS_SOURCELIST",
+      "ExtensibleObject": "I_MPPURCHASINGSOURCEITEMWD",
+      "Type": "CDS",
+      "ReleaseState": "Released",
+      "Description": "Source List Item Basic View with Draft",
+      "FioriID": "F0842A",
+      "Package": "ME"
+    },
+    {
+      "BusinessContext": "MM_MANAGE_SOS_SOURCELIST",
+      "ExtensibleObject": "I_MPPURCHASINGSOURCEWD",
+      "Type": "CDS",
+      "ReleaseState": "Not Released",
+      "Description": "Source List Header Basic View with Draft",
+      "FioriID": "F0842A",
+      "Package": "ME"
+    }
+   ]

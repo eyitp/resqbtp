@@ -4,51 +4,51 @@
             <Toolbar>
                 <Title text="Cloud Readiness" />
                 <ToolbarSpacer />
-                <Button icon="sap-icon://sys-cancel" text="Close" press="OnFMsDetailPopupClose" type="Emphasized" />
+                <Button icon="sap-icon://sys-cancel" text="Close" press="OnEnhancementDetailPopupClose" type="Emphasized" />
             </Toolbar>
         </customHeader>
-        <ui:Table rows="{FMDetails>/}" class="sapUiTinyMargin" selectionMode="None" visibleRowCount="7">
+        <ui:Table rows="{EnhancementRowDetails>/}" class="sapUiTinyMargin" selectionMode="None" visibleRowCount="7">
             <ui:columns>
                 <ui:Column width="12rem">
-                    <Label text="FM Name" />
+                    <Label text="Enhancement Name" />
                     <ui:template>
-                        <Text text="{FMDetails>ClassName}" wrapping="false" />
+                        <Text text="{EnhancementRowDetails>EnhancementName}" wrapping="false" />
                     </ui:template>
                 </ui:Column>
                 <ui:Column width="7rem">
                     <Label text="Line No" />
                     <ui:template>
-                        <Text text="{FMDetails>LineNo}" wrapping="false" />
+                        <Text text="{EnhancementRowDetails>LineNo}" wrapping="false" />
                     </ui:template>
                 </ui:Column>
                 <ui:Column width="11rem">
                     <Label text="Error Description" />
                     <ui:template>
-                        <Text text="{FMDetails>ErrorDescription}" wrapping="false" />
+                        <Text text="{EnhancementRowDetails>ErrorDescription}" wrapping="false" />
                     </ui:template>
                 </ui:Column>
                 <ui:Column width="11rem">
                     <Label text="Description" />
                     <ui:template>
-                        <Text text="{FMDetails>Description}" wrapping="false" />
+                        <Text text="{EnhancementRowDetails>Description}" wrapping="false" />
                     </ui:template>
                 </ui:Column>
-                <ui:Column width="10rem">
+                <ui:Column width="11rem">
                     <Label text="Remediation" />
                     <ui:template>
-                        <ObjectStatus text="{FMDetails>Remediation}"/>
+                        <ObjectStatus text="{EnhancementRowDetails>Remediation}"/>
                     </ui:template>
                 </ui:Column>
-                <ui:Column width="5rem">
+                <ui:Column>
                     <Label text="Rem" />
-                    <ui:template>
-                        <core:Icon src="{path:'FMDetails>Remediation', formatter:'.f.returnAutomateIcon'}" press="onFMDetailsProcess"></core:Icon>
+                    <ui:template width="5rem">
+                        <core:Icon src="{path:'EnhancementRowDetails>Remediation', formatter:'.f.returnAutomateIcon'}" press="onEnhancementDetailsProcess"></core:Icon>
                     </ui:template>
                 </ui:Column>
             </ui:columns>
         </ui:Table>
         <buttons>
-        <Button text="Remediation Completed" type="Emphasized" press="onFMRemediationComplete"></Button>
+        <Button text="Remediation Completed" type="Emphasized" press="onEnhancementRemediationComplete"></Button>
         </buttons>
     </Dialog>
 </core:FragmentDefinition>

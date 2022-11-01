@@ -1,0 +1,33 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" class="sapUiSizeCompact">
+    <Dialog contentWidth="45em" contentHeight="15em">
+        <customHeader>
+            <Toolbar>
+                <Title text="BTP Compatible Details" />
+                <ToolbarSpacer />
+                <Button icon="sap-icon://sys-cancel" text="Close" press="OnBTPCompPopupClose" type="Emphasized" />
+            </Toolbar>
+        </customHeader>
+        <Table id="tabDetails" sticky="ColumnHeaders,HeaderToolbar" items="{BTPCompatibleData>/}">
+            <items>
+                <ColumnListItem>
+                    <cells>
+                        <Text text="{BTPCompatibleData>ObjectType}" />
+                        <Text text="{BTPCompatibleData>ObjectDesc}" />
+                        <Text text="{BTPCompatibleData>CountofObjectType}" />
+                    </cells>
+                </ColumnListItem>
+            </items>
+            <columns>
+                <Column>
+                    <Label text="Object Type" />
+                </Column>
+                <Column>
+                    <Label text="Object Description" />
+                </Column>
+                <Column>
+                    <Label text="Count of Object Type" />
+                </Column>
+            </columns>
+        </Table>
+    </Dialog>
+</core:FragmentDefinition>

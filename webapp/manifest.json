@@ -26,22 +26,7 @@
                     "odataVersion": "2.0"
                 }
             }
-        },
-        "crossNavigation": {
-            "inbounds": {
-                "resq-inbound": {
-                    "signature": {
-                        "parameters": {},
-                        "additionalParameters": "allowed"
-                    },
-                    "semanticObject": "resq",
-                    "action": "display",
-                    "title": "{{flpTitle}}",
-                    "subTitle": "{{flpSubtitle}}",
-                    "icon": ""
-                }
-            }
-        }
+        }        
     },
     "sap.ui": {
         "technology": "UI5",
