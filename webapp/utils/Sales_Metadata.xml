@@ -1,0 +1,7 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="zgelafa001.ZGELAFA001.controller.NotFound">
+	<MessagePage binding="{message>/0/}" showHeader="false" text="{message>message}" icon="sap-icon://error">
+		<customDescription>
+			<Link text="{=${local>/urlParam} === 'LeaveApproval'?${i18n>LnkBackToInbox}:${i18n>LnkBackToHome}}" press="onBacktoHome"/>
+		</customDescription>
+	</MessagePage>
+</mvc:View>

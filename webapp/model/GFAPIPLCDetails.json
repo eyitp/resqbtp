@@ -1,0 +1,20 @@
+[
+    {
+      "APIType": "ODATA V2 API",
+      "APIName": "Bills of Material",
+      "Service": "API_BILL_OF_MATERIAL_SRV_0002",
+      "Description": "Maintain bills of material using this asynchronous inbound service"
+    },
+    {
+      "APIType": "ODATA V2 API",
+      "APIName": "Maintenance Bill of Material",
+      "Service": "API_MAINTENANCEBOM",
+      "Description": "Create, update and delete the Maintenance Bill of Material using the asynchronous inbound service"
+    },
+    {
+      "APIType": "ODATA V2 API",
+      "APIName": "Material Stock - Read",
+      "Service": "API_MATERIAL_STOCK_SRV",
+      "Description": "Use this synchronous inbound service to read material stock information"
+    }
+   ]

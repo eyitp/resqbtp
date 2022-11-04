@@ -1,0 +1,32 @@
+[
+    {
+      "APIType": "ODATA V2 API",
+      "APIName": "Accounting Document - Read",
+      "Service": "API_OPLACCTGDOCITEMCUBE_SRV",
+      "Description": "Extract operational journal entry items to an external system using this inbound service"
+    },
+    {
+      "APIType": "ODATA V2 API",
+      "APIName": "Billing Document - Read Subsequent",
+      "Service": "API_SUBSQNT_BILLG_DOC_SBI_SRV",
+      "Description": "Read information about a billing document's subsequent billing documents with this synchronous inbound service"
+    },
+    {
+      "APIType": "ODATA V2 API",
+      "APIName": "Activity Type (A2X)",
+      "Service": "API_COSTCNTRACTIVITYTYPE_CRUD_SRV",
+      "Description": "Create, read, update, and delete cost center activity types using this synchronous inbound service"
+    },
+    {
+      "APIType": "ODATA V2 API",
+      "APIName": "Activity Type - Read (A2X)",
+      "Service": "API_COSTCENTERACTIVITYTYPE_SRV",
+      "Description": "Read master data of cost center activity types using this synchronous inbound service"
+    },
+    {
+      "APIType": "ODATA V2 API",
+      "APIName": "Business Area - Read",
+      "Service": "API_BUSINESSAREA_SRV",
+      "Description": "Read business area master data using this inbound service"
+    }
+   ]

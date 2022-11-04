@@ -1,0 +1,89 @@
+[
+    {
+        "Fields": "SalesOrder"
+    },
+    {
+        "Fields": "SalesOrderItem"
+    },
+    {
+        "Fields": "HigherLevelItem"
+    },
+    {
+        "Fields": "HigherLevelItemUsage"
+    },
+    {
+        "Fields": "SalesOrderItemCategory"
+    },
+    {
+        "Fields": "SalesOrderItemText"
+    },
+    {
+        "Fields": "PurchaseOrderByCustomer"
+    },
+    {
+        "Fields": "PurchaseOrderByShipToParty"
+    },
+    {
+        "Fields": "UnderlyingPurchaseOrderItem"
+    },
+    {
+        "Fields": "ExternalItemID"
+    },
+    {
+        "Fields": "Material"
+    },
+    {
+        "Fields": "MaterialByCustomer"
+    },
+    {
+        "Fields": "PricingDate"
+    },
+    {
+        "Fields": "PricingReferenceMaterial"
+    },
+    {
+        "Fields": "BillingPlan"
+    },
+    {
+        "Fields": "RequestedQuantity"
+    },
+    {
+        "Fields": "RequestedQuantityUnit"
+    },
+    {
+        "Fields": "RequestedQuantitySAPUnit"
+    },
+    {
+        "Fields": "RequestedQuantityISOUnit"
+    },
+    {
+        "Fields": "OrderQuantityUnit"
+    },
+    {
+        "Fields": "OrderQuantitySAPUnit"
+    },
+    {
+        "Fields": "OrderQuantityISOUnit"
+    },
+    {
+        "Fields": "ConfdDelivQtyInOrderQtyUnit"
+    },
+    {
+        "Fields": "ItemGrossWeight"
+    },
+    {
+        "Fields": "ItemNetWeight"
+    },
+    {
+        "Fields": "ItemWeightUnit"
+    },
+    {
+        "Fields": "ItemWeightSAPUnit"
+    },
+    {
+        "Fields": "ItemWeightISOUnit"
+    },
+    {
+        "Fields": "ItemVolume"
+    }
+]

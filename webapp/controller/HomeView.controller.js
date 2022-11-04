@@ -43,6 +43,9 @@ sap.ui.define([
                 this.getView().setModel(oModel, "SelectedFMRow");
 
                 var oModel = new JSONModel();
+                this.getView().setModel(oModel, "selectedClassRow");
+
+                var oModel = new JSONModel();
                 this.getView().setModel(oModel, "SelectedProgramRow");
 
                 var oModel = new JSONModel();
@@ -147,6 +150,36 @@ sap.ui.define([
                 var sPath = jQuery.sap.getModulePath("resq", "/model/BTPCompatibleData.json");
                 var oModel = new JSONModel(sPath);
                 this.getView().setModel(oModel, "BTPCompatibleData");
+
+                var sPath = jQuery.sap.getModulePath("resq", "/model/GFAPISalesDetails.json");
+                var oModel = new JSONModel(sPath);
+                this.getView().setModel(oModel, "GFAPISalesDetails");
+
+                var sPath = jQuery.sap.getModulePath("resq", "/model/GFAPIFinanceDetails.json");
+                var oModel = new JSONModel(sPath);
+                this.getView().setModel(oModel, "GFAPIFinanceDetails");
+
+                var sPath = jQuery.sap.getModulePath("resq", "/model/GFAPIPLCDetails.json");
+                var oModel = new JSONModel(sPath);
+                this.getView().setModel(oModel, "GFAPIPLCDetails");
+
+                var sPath = jQuery.sap.getModulePath("resq", "/model/GFAPIProcureDetails.json");
+                var oModel = new JSONModel(sPath);
+                this.getView().setModel(oModel, "GFAPIProcureDetails");
+
+                var oModel = new JSONModel();
+                this.getView().setModel(oModel, "GFFieldDetails");
+
+                var oModel = new JSONModel();
+                this.getView().setModel(oModel, "UploadEDMXJsonData");
+
+                var sPath = jQuery.sap.getModulePath("resq", "/model/GFFieldsSODetails.json");
+                var oModel = new JSONModel(sPath);
+                this.getView().setModel(oModel, "GFFieldsSODetails");
+
+                var sPath = jQuery.sap.getModulePath("resq", "/model/GFFieldsSOItemDetails.json");
+                var oModel = new JSONModel(sPath);
+                this.getView().setModel(oModel, "GFFieldsSOItemDetails");
 
                 this.userschema = {
                     "ID": "",
@@ -262,12 +295,87 @@ sap.ui.define([
                 else
                     this.getView().byId("AnayseDetailWizard").goToStep("container-resq---HomeView--AD2");
             },
+            /****************************** GF in Build Tab ******************/
+            onGFWhiteListAPIDetails: function(){
+                if (!this.GFWhiteListAPIDetailsFrag) {
+                    this.GFWhiteListAPIDetailsFrag = sap.ui.xmlfragment("myfrag", "resq.view.GFWhiltelistAPIDetailsPopup", this);
+                    this.getView().addDependent(this.GFWhiteListAPIDetailsFrag);
+                }
+                this.getView().setBusy(true);
+                this.GFWhiteListAPIDetailsFrag.open();
+            },
+            OnGFWhitelistDetailPopupClose:function(){
+                this.getView().setBusy(false);
+                this.GFWhiteListAPIDetailsFrag.close();
+                this.GFWhiteListAPIDetailsFrag.destroy();
+                this.GFWhiteListAPIDetailsFrag = undefined;
+            },
+            onGFWhitelistDetailProcess:function(){
+                var that = this;
+                var msg = "Selected File Downloaded Succesfully";
+                MessageBox.success(msg, {
+                    actions: [MessageBox.Action.OK],
+                    emphasizedAction: MessageBox.Action.OK,
+                    onClose: function (sAction) {                        
+                        that.getView().setBusy(false);
+                        that.GFWhiteListAPIDetailsFrag.close();
+                        that.GFWhiteListAPIDetailsFrag.destroy();
+                        that.GFWhiteListAPIDetailsFrag = undefined;
+                    }
+                });
+            },
             handleUploadPress: function () {
                 var AppConfig = this.getView().getModel("AppConfig").getData();
                 AppConfig.EDMXTableVisibility = !AppConfig.EDMXTableVisibility
                 this.getView().getModel("AppConfig").setData(AppConfig);
             },
+            onGFAutomateIconProcess:function(oEvent){
+                var contextPath = oEvent.getSource().getParent().getBindingContextPath();
+                //this.getView().getModel("AppConfig").setProperty("/edmxContextPath", contextPath);
+                var entitySelected = oEvent.getSource().getModel("UploadedEDMX").getProperty("Entity");
+                if(entitySelected === "A_SalesOrder")
+                {
+                    this.getView().getModel("GFFieldDetails").setData(this.getView().getModel("GFFieldsSODetails").getData());
+                }
+                else{
+                    this.getView().getModel("GFFieldDetails").setData(this.getView().getModel("GFFieldsSOItemDetails").getData());
+                }
+                oEvent.getSource().getModel("UploadedEDMX").setProperty(contextPath + "/Status", "Completed");
+                oEvent.getSource().getParent().getCells()[1].setColor("#256f3a");
+                //var selectedFieldRow = oEvent.getSource().getBindingContext("UploadedEDMX").getObject();
+                //this.getView().getModel("UploadEDMXJsonData").setData(selectedFieldRow);
+                if (!this.GFFieldDetailsFrag) {
+                    this.GFFieldDetailsFrag = sap.ui.xmlfragment("myfrag", "resq.view.GFFieldDetails", this);
+                    this.getView().addDependent(this.GFFieldDetailsFrag);
+                }
+                this.getView().setBusy(true);
+                this.GFFieldDetailsFrag.open();
+            },
+            onGFFieldDetailsPopupClose:function(){
+                this.getView().setBusy(false);
+                this.GFFieldDetailsFrag.close();
+                this.GFFieldDetailsFrag.destroy();
+                this.GFFieldDetailsFrag = undefined;
+            },
+            onGFFieldDetailsProcess:function(){
+                //that.getView().getModel("UploadEDMXJsonData").setData(ovalue);
+                /*var selectedEntity = this.getView().getModel("UploadEDMXJsonData").getData().Entity;
+                var tabData = this.getView().getModel("UploadedEDMX").getData();
+                var contextPath = this.getView().getModel("AppConfig").getProperty("edmxContextPath");
+                
+                tabData.forEach((ovalue, index) => {
+                    if (ovalue.Entity === selectedEntity) {
+                        ovalue.Status = "Completed";
+                        i = index;
+                        that.getView().getModel("tabData").setData(ovalue);
+                    }
+                }, this);*/
 
+                this.getView().setBusy(false);
+                this.GFFieldDetailsFrag.close();
+                this.GFFieldDetailsFrag.destroy();
+                this.GFFieldDetailsFrag = undefined;
+            },
             OnAnalyseDetailBack: function () {
                 this.byId("pageContainer").to(this.getView().createId("Analyse"));
             },
@@ -512,7 +620,7 @@ sap.ui.define([
                     }
                     else {
                         //var oSelectedItem = this.getView().byId("idFMsMigrat").getSelectedItem();
-                        var className = selectedRow[0].getCells()[0].getText();
+                        var className = selectedClassRow[0].getCells()[0].getText();
                         var Classes = this.getView().getModel("Classes").getData();
                         //var i;
                         var that = this;
@@ -525,11 +633,30 @@ sap.ui.define([
                         }, this);
                         //that.getView().getModel("FMs").setData(fMs);
                         this.getView().byId("ClassesWizard").nextStep();
-                        this.getView().getModel("AppConfig").setProperty("/FMImportToBTP", false)
+                        this.getView().getModel("AppConfig").setProperty("/ClassImportToBTP", false)
                         this.getOwnerComponent().getModel("AppConfig").refresh();
                         //this.setIntervalFunction(1, "CustomEntityChart", ["ServiceBindingChart", "ServiceDefinitionChart", "CustomQueryChart", "CustomEntityChart"], this);
                     }
                 }
+            },
+            handleClassUpload: function () {
+                this.getView().getModel("AppConfig").setProperty("/From", "Class");
+                if (!this.GitAuthFrag) {
+                    this.GitAuthFrag = sap.ui.xmlfragment("myfrag", "resq.view.GitAuthenticationPopup", this);
+                    this.getView().addDependent(this.GitAuthFrag);
+                }
+                this.getView().setBusy(true);
+                this.GitAuthFrag.open();
+            },
+            OnNextStepForClassFioriBuild: function () {
+                this.getView().getModel("AppConfig").setProperty("/From", "Class");
+                if (!this.BranchSelFrag) {
+                    this.BranchSelFrag = sap.ui.xmlfragment("myfrag", "resq.view.BranchAndPkgSelectionPopup", this);
+                    this.getView().addDependent(this.BranchSelFrag);
+                }
+                this.getView().setBusy(true);
+                this.BranchSelFrag.open();
+                //this.getView().byId("FMsWizard").nextStep();
             },
             /*********************************************** FM Section ****************************************/
             onFMRemediatePress: function () {
@@ -616,6 +743,7 @@ sap.ui.define([
                 }
             },
             handleFMUpload: function () {
+                this.getView().getModel("AppConfig").setProperty("/From", "FM");
                 if (!this.GitAuthFrag) {
                     this.GitAuthFrag = sap.ui.xmlfragment("myfrag", "resq.view.GitAuthenticationPopup", this);
                     this.getView().addDependent(this.GitAuthFrag);
@@ -628,12 +756,23 @@ sap.ui.define([
                 this.GitAuthFrag.destroy();
                 this.GitAuthFrag = undefined;
                 this.getView().setBusy(false);
-                var fmSelectedRow = this.getView().getModel("SelectedFMRow").getData();
-                fmSelectedRow.Status = "Exported to GitHub";
-                this.getView().getModel("SelectedFMRow").setData(fmSelectedRow);
-                this.getView().getModel("AppConfig").setProperty("/FMImportToBTP", true)
+                //selectedClassRow
+                var appConfigData = this.getView().getModel("AppConfig").getData();
+                if (appConfigData.From === "Class") {
+                    var classSelectedRow = this.getView().getModel("selectedClassRow").getData();
+                    classSelectedRow.Status = "Exported to GitHub";
+                    this.getView().getModel("selectedClassRow").setData(classSelectedRow);
+                    this.getView().getModel("AppConfig").setProperty("/ClassImportToBTP", true)
+                    this.getView().getModel("selectedClassRow").refresh();
+                }
+                else {
+                    var fmSelectedRow = this.getView().getModel("SelectedFMRow").getData();
+                    fmSelectedRow.Status = "Exported to GitHub";
+                    this.getView().getModel("SelectedFMRow").setData(fmSelectedRow);
+                    this.getView().getModel("AppConfig").setProperty("/FMImportToBTP", true)
+                    this.getView().getModel("SelectedFMRow").refresh();
+                }
                 this.getOwnerComponent().getModel("AppConfig").refresh();
-                this.getView().getModel("SelectedFMRow").refresh();
             },
             onCancelGitAuthentication: function () {
                 this.GitAuthFrag.close();
@@ -642,6 +781,7 @@ sap.ui.define([
                 this.getView().setBusy(false);
             },
             OnNextStepForFMFioriBuild: function () {
+                this.getView().getModel("AppConfig").setProperty("/From", "FM");
                 if (!this.BranchSelFrag) {
                     this.BranchSelFrag = sap.ui.xmlfragment("myfrag", "resq.view.BranchAndPkgSelectionPopup", this);
                     this.getView().addDependent(this.BranchSelFrag);
@@ -655,7 +795,13 @@ sap.ui.define([
                 this.BranchSelFrag.destroy();
                 this.BranchSelFrag = undefined;
                 this.getView().setBusy(false);
-                this.getView().byId("FMsWizard").nextStep();
+                var appConfigData = this.getView().getModel("AppConfig").getData();
+                if (appConfigData.From === "Class") {
+                    this.getView().byId("ClassesWizard").nextStep();
+                }
+                else {
+                    this.getView().byId("FMsWizard").nextStep();
+                }
             },
             onCancelBranchSelection: function () {
                 this.BranchSelFrag.close();
@@ -1012,12 +1158,12 @@ sap.ui.define([
                 //var firstStep = this.getView().byId("CreateProductWizard").getSteps()[0];
                 //var oCurrStep = this.getView().byId("AnalyseCATResult");
                 //this.getView().byId("CreateProductWizard").setCurrentStep(firstStep);
-                var that= this;
+                var that = this;
                 setTimeout(() => {
                     that.getView().byId("idIconTabBar").setBusy(false);
                     that.getView().byId("CreateProductWizard").nextStep();
                 }, 1000);
-                
+
                 //var programData = this.getView().getModel("Programs").getData();
                 //this.getView().byId("CreateProductWizard").setCurrentStep(this.byId("idRemediate"));
                 //this.getView().byId("CreateProductWizard").getSteps()[1];
@@ -1030,10 +1176,17 @@ sap.ui.define([
                 this.setIntervalFunction(1, "ProxyArtifactCreate", ["AuxillaryClassCreate", "ProxyArtifactCreate"], ["vbAuxillaryClassCreate", "vbProxyArtifactCreate"], this);
             },
 
-            OnNextStepForNewRapBuild:function(){
+            OnNextStepForNewRapBuild: function () {
                 this.getView().getModel("AppConfig").setProperty("/MoveToFioriBOTBuilder", false);
                 this.getView().byId("NewBuildInCloud").nextStep();
                 this.setIntervalFunction(1, "CustEntityCreate", ["ServiceBinding", "ServiceDefnCreate", "CustQueryClassCreate", "CustEntityCreate"], ["vbServiceBinding", "vbServiceDefnCreate", "vbCustQueryClassCreate", "vbCustEntityCreate"], this);
+            },
+
+            onProceedFioriBOT:function(){
+                this.getView().getModel("AppConfig").setProperty("/MoveToFioriBOTBuilder", false);
+                this.getView().byId("NewBuildInCloud").nextStep();
+                this.getView().byId("NewBuildInCloud").nextStep();
+                this.setIntervalFunction(1, "GFFioriAppGen", ["GFLPDConfiguration", "GFDepCLFoundry", "GFFioriAppGen"], ["vbGFLPDConfiguration", "vbGFDepCLFoundry", "vbGFFioriAppGen"], this);
             }
 
             // onSideNavButtonPress: function () {

@@ -1,4 +1,4 @@
-<core:FragmentDefinition xmlns="sap.m" xmlns:card="sap.f.cards" xmlns:ui="sap.ui.table" xmlns:u="sap.ui.unified" xmlns:core="sap.ui.core" xmlns:f="sap.f" xmlns:mchart="sap.suite.ui.microchart" xmlns:w="sap.ui.integration.widgets">
+<core:FragmentDefinition xmlns="sap.m" xmlns:card="sap.f.cards" xmlns:ui="sap.ui.table" xmlns:u="sap.ui.unified" xmlns:core="sap.ui.core" xmlns:f="sap.f" xmlns:form="sap.ui.layout.form" xmlns:l="sap.ui.layout" xmlns:mchart="sap.suite.ui.microchart" xmlns:w="sap.ui.integration.widgets">
     <Page id="Build" showHeader="false" backgroundDesign="Transparent">
         <VBox backgroundDesign="Transparent">
             <f:Card class="sapUiTinyMargin" width="auto">
@@ -7,19 +7,19 @@
                 </f:content>
             </f:Card>
             <HBox>
-                <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Transform to BTP Cloud" subheader="(BrownField Approach)" frameType="TwoByOne" press="OnBuildToCloudPress">
-                    <TileContent footer="On Premise to BTP Cloud (Clean Core)">
+                <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Launch LCNC Build Services" frameType="TwoByOne" press="OnBuildInBTPCloud">
+                    <TileContent footer="">
                         <HBox renderType="Bare">
-                            <FeedContent contentText="Launch LCNC Transform Services" />
-                            <ImageContent src="sap-icon://synchronize" />
+                            <FeedContent class="sapMITBFilterDefault" contentText="GreenField Approach - Develop with Steampunk" />
+                            <ImageContent src="sap-icon://upload-to-cloud" />
                         </HBox>
                     </TileContent>
                 </GenericTile>
-                <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Build in BTP Cloud" subheader="(GreenField Approach)" frameType="TwoByOne" press="OnBuildInBTPCloud">
-                    <TileContent footer="Create New in BTP environment (Whitelisted CDS/APIs)">
+                <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Launch LCNC Transform Services" frameType="TwoByOne" press="OnBuildToCloudPress">
+                    <TileContent footer="">
                         <HBox renderType="Bare">
-                            <FeedContent contentText="Launch LCNC Build  Services" />
-                            <ImageContent src="sap-icon://upload-to-cloud" />
+                            <FeedContent class="sapMITBFilterDefault" contentText="BrownField Approach - Clean the Core" />
+                            <ImageContent src="sap-icon://synchronize" />
                         </HBox>
                     </TileContent>
                 </GenericTile>
@@ -43,7 +43,6 @@
                     <f:content>
                         <HBox alignItems="Center">
                             <Label class="sapUiTinyMargin" labelFor="idBuildSystemdropdown" text="Choose source system:" />
-
                             <Select class="sapUiTinyMargin" id="idBuildSystemdropdown" selectedKey="" items="{Systems>/}">
                                 <items>
                                     <core:Item text="{Systems>System}" key="{Systems>System}" />
@@ -257,7 +256,7 @@
                             <WizardStep id="FioriRAPBuilder" title="Fiori App Builder" validated="true">
                                 <MessageStrip visible="{=${SelectedProgramRow>/Status}==='C'}" class="sapUiTinyMargin" type="Success" text="Report ({SelectedProgramRow>/Program}) Migrated to BTP and FIORI app deployed in BTP Launchpad successfully. Click to Launch app from " showIcon="true">
                                     <link>
-                                        <Link text="BTP FIORI Launchpad" target="_blank" href="https://e42f23c5trial.launchpad.cfapps.us10.hana.ondemand.com/site?siteId=e1b23256-742f-4f91-b896-b2d4a034ad34#Shell-home" />
+                                        <Link text="BTP FIORI Launchpad" target="_blank" href="https://67bc9ec5-9c0d-4ffd-b97d-36c2d986101d.abap-web.eu10.hana.ondemand.com/sap/bc/adt/businessservices/odatav2/feap?feapParams=ni%5DsYmsUbU%60mh%5DWgsDDEDDDDsc77fy%C2%84%C2%83%C2%86%C2%88777777ni%5DsYmsUbU%60mh%5DWgsDDEDDDDscsjUb77DDDE&amp;sap-ui-language=EN&amp;sap-client=100"/>
                                     </link>
                                 </MessageStrip>
                                 <HBox justifyContent="Center">
@@ -340,7 +339,7 @@
                                 </HBox>
                                 <Table id="idClassMigrat" mode="SingleSelectLeft" inset="true" items="{Classes>/}">
                                     <columns>
-                                        <Column width="12em">
+                                        <Column width="15em">
                                             <Text text="Class Name" />
                                         </Column>
                                         <Column>
@@ -363,13 +362,13 @@
                                                 <Text text="{Classes>CodeComplexity}" />
                                                 <ObjectStatus text="{Classes>Status}" />
                                                 <Text text="{Classes>RemediationType}" />
-                                                <CheckBox></CheckBox>
+                                                <CheckBox />
                                             </cells>
                                         </ColumnListItem>
                                     </items>
                                 </Table>
                                 <HBox justifyContent="End">
-                                    <Button class="sapUiTinyMargin" text="Remediate" type="Emphasized" press="onClassRemediatePress"/>
+                                    <Button class="sapUiTinyMargin" text="Remediate" type="Emphasized" press="onClassRemediatePress" />
                                     <Button class="sapUiTinyMargin" text="Lift and Shift" press="onClassLiftAndShiftPress" type="Emphasized" />
                                     <Button class="sapUiTinyMargin" text="Wrap" type="Emphasized" />
                                 </HBox>
@@ -377,108 +376,46 @@
                             </WizardStep>
                             <WizardStep id="ClassRAPBuilder" title="Push to GitHub" validated="true">
                                 <VBox>
-                                    <HBox alignItems="Center" visible="{AppConfig>/MoveToFioriBOTBuilder}">
+                                    <HBox alignItems="Center" visible="{AppConfig>/ClassImportToBTP}">
                                         <HBox width="50%">
-                                            <MessageStrip class="sapUiTinyMargin" type="Success" text="RAP Build successfully." showIcon="true" />
+                                            <MessageStrip class="sapUiTinyMargin" type="Success" text="Exported to GitHub." showIcon="true" />
                                         </HBox>
                                         <HBox width="50%" justifyContent="End">
-                                            <Button text="Next Step" type="Emphasized" press="OnNextStepForFioriBuild" />
+                                            <Button text="Next Step" type="Emphasized" press="OnNextStepForClassFioriBuild" />
                                         </HBox>
                                     </HBox>
-
-                                    <ObjectHeader icon="sap-icon://sap-box" iconDensityAware="false" iconAlt="Denise Smith" imageShape="Circle" responsive="true" title="{SelectedRow>/Program}" intro="{SelectedRow>/Type}" class="sapUiResponsivePadding--header">
-                                        <ObjectAttribute title="DB Tables" text="{SelectedRow>/CountDBTable}" />
-                                        <ObjectAttribute title="Function Modules" text="{SelectedRow>/CountFM}" />
-                                        <ObjectAttribute title="DB Modify" text="{SelectedRow>/DBModify}" />
-                                        <ObjectAttribute title="Call TCode" text="{SelectedRow>/CLLTCode}" />
-                                        <ObjectAttribute title="Code Complexity" text="{SelectedRow>/CodeComp}" />
+                                    <Input width="60%" placeholder="Enter GitHub Path" />
+                                    <Button text="Push to GitHub" press="handleClassUpload" class="sapUiSmallMarginBottom" />
+                                    <ObjectHeader icon="sap-icon://sap-box" iconDensityAware="false" iconAlt="{selectedClassRow>/ClassName}" imageShape="Circle" responsive="true" title="{selectedClassRow>/ClassName}" intro="{selectedClassRow>/RemediationType}" class="sapUiResponsivePadding--header">
+                                        <ObjectAttribute title="Code Complexity" text="{selectedClassRow>/CodeComplexity}" />
+                                        <ObjectAttribute title="Remediation Type" text="{selectedClassRow>/RemediationType}" />
                                         <statuses>
                                             <ObjectStatus
                                                 class="sapUiSmallMarginBottom"
                                                 title="Status"
-                                                text="{=${SelectedRow>/Status}==='NI'?'Not Initiated':'' || ${SelectedRow>/Status}==='IP'?'RAP Build In Progress':'RAP Build Successful'}"
+                                                text="{=${selectedClassRow>/Status}==='NI'?'Not Initiated':'' || ${selectedClassRow>/Status}==='Cloud Ready'?'Pushing to GitHub':'Exported to GitHub'}"
                                                 inverted="true"
-                                                state="{=${SelectedRow>/Status}==='NI'?'None':'' || ${SelectedRow>/Status}==='IP'?'Warning':'Success'}"
+                                                state="{=${selectedClassRow>/Status}==='NI'?'None':'' || ${selectedClassRow>/Status}==='Cloud Ready'?'Warning':'Success'}"
                                             />
                                         </statuses>
                                     </ObjectHeader>
-                                    <HBox justifyContent="Center">
-                                        <f:Card class="sapUiTinyMargin CustomTileBGColor" width="auto" height="12em">
-                                            <f:header>
-                                                <card:Header title="Custom Entity Creation" subtitle="complete(%)" />
-                                            </f:header>
-                                            <f:content>
-                                                <mchart:RadialMicroChart id="CustomEntityClassChart" class="sapUiTinyMargin sapUiSmallMarginTop" size="L" percentage="0" alignContent="Center" valueColor="Good" />
-                                            </f:content>
-                                        </f:Card>
-                                        <f:Card class="sapUiTinyMargin CustomTileBGColor" width="auto">
-                                            <f:header>
-                                                <card:Header title="Custom Query Class Creation" subtitle="complete(%)" />
-                                            </f:header>
-                                            <f:content>
-                                                <mchart:RadialMicroChart busy="true" id="CustomQueryClassChart" class="sapUiTinyMargin" size="L" percentage="0" alignContent="Center" valueColor="Good" />
-                                            </f:content>
-                                        </f:Card>
-                                        <f:Card class="sapUiTinyMargin CustomTileBGColor" width="auto">
-                                            <f:header>
-                                                <card:Header title="Service Definition Creation" subtitle="complete(%)" />
-                                            </f:header>
-                                            <f:content>
-                                                <mchart:RadialMicroChart busy="true" id="ServiceDefinitionClassChart" class="sapUiTinyMargin" size="L" percentage="0" alignContent="Center" valueColor="Good" />
-                                            </f:content>
-                                        </f:Card>
-                                        <f:Card class="sapUiTinyMargin CustomTileBGColor" width="auto" height="12em">
-                                            <f:header>
-                                                <card:Header title="Service Binding" subtitle="complete(%)" />
-                                            </f:header>
-                                            <f:content>
-                                                <mchart:RadialMicroChart busy="true" id="ServiceBindingClassChart" class="sapUiTinyMargin sapUiSmallMarginTop" size="L" percentage="0" alignContent="Center" valueColor="Good" />
-                                            </f:content>
-                                        </f:Card>
-                                    </HBox>
                                 </VBox>
                             </WizardStep>
                             <WizardStep id="FioriClassRAPBuilder" title="Clone Git to BTP" validated="true">
-                                <MessageStrip visible="{=${SelectedRow>/Status}==='C'}" class="sapUiTinyMargin" type="Success" text="Report ({SelectedRow>/Program}) Migrated to BTP and FIORI app deployed in BTP Launchpad successfully. Click to Launch app from " showIcon="true">
-                                    <link>
-                                        <Link text="BTP FIORI Launchpad" target="_blank" href="https://e42f23c5trial.launchpad.cfapps.us10.hana.ondemand.com/site?siteId=e1b23256-742f-4f91-b896-b2d4a034ad34#Shell-home" />
-                                    </link>
-                                </MessageStrip>
-                                <ObjectHeader icon="sap-icon://sap-box" iconDensityAware="false" iconAlt="Denise Smith" imageShape="Circle" responsive="true" title="{SelectedRow>/Program}" intro="{SelectedRow>/Type}" class="sapUiResponsivePadding--header">
-                                    <ObjectAttribute title="DB Tables" text="{SelectedRow>/CountDBTable}" />
-                                    <ObjectAttribute title="Function Modules" text="{SelectedRow>/CountFM}" />
-                                    <ObjectAttribute title="DB Modify" text="{SelectedRow>/DBModify}" />
-                                    <ObjectAttribute title="Call TCode" text="{SelectedRow>/CLLTCode}" />
-                                    <ObjectAttribute title="Code Complexity" text="{SelectedRow>/CodeComp}" />
+                                <MessageStrip visible="{=${selectedClassRow>/Status}==='Exported to GitHub'}" class="sapUiTinyMargin" type="Success" text="Class ({selectedClassRow>/ClassName}) Migrated to BTP Successfully" showIcon="true" />
+                                <ObjectHeader icon="sap-icon://sap-box" iconDensityAware="false" iconAlt="{selectedClassRow>/ClassName}" imageShape="Circle" responsive="true" title="{selectedClassRow>/ClassName}" intro="{selectedClassRow>/RemediationType}" class="sapUiResponsivePadding--header">
+                                    <ObjectAttribute title="Remediation Type" text="{selectedClassRow>/RemediationType}" />
+                                    <ObjectAttribute title="Code Complexity" text="{selectedClassRow>/CodeComplexity}" />
                                     <statuses>
                                         <ObjectStatus
                                             class="sapUiSmallMarginBottom"
                                             title="Status"
-                                            text="{=${SelectedRow>/Status}==='NI'?'Not Initiated':'' || ${SelectedRow>/Status}==='IP'?'Fiori App Build In Progress':'Cloned to BTP successfully'}"
+                                            text="{=${selectedClassRow>/Status}==='NI'?'Not Initiated':'' || ${selectedClassRow>/Status}==='Import to BTP'?'Cloning to BTP':'Cloned to BTP successfully'}"
                                             inverted="true"
-                                            state="{=${SelectedRow>/Status}==='NI'?'None':'' || ${SelectedRow>/Status}==='IP'?'Warning':'Success'}"
+                                            state="{=${selectedClassRow>/Status}==='NI'?'None':'' || ${selectedClassRow>/Status}==='Import to BTP'?'Warning':'Success'}"
                                         />
                                     </statuses>
                                 </ObjectHeader>
-
-                                <HBox justifyContent="Center">
-                                    <f:Card class="sapUiTinyMargin CustomTileBGColor" width="auto" height="12em">
-                                        <f:header>
-                                            <card:Header title="Fiori List Report Creation" subtitle="complete(%)" />
-                                        </f:header>
-                                        <f:content>
-                                            <mchart:RadialMicroChart id="idFioriListReportClassCreationChart" class="sapUiTinyMargin" size="L" percentage="0" alignContent="Center" valueColor="Good" />
-                                        </f:content>
-                                    </f:Card>
-                                    <f:Card class="sapUiTinyMargin CustomTileBGColor" width="auto" height="12em">
-                                        <f:header>
-                                            <card:Header title="Fiori Tile Configuration" subtitle="complete(%)" />
-                                        </f:header>
-                                        <f:content>
-                                            <mchart:RadialMicroChart busy="true" id="idFioriTileClassConfigurationChart" class="sapUiTinyMargin" size="L" percentage="0" alignContent="Center" valueColor="Good" />
-                                        </f:content>
-                                    </f:Card>
-                                </HBox>
                             </WizardStep>
                         </Wizard>
                     </IconTabFilter>
@@ -711,15 +648,46 @@
                 </f:content>
             </f:Card>
             <Wizard id="NewBuildInCloud" showNextButton="false" renderMode="Page" class="sapUiTinyMargin sapUiResponsivePadding--header sapUiResponsivePadding--content" complete="wizardCompletedHandler">
-                <WizardStep id="UploadEDMX" title="Upload EDMX" validated="true">
-                    <HBox>
-                        <u:FileUploader id="fileUploader" width="30em" name="myFileUpload" uploadUrl="upload/" tooltip="Upload your file to the local server" uploadComplete="handleUploadComplete" />
-                        <Button class="sapUiSmallMarginBegin" text="Upload File" press="handleUploadPress" type="Emphasized" />
-                    </HBox>
+                <WizardStep id="UploadEDMX" title="Upload API" validated="true">
+                    <VBox>
+                        <form:SimpleForm
+                            editable="true"
+                            layout="ResponsiveGridLayout"
+                            labelSpanXL="2"
+                            labelSpanL="2"
+                            labelSpanM="2"
+                            labelSpanS="12"
+                            adjustLabelSpan="false"
+                            emptySpanXL="2"
+                            emptySpanL="2"
+                            emptySpanM="3"
+                            emptySpanS="0"
+                            columnsXL="2"
+                            columnsL="2"
+                            columnsM="1"
+                            singleContainerFullSize="false"
+                        >
+                            <form:content>
+                                <Label class="sapUiTinyMargin" labelFor="idGFdropdown" text="Choose System" />
+                                <Select class="sapUiTinyMargin" id="idGFdropdown" selectedKey="" items="{Systems>/}">
+                                    <items>
+                                        <core:Item text="{Systems>System}" key="{Systems>System}" />
+                                    </items>
+                                </Select>
+                                <Button class="sapUiTinyMargin" width="16em" text="Search Whitelisted API" type="Emphasized" press="onGFWhiteListAPIDetails" />
+                                <Label class="sapUiTinyMargin" text="Upload File" />
+                                <u:FileUploader id="fileUploader" class="sapUiTinyMargin" name="myFileUpload" uploadUrl="upload/" tooltip="Upload your file to the local server" uploadComplete="handleUploadComplete" />
+                                <Button class="sapUiTinyMargin" width="16em" text="Upload File" press="handleUploadPress" type="Emphasized" />
+                            </form:content>
+                        </form:SimpleForm>
+                    </VBox>
                     <Table id="idUploadEDMXTable" inset="true" class="sapUiTinyMargin" items="{UploadedEDMX>/}" visible="{AppConfig>/EDMXTableVisibility}">
                         <columns>
-                            <Column width="10em">
+                            <Column width="11em">
                                 <Text text="Service Entity Set" />
+                            </Column>
+                            <Column width="3em">
+                                <Text text="Fields" />
                             </Column>
                             <Column width="12em">
                                 <Text text="ABAP Artifact Name" />
@@ -727,7 +695,7 @@
                             <Column width="4em">
                                 <Text text="CREATE" />
                             </Column>
-                            <Column width="4em">
+                            <Column width="3em">
                                 <Text text="READ" />
                             </Column>
                             <Column width="4em">
@@ -736,7 +704,7 @@
                             <Column width="4em">
                                 <Text text="DELETE" />
                             </Column>
-                            <Column width="4em">
+                            <Column width="3em">
                                 <Text text="GET" />
                             </Column>
                         </columns>
@@ -744,6 +712,7 @@
                             <ColumnListItem vAlign="Middle">
                                 <cells>
                                     <Text text="{UploadedEDMX>Entity}" />
+                                    <core:Icon src="{path:'UploadedEDMX>Status', formatter:'.f.returnGFFieldIcon'}" alt="{UploadedEDMX>Status}" press="onGFAutomateIconProcess" />
                                     <Text text="{UploadedEDMX>Artifact}" />
                                     <CheckBox selected="{UploadedEDMX>Create}" valueState="{=${UploadedEDMX>Create}?'Success':'None'}" />
                                     <CheckBox selected="{UploadedEDMX>Read}" valueState="{=${UploadedEDMX>Read}?'Success':'None'}" />
@@ -812,7 +781,7 @@
                                 <MessageStrip class="sapUiTinyMargin" type="Success" text="RAP Build Succesful. Build FrontEnd Application using LCNC. Once application is built, click on Proceed to FIORI BOT" showIcon="true" />
                             </HBox>
                             <HBox width="20%" justifyContent="End">
-                                <Button text="Proceed to Fiori BOT" type="Emphasized" />
+                                <Button text="Proceed to Fiori BOT" type="Emphasized" press="onProceedFioriBOT" />
                             </HBox>
                         </HBox>
 
@@ -879,7 +848,66 @@
                     </VBox>
                 </WizardStep>
                 <WizardStep id="LCNC" title="LCNC" validated="true" />
-                <WizardStep id="FioriBOT" title="Fiori BOT" validated="true" />
+                <WizardStep id="FioriBOT" title="Fiori BOT" validated="true">
+                    <VBox>
+                        <HBox alignItems="Center" visible="{AppConfig>/MoveToFioriBOTBuilder}">
+                            <HBox width="80%">
+                                <MessageStrip class="sapUiTinyMargin" type="Success" text="FIORI app deployed in BTP Launchpad successfully. Click to Launch app from " showIcon="true">
+                                    <link>
+                                        <Link text="BTP FIORI Launchpad" target="_blank" href="https://67bc9ec5-9c0d-4ffd-b97d-36c2d986101d.abap-web.eu10.hana.ondemand.com/sap/bc/adt/businessservices/odatav2/feap?feapParams=ni%5DsYmsUbU%60mh%5DWgsDDEDDDDsc77fy%C2%84%C2%83%C2%86%C2%88777777ni%5DsYmsUbU%60mh%5DWgsDDEDDDDscsjUb77DDDE&amp;sap-ui-language=EN&amp;sap-client=100"/>
+                                    </link>
+                                </MessageStrip>
+                            </HBox>
+                        </HBox>
+                        <HBox justifyContent="Center">
+                            <f:Card class="sapUiTinyMargin" width="auto" height="6em">
+                                <f:header>
+                                    <card:Header title="Fiori App Generation" />
+                                </f:header>
+                                <f:content>
+                                    <HBox id="GFFioriAppGen" busy="true" justifyContent="Center" width="100%">
+                                        <VBox justifyContent="Center" alignItems="Center" visible="false" id="vbGFFioriAppGen">
+                                            <core:Icon src="sap-icon://message-success" color="#97dd40" />
+                                            <ObjectStatus text="Success" state="Success" />
+                                        </VBox>
+                                    </HBox>
+                                </f:content>
+                            </f:Card>
+                            <f:Card class="sapUiTinyMargin" width="auto" height="6em">
+                                <f:header>
+                                    <card:Header title="Deploy in Cloud Foundry" />
+                                </f:header>
+                                <f:content>
+                                    <HBox id="GFDepCLFoundry" busy="true" justifyContent="Center" width="100%">
+                                        <VBox justifyContent="Center" alignItems="Center" visible="false" id="vbGFDepCLFoundry">
+                                            <core:Icon src="sap-icon://message-success" color="#97dd40" />
+                                            <ObjectStatus text="Success" state="Success" />
+                                        </VBox>
+                                    </HBox>
+                                </f:content>
+                            </f:Card>
+                            <f:Card class="sapUiTinyMargin" width="auto" height="6em">
+                                <f:header>
+                                    <card:Header title="Launchpad Configuration" />
+                                </f:header>
+                                <f:content>
+                                    <HBox id="GFLPDConfiguration" busy="true" justifyContent="Center" width="100%">
+                                        <VBox justifyContent="Center" alignItems="Center" visible="false" id="vbGFLPDConfiguration">
+                                            <core:Icon src="sap-icon://message-success" color="#97dd40" />
+                                            <ObjectStatus text="Success" state="Success" />
+                                        </VBox>
+                                    </HBox>
+                                </f:content>
+                            </f:Card>
+                        </HBox>
+                        <ObjectHeader icon="sap-icon://sap-box" iconDensityAware="false" iconAlt="API_SALES_ORDER_SRV" imageShape="Circle" responsive="true" title="API_SALES_ORDER_SRV" intro="Selected Service Entity Sets" class="sapUiResponsivePadding--header">
+                            <ObjectAttribute title="Entity Set 1" text="A_SalesOrder" />
+                            <ObjectAttribute title="Entity Set 2" text="A_SalesOrderItem" />
+                            <ObjectAttribute title="Entity Set 3" text="A_SalesOrderItemPartner" />
+                            <ObjectAttribute title="Entity Set 4" text="A_SalesOrderScheduleLine" />
+                        </ObjectHeader>
+                    </VBox>
+                </WizardStep>
             </Wizard>
         </VBox>
     </Page>

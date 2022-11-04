@@ -5,7 +5,8 @@
     "Read": false,
     "Update": false,
     "Delete": false,
-    "Get": false
+    "Get": false,
+    "Status": "NI"
 },
 {
     "Entity":"A_SalesOrderHeaderPartner",
@@ -14,7 +15,8 @@
     "Read": false,
     "Update": false,
     "Delete": false,
-    "Get": false
+    "Get": false,
+    "Status": "NI"
 },
 {
     "Entity":"A_SalesOrderItem",
@@ -23,7 +25,8 @@
     "Read": false,
     "Update": false,
     "Delete": false,
-    "Get": false
+    "Get": false,
+    "Status": "NI"
 },
 {
     "Entity":"A_SalesOrderItemPartner",
@@ -32,7 +35,8 @@
     "Read": false,
     "Update": false,
     "Delete": false,
-    "Get": false
+    "Get": false,
+    "Status": "NI"
 },
 {
     "Entity":"A_SalesOrderItemPrElement",
@@ -41,7 +45,8 @@
     "Read": false,
     "Update": false,
     "Delete": false,
-    "Get": false
+    "Get": false,
+    "Status": "NI"
 },
 {
     "Entity":"A_SalesOrderScheduleLine",
@@ -50,6 +55,7 @@
     "Read": false,
     "Update": false,
     "Delete": false,
-    "Get": false
+    "Get": false,
+    "Status": "NI"
 }
 ]

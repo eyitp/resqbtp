@@ -1,0 +1,26 @@
+[
+    {
+      "APIType": "ODATA V2 API",
+      "APIName": "Sales Order - Simulate (A2X)",
+      "Service": "API_SALES_ORDER_SIMULATION_SRV",
+      "Description": "Simulate the creation of a sales order with this synchronous OData API"
+    },
+    {
+      "APIType": "ODATA V2 API",
+      "APIName": "Sales Organization - Read",
+      "Service": "API_SALESORGANIZATION_SRV",
+      "Description": "Read sales organization master data using this inbound service"
+    },
+    {
+      "APIType": "ODATA V2 API",
+      "APIName": "Sales Order (A2X)",
+      "Service": "API_SALES_ORDER_SRV",
+      "Description": "Create, read, update, and delete sales orders with this synchronous OData API"
+    },
+    {
+      "APIType": "ODATA V2 API",
+      "APIName": "Customer Returns Delivery (A2X)",
+      "Service": "API_CUSTOMER_RETURNS_DELIVERY_SRV_0002",
+      "Description": "Process customer returns with this synchronous inbound service"
+    }
+   ]

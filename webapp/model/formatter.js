@@ -20,6 +20,17 @@ sap.ui.define([], function () {
                 return value;
             }
 			
-		}
+		},
+        returnGFFieldIcon: function (value) {
+            if(value === "Completed") {
+                value = "sap-icon://checklist-item-2";
+                return value;
+            }
+            else{
+                //value = "sap-icon://share-2";
+                value = "sap-icon://share-2";
+                return value;
+            }
+        }
     };
 });

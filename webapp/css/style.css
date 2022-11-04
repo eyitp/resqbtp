@@ -14,3 +14,7 @@
 .sapSuiteRMCGoodTextColor{
     font-weight: bold;
 }
+.sapMFCCTxt .sapMText {
+    color: #ffe600;
+}
+

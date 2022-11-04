@@ -1,0 +1,28 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:ui="sap.ui.table" xmlns:core="sap.ui.core" xmlns:f="sap.ui.layout.form">
+    <Dialog id="PopupDialog" contentWidth="30em">
+        <customHeader>
+            <Toolbar>
+                <Title text="Field Details" />
+                <ToolbarSpacer />
+                <Button icon="sap-icon://sys-cancel" text="Close" press="onGFFieldDetailsPopupClose" type="Emphasized" />
+            </Toolbar>
+        </customHeader>
+        <Table id="idTabFieldDetails" mode="MultiSelect" inset="true" items="{GFFieldDetails>/}">
+            <columns>
+                <Column width="12em">
+                    <Text text="Field Names" />
+                </Column>
+            </columns>
+            <items>
+                <ColumnListItem vAlign="Middle">
+                    <cells>
+                        <Text text="{GFFieldDetails>Fields}" />
+                    </cells>
+                </ColumnListItem>
+            </items>
+        </Table>
+        <buttons>
+            <Button text="Ok" type="Emphasized" press="onGFFieldDetailsProcess" />
+        </buttons>
+    </Dialog>
+</core:FragmentDefinition>

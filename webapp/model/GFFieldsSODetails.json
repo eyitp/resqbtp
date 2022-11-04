@@ -1,0 +1,95 @@
+[
+    {
+        "Fields": "SalesOrder"
+    },
+    {
+        "Fields": "SalesOrderType"
+    },
+    {
+        "Fields": "SalesOrganization"
+    },
+    {
+        "Fields": "DistributionChannel"
+    },
+    {
+        "Fields": "OrganizationDivision"
+    },
+    {
+        "Fields": "SalesGroup"
+    },
+    {
+        "Fields": "SalesOffice"
+    },
+    {
+        "Fields": "SalesDistrict"
+    },
+    {
+        "Fields": "SoldToParty"
+    },
+    {
+        "Fields": "CreationDate"
+    },
+    {
+        "Fields": "CreatedByUser"
+    },
+    {
+        "Fields": "LastChangeDate"
+    },
+    {
+        "Fields": "SenderBusinessSystemName"
+    },
+    {
+        "Fields": "ExternalDocumentID"
+    },
+    {
+        "Fields": "LastChangeDateTime"
+    },
+    {
+        "Fields": "ExternalDocLastChangeDateTime"
+    },
+    {
+        "Fields": "PurchaseOrderByCustomer"
+    },
+    {
+        "Fields": "PurchaseOrderByShipToParty"
+    },
+    {
+        "Fields": "CustomerPurchaseOrderType"
+    },
+    {
+        "Fields": "CustomerPurchaseOrderDate"
+    },
+    {
+        "Fields": "SalesOrderDate"
+    },
+    {
+        "Fields": "TotalNetAmount"
+    },
+    {
+        "Fields": "OverallDeliveryStatus"
+    },
+    {
+        "Fields": "TotalBlockStatus"
+    },
+    {
+        "Fields": "OverallOrdReltdBillgStatus"
+    },
+    {
+        "Fields": "OverallSDDocReferenceStatus"
+    },
+    {
+        "Fields": "TransactionCurrency"
+    },
+    {
+        "Fields": "SDDocumentReason"
+    },
+    {
+        "Fields": "PricingDate"
+    },
+    {
+        "Fields": "PriceDetnExchangeRate"
+    },
+    {
+        "Fields": "BillingPlan"
+    }
+]

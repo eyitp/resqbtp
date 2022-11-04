@@ -1,15 +1,30 @@
 <core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:f="sap.f" xmlns:card="sap.f.cards" xmlns:mchart="sap.suite.ui.microchart" xmlns:w="sap.ui.integration.widgets">
-    <Dialog id="UserDialog" title="Service Activation" contentWidth="35em">
-        <HBox alignItems="Center" class="sapUiSmallMargin">
-            <Avatar src="sap-icon://crm-service-manager" displayShape="Circle" />
-            <Title class="sapUiSmallMarginBegin" text="{ServiceDetails>/Title}" />
-        </HBox>
-        <Title text="Info" class="sapUiSmallMargin" />
-        <Text class="sapUiSmallMarginBegin sapUiTinyMarginTop" text="{ServiceDetails>/Description}" />
-        <Title text="Features" class="sapUiSmallMargin" />
-        <FormattedText class="sapUiSmallMarginBegin sapUiTinyMarginTop" htmlText="{ServiceDetails>/Features}" />
-        <Title class="sapUiSmallMargin" text="Pre-Requisite" />
-        <FormattedText class="sapUiSmallMarginBegin sapUiTinyMarginTop" htmlText="{ServiceDetails>/PreRequisite}" />
+    <Dialog id="UserDialog" title="Service Activation" contentWidth="65em">
+        <VBox>
+            <HBox alignItems="Center" class="sapUiTinyMargin">
+                <Avatar src="{ServiceDetails>/Icon}" displayShape="Circle" />
+                <Title class="sapUiSmallMarginBegin" text="{ServiceDetails>/Title}" />
+            </HBox>
+            
+            <Title text="Info" class="sapUiTinyMargin" />
+            <Text class="sapUiSmallMarginBegin sapUiTinyMarginTop" text="{ServiceDetails>/Description}" />
+            <Title text="Features" class="sapUiTinyMargin" />
+            <FormattedText class="sapUiSmallMarginBegin sapUiTinyMarginTop" htmlText="{ServiceDetails>/Features}" />
+            <Title class="sapUiTinyMargin" text="Pre-Requisite" />
+            <FormattedText class="sapUiSmallMarginBegin sapUiTinyMarginTop sapUiTinyMarginBottom" htmlText="{ServiceDetails>/PreRequisite}" />
+            <Title class="sapUiTinyMargin" text="Process Diagram" visible="{ServiceDetails>/Visible}"/>
+            <Image src="{ServiceDetails>/Source}" decorative="false" width="30em" densityAware="false" class="sapUiSmallMargin" visible="{ServiceDetails>/Visible}">
+                <detailBox>
+                    <LightBox>
+                        <LightBoxItem imageSrc="{ServiceDetails>/Source}" alt="{ServiceDetails>/Title}" title="{ServiceDetails>/Title}" subtitle="" />
+                    </LightBox>
+                </detailBox>
+                <!-- Fixes HBox layout on Android Stock Browser for Android 5.0 -->
+                <layoutData>
+                    <FlexItemData growFactor="1" shrinkFactor="0" />
+                </layoutData>
+            </Image>
+        </VBox>
         <buttons>
             <Button id="IdBookSlotProceed" text="Book Slot" type="Emphasized" press="OnBookSlotProceed" />
             <Button id="IdActivationProceed" text="Request Activation" type="Emphasized" press="OnRequestActivation" />
