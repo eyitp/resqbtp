@@ -7,7 +7,7 @@
                 </f:content>
             </f:Card>
             <HBox>
-                <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Launch LCNC Build Services" frameType="TwoByOne" press="OnBuildInBTPCloud">
+                <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Launch LCNC Build Services" frameType="TwoByOne" press="OnBuildInBTPCloud" additionalTooltip="Create New in BTP Environment(Whitelisted CDS/APIs)">
                     <TileContent footer="">
                         <HBox renderType="Bare">
                             <FeedContent class="sapMITBFilterDefault" contentText="GreenField Approach - Develop with Steampunk" />
@@ -15,7 +15,7 @@
                         </HBox>
                     </TileContent>
                 </GenericTile>
-                <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Launch LCNC Transform Services" frameType="TwoByOne" press="OnBuildToCloudPress">
+                <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Launch LCNC Transform Services" frameType="TwoByOne" press="OnBuildToCloudPress" additionalTooltip="On Premise to BTP Cloud(Clean Core)">
                     <TileContent footer="">
                         <HBox renderType="Bare">
                             <FeedContent class="sapMITBFilterDefault" contentText="BrownField Approach - Clean the Core" />
@@ -256,7 +256,11 @@
                             <WizardStep id="FioriRAPBuilder" title="Fiori App Builder" validated="true">
                                 <MessageStrip visible="{=${SelectedProgramRow>/Status}==='C'}" class="sapUiTinyMargin" type="Success" text="Report ({SelectedProgramRow>/Program}) Migrated to BTP and FIORI app deployed in BTP Launchpad successfully. Click to Launch app from " showIcon="true">
                                     <link>
-                                        <Link text="BTP FIORI Launchpad" target="_blank" href="https://67bc9ec5-9c0d-4ffd-b97d-36c2d986101d.abap-web.eu10.hana.ondemand.com/sap/bc/adt/businessservices/odatav2/feap?feapParams=ni%5DsYmsUbU%60mh%5DWgsDDEDDDDsc77fy%C2%84%C2%83%C2%86%C2%88777777ni%5DsYmsUbU%60mh%5DWgsDDEDDDDscsjUb77DDDE&amp;sap-ui-language=EN&amp;sap-client=100"/>
+                                        <Link
+                                            text="BTP FIORI Launchpad"
+                                            target="_blank"
+                                            href="https://67bc9ec5-9c0d-4ffd-b97d-36c2d986101d.abap-web.eu10.hana.ondemand.com/sap/bc/adt/businessservices/odatav2/feap?feapParams=ni%5DsYmsUbU%60mh%5DWgsDDEDDDDsc77fy%C2%84%C2%83%C2%86%C2%88777777ni%5DsYmsUbU%60mh%5DWgsDDEDDDDscsjUb77DDDE&amp;sap-ui-language=EN&amp;sap-client=100"
+                                        />
                                     </link>
                                 </MessageStrip>
                                 <HBox justifyContent="Center">
@@ -746,8 +750,8 @@
                                 <f:content>
                                     <HBox id="ProxyArtifactCreate" busy="true" justifyContent="Center" width="100%">
                                         <VBox justifyContent="Center" alignItems="Center" visible="false" id="vbProxyArtifactCreate">
-                                            <core:Icon src="sap-icon://message-success" color="#97dd40" />
-                                            <ObjectStatus text="Success" state="Success" />
+                                            <core:Icon src="sap-icon://message-success" color="#97dd40" useIconTooltip="false" alt="ZIF_SALESAPI_CRUDQ"/>
+                                            <ObjectStatus text="Success" state="Success" tooltip="ZIF_SALESAPI_CRUDQ"/>
                                         </VBox>
                                     </HBox>
                                 </f:content>
@@ -759,8 +763,8 @@
                                 <f:content>
                                     <HBox id="AuxillaryClassCreate" busy="true" justifyContent="Center" width="100%">
                                         <VBox justifyContent="Center" alignItems="Center" visible="false" id="vbAuxillaryClassCreate">
-                                            <core:Icon src="sap-icon://message-success" color="#97dd40" />
-                                            <ObjectStatus text="Success" state="Success" />
+                                            <core:Icon src="sap-icon://message-success" color="#97dd40" useIconTooltip="false" alt="ZPROXY_SALES_API_CRUDQ" />
+                                            <ObjectStatus text="Success" state="Success" tooltip="ZPROXY_SALES_API_CRUDQ"/>
                                         </VBox>
                                     </HBox>
                                 </f:content>
@@ -793,8 +797,8 @@
                                 <f:content>
                                     <HBox id="CustEntityCreate" busy="true" justifyContent="Center" width="100%">
                                         <VBox justifyContent="Center" alignItems="Center" visible="false" id="vbCustEntityCreate">
-                                            <core:Icon src="sap-icon://message-success" color="#97dd40" />
-                                            <ObjectStatus text="Success" state="Success" />
+                                            <core:Icon src="sap-icon://message-success" color="#97dd40" useIconTooltip="false"/>
+                                            <ObjectStatus text="Success" state="Success" tooltip="ZAPI_SALES_ORDER_CUSTOM"/>
                                         </VBox>
                                     </HBox>
                                 </f:content>
@@ -806,8 +810,8 @@
                                 <f:content>
                                     <HBox id="CustQueryClassCreate" busy="true" justifyContent="Center" width="100%">
                                         <VBox justifyContent="Center" alignItems="Center" visible="false" id="vbCustQueryClassCreate">
-                                            <core:Icon src="sap-icon://message-success" color="#97dd40" />
-                                            <ObjectStatus text="Success" state="Success" />
+                                            <core:Icon src="sap-icon://message-success" color="#97dd40" useIconTooltip="false"/>
+                                            <ObjectStatus text="Success" state="Success" tooltip="ZA_SALESORDER15662B565A"/>
                                         </VBox>
                                     </HBox>
                                 </f:content>
@@ -819,8 +823,8 @@
                                 <f:content>
                                     <HBox id="ServiceDefnCreate" busy="true" justifyContent="Center" width="100%">
                                         <VBox justifyContent="Center" alignItems="Center" visible="false" id="vbServiceDefnCreate">
-                                            <core:Icon src="sap-icon://message-success" color="#97dd40" />
-                                            <ObjectStatus text="Success" state="Success" />
+                                            <core:Icon src="sap-icon://message-success" color="#97dd40" useIconTooltip="false"/>
+                                            <ObjectStatus text="Success" state="Success" tooltip="ZAPI_SALES_ORDER_CUSTOM"/>
                                         </VBox>
                                     </HBox>
                                 </f:content>
@@ -832,8 +836,8 @@
                                 <f:content>
                                     <HBox id="ServiceBinding" busy="true" justifyContent="Center" width="100%">
                                         <VBox justifyContent="Center" alignItems="Center" visible="false" id="vbServiceBinding">
-                                            <core:Icon src="sap-icon://message-success" color="#97dd40" />
-                                            <ObjectStatus text="Success" state="Success" />
+                                            <core:Icon src="sap-icon://message-success" color="#97dd40" useIconTooltip="false"/>
+                                            <ObjectStatus text="Success" state="Success" tooltip="ZBIND_SALES_ORDER_CUSTOM"/>
                                         </VBox>
                                     </HBox>
                                 </f:content>
@@ -854,7 +858,11 @@
                             <HBox width="80%">
                                 <MessageStrip class="sapUiTinyMargin" type="Success" text="FIORI app deployed in BTP Launchpad successfully. Click to Launch app from " showIcon="true">
                                     <link>
-                                        <Link text="BTP FIORI Launchpad" target="_blank" href="https://67bc9ec5-9c0d-4ffd-b97d-36c2d986101d.abap-web.eu10.hana.ondemand.com/sap/bc/adt/businessservices/odatav2/feap?feapParams=ni%5DsYmsUbU%60mh%5DWgsDDEDDDDsc77fy%C2%84%C2%83%C2%86%C2%88777777ni%5DsYmsUbU%60mh%5DWgsDDEDDDDscsjUb77DDDE&amp;sap-ui-language=EN&amp;sap-client=100"/>
+                                        <Link
+                                            text="BTP FIORI Launchpad"
+                                            target="_blank"
+                                            href="https://67bc9ec5-9c0d-4ffd-b97d-36c2d986101d.abap-web.eu10.hana.ondemand.com/sap/bc/adt/businessservices/odatav2/feap?feapParams=ni%5DsYmsUbU%60mh%5DWgsDDEDDDDsc77fy%C2%84%C2%83%C2%86%C2%88777777ni%5DsYmsUbU%60mh%5DWgsDDEDDDDscsjUb77DDDE&amp;sap-ui-language=EN&amp;sap-client=100"
+                                        />
                                     </link>
                                 </MessageStrip>
                             </HBox>

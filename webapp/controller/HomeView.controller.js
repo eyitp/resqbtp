@@ -1171,6 +1171,7 @@ sap.ui.define([
 
             /************************************* Green Field Approach ******************/
             OnUploadEDMXProceed: function () {
+                var that = this;
                 this.getView().getModel("AppConfig").setProperty("/MoveToFioriBOTBuilder", false);
                 this.getView().byId("NewBuildInCloud").nextStep();
                 this.setIntervalFunction(1, "ProxyArtifactCreate", ["AuxillaryClassCreate", "ProxyArtifactCreate"], ["vbAuxillaryClassCreate", "vbProxyArtifactCreate"], this);
