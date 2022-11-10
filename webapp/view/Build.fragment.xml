@@ -189,8 +189,8 @@
                                             <f:content>
                                                 <HBox id="CustomEntityChart" busy="true" justifyContent="Center" width="100%">
                                                     <VBox justifyContent="Center" alignItems="Center" visible="false" id="vbCustomEntityChart">
-                                                        <core:Icon src="sap-icon://message-success" color="#97dd40" />
-                                                        <ObjectStatus text="Success" state="Success" />
+                                                        <core:Icon src="sap-icon://message-success" color="#97dd40" useIconTooltip="false" alt="ZITX_SALESREP_C_001001"/>
+                                                        <ObjectStatus text="Success" state="Success" tooltip="ZITX_SALESREP_C_001001"/>
                                                     </VBox>
                                                 </HBox>
                                             </f:content>
@@ -202,8 +202,8 @@
                                             <f:content>
                                                 <HBox id="ServiceBindingChart" busy="true" justifyContent="Center" width="100%">
                                                     <VBox justifyContent="Center" alignItems="Center" visible="false" id="vbServiceBindingChart">
-                                                        <core:Icon src="sap-icon://message-success" color="#97dd40" />
-                                                        <ObjectStatus text="Success" state="Success" />
+                                                        <core:Icon src="sap-icon://message-success" color="#97dd40" useIconTooltip="false" alt="ZITX_SALESREP_CL_001001"/>
+                                                        <ObjectStatus text="Success" state="Success" tooltip="ZITX_SALESREP_CL_001001"/>
                                                     </VBox>
                                                 </HBox>
                                             </f:content>
@@ -215,8 +215,8 @@
                                             <f:content>
                                                 <HBox id="ServiceDefinitionChart" busy="true" justifyContent="Center" width="100%">
                                                     <VBox justifyContent="Center" alignItems="Center" visible="false" id="vbServiceDefinitionChart">
-                                                        <core:Icon src="sap-icon://message-success" color="#97dd40" />
-                                                        <ObjectStatus text="Success" state="Success" />
+                                                        <core:Icon src="sap-icon://message-success" color="#97dd40" useIconTooltip="false" alt="ZITX_SALESREP_SRV_001001"/>
+                                                        <ObjectStatus text="Success" state="Success" tooltip="ZITX_SALESREP_SRV_001001"/>
                                                     </VBox>
                                                 </HBox>
                                             </f:content>
@@ -228,8 +228,8 @@
                                             <f:content>
                                                 <HBox id="CustomQueryChart" busy="true" justifyContent="Center" width="100%">
                                                     <VBox justifyContent="Center" alignItems="Center" visible="false" id="vbCustomQueryChart">
-                                                        <core:Icon src="sap-icon://message-success" color="#97dd40" />
-                                                        <ObjectStatus text="Success" state="Success" />
+                                                        <core:Icon src="sap-icon://message-success" color="#97dd40" useIconTooltip="false" alt="ZITX_SALESREP_BD_001001"/>
+                                                        <ObjectStatus text="Success" state="Success" tooltip="ZITX_SALESREP_BD_001001"/>
                                                     </VBox>
                                                 </HBox>
                                             </f:content>
